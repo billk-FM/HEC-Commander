@@ -88,7 +88,7 @@ For multiple events, it's best to keep the DSS and Plotting Parameters copied in
 
 ## Example Gauge_Data.csv file:
 
-The user must provide a gauge data CSV with the same timestamps and interval as the DSS file.  This file must be in the DSS_Source_Path and defined in the input section.
+The user must provide a gauge data CSV with the same timestamps and interval as the DSS file.  This file must be in the DSS_Source_Path and the CSV file name must defined in the input section.
 
 ```Example Gauge Data CSV File:
 River Station,89804,89804,117188,110449,110449
