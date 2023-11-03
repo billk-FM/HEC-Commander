@@ -1,6 +1,6 @@
 # HEC-Commander Tools by
 <p align="center">
-  <a href="https://Fenstermaker.com/" target="_blank">
+  <a href="https://www.fenstermaker.com/" target="_blank">
     <img alt="Fenstermaker Logo" width="300" src="misc/fenstermaker-logo.png" />
   </a>
 </p>
