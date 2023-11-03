@@ -1,11 +1,9 @@
 # HEC-Commander Tools by
 <p align="center">
-  <a href="https://Fenstermaker.com/">
+  <a href="https://Fenstermaker.com/" target="_blank">
     <img alt="Fenstermaker Logo" width="300" src="misc/fenstermaker-logo.png" />
   </a>
 </p>
-
-
 
 
 HEC-Commander tools is a suite of Tools for HEC-RAS and HEC-HMS Automation, designed for Water Resource Engineers.  All scripts contained in this repository were initially developed by William Katzenmeyer, P.E., C.F.M. at C.H. Fenstermaker and Associates, LLC for use in Region 4 of the Louisiana Watershed Initiative.   
