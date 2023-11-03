@@ -1,6 +1,6 @@
 # HEC-Commander Tools by
 <p align="center">
-  <img src="misc/fenstermaker-logo.png" width="300">(https://Fenstermaker.com/
+  [<img src="misc/fenstermaker-logo.png" width="300">](https://Fenstermaker.com/)
 </p>
 
 
