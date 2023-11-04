@@ -22,8 +22,8 @@ Includes a suite of HEC-RAS automation scripts that support the construction of 
 ## DSS-Commander
 Provides a script for plotting 1D HEC-RAS results from DSS against gauge results, creating zoomable HTML plots with Bokeh. It calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location and supports multiple gauges, as well as the plotting of multiple DSS results files for both Stage and Flow.
 
-**Note:** For the full Quick Start Guide, please see the documentation included in this repository.
 
+## Quick Start Guide
 <details>
 <summary>Quick Start Guide for HEC-Commander Tools (Click to Expand)</summary>
 
