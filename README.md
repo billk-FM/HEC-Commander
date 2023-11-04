@@ -1,4 +1,4 @@
-# HEC-Commander Tools by C.H. Fenstermaker and Associates, LLC
+# HEC-Commander Tools
 
 ![Fenstermaker Logo](misc/fenstermaker-logo.png)
 
