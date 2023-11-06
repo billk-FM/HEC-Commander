@@ -47,7 +47,7 @@ This script performs the following steps:
 
 ## User Inputs and Settings
 
-Note about python paths:  Always make sure to include _r""_ in your around your paths.  Without the r, or without the quotes it will give an error
+Note about python paths:  Always make sure to include _r""_ around your paths.  Without the r (denoting raw string), or without the quotes it will give an error.  f"" strings can also be substituted
 
 ## Example input file for RAS-Commander Parallel Execute
 
