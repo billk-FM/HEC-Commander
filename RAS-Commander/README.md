@@ -218,6 +218,10 @@ The `HECRAS_output_folder` is a string that points to the location of the HEC-RA
 ### 4. HECHMS_dss_filter_prefix
 The `HECHMS_dss_filter_prefix` is an optional seting used to filter the files imported from HECHMS_for_dss_import.  Only files matching the prefix given by the user will be imported.  For LWI, all HMS run names start with the event name, so this is intended to allow the user to avoid moving files instead vary the prefix to select the desiried event.  Leave blank ("") if not desired.
 
+# Changelog
+2023-11-11: For parallel execute script, removed unnecessasry PRJ file handling logic to better support steady flow models
+
+
 ## Contributing
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository or send the author an email at billk@fenstermaker.com
