@@ -142,7 +142,11 @@ user_run_number_from_csv|calregion|initial_deficit_scale|maximum_deficit_scale|p
 
 - Load the calibration shapefile
 - To Create, export subbasins file from HEC-HMS, load in RASMapper, and merge subbasins.
-- Then, add "CalRegion" column and number calibration regions (1,2,3,etc.)
+- Then, add "CalRegion" column and number calibration regions (1,2,3,etc.)\
+
+
+## Changelog
+2023-11-11:  Raises error if hms_run_name not present in .run file
 
 
 Contact Information
