@@ -22,6 +22,9 @@ Includes a suite of HEC-RAS automation scripts that support the parallel executi
 ## DSS-Commander
 Provides a script for plotting 1D HEC-RAS results from DSS against gauge results, creating zoomable HTML plots with Bokeh. It calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location and supports multiple gauges, as well as the plotting of multiple DSS results files for both Stage and Flow.
 
+## Using ChatGPT to Understand RASCommander
+Please utilize my newly published GPT that specializes in summarizing code in natural language:  [Natural Langauge Program Outline GPT]([https://www.anaconda.com/](https://chat.openai.com/g/g-c2T23DMnI-natural-language-program-outline))
+With this tool, you can upload any of the notebooks from this repo and the GPT will provide a natural langage summary of its operation and important variables. The markdown can be copy/pasted to a new markdown cell in VS Code for inline documentation. 
 
 ## Quick Start Guide
 <details>
