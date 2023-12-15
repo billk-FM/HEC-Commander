@@ -15,13 +15,13 @@ This post discusses the role of AI in revolutionizing water resource management 
 
 <br></br>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> 10x Engineering: By The Numbers</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> From 10x to 0.25x Engineering: By The Numbers</h1>
 
 <p align="center">
   <img src="img/10xto0.25x.png" alt="10xto0.25x" style="border: 2px solid black; width: 30%;"/>
 </p>
 
-### [From 10X to 0.25X Engineering: By The Numbers](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/2.%2010XEngineering_By_The_Numbers.md)
+### [From 10x to 0.25x Engineering: By The Numbers](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/2.%2010XEngineering_By_The_Numbers.md)
 In this article, we delve into the quantitative aspects of 10x engineering. It provides a detailed analysis of how metrics and data-driven approaches are shaping the future of engineering, as well as a breakdown of cloud computing costs for various platforms and approaches.
 
 
