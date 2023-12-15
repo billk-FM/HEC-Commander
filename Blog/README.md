@@ -1,8 +1,8 @@
 # Welcome to the HEC-Commander Blog!
 
-Here are our latest blog posts with brief summaries:
+Here are the latest blog posts with brief summaries:
 
-## Blog Posts
+
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> 10x Engineering in Water Resources with AI</h1>
 
