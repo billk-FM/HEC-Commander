@@ -26,7 +26,11 @@ In this article, we delve into the quantitative aspects of 10x engineering. It p
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Moore's Law, AI Speedrunning the Golden Age of Computing</h1>
 
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
+
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Automating Parallel HEC-RAS Execution: Command Line is All You Need</h1>
+
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Automating HEC-HMS Execution with Jython: Jupyter Notebook Execution with Custom Parameters</h1>
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Simplifyihg Python Notebooks Environment Setup with a Custom GPT</h1>
 
@@ -35,6 +39,8 @@ In this article, we delve into the quantitative aspects of 10x engineering. It p
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Prompting Basics for Water Resource Engineers using HEC-RAS ans HEC-HMS</h1>
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Back to Basics: Optimizing 2D HEC-RAS Model Runtimes</h1>
+
+
 
 
 
