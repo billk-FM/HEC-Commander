@@ -36,7 +36,7 @@ In this article, we delve into the quantitative aspects of 10x engineering. It p
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: CoPilots: Novel Methods for Water Resource Engineers</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Prompting Basics for Water Resource Engineers using HEC-RAS ans HEC-HMS</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Prompt Examples for Water Resource Engineers using HEC-RAS and HEC-HMS</h1>
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Back to Basics: Optimizing 2D HEC-RAS Model Runtimes</h1>
 
