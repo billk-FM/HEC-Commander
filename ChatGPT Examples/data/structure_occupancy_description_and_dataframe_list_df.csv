@@ -1,0 +1,34 @@
+SOccup,GenOccup,SpecOccupDesc,GenOccupDesc,Structure DDF Dataframes,Contents DDF Dataframes
+AGR1,AGR,Agriculture,Agriculture,AGR1_Structure_DDF_df,AGR1_Contents_DDF_df
+COM1,COM,Retail Trade,Commercial,COM1_Structure_DDF_df,COM1_Contents_DDF_df
+COM10,COM,Parking,Commercial,COM10_Structure_DDF_df,COM10_Contents_DDF_df
+COM2,COM,Wholesale Trade,Commercial,COM2_Structure_DDF_df,COM2_Contents_DDF_df
+COM3,COM,Personal and Repair Service,Commercial,COM3_Structure_DDF_df,COM3_Contents_DDF_df
+COM4,COM,Financial/Professional/Technical Services,Commercial,COM4_Structure_DDF_df,COM4_Contents_DDF_df
+COM5,COM,Banks,Commercial,COM5_Structure_DDF_df,COM5_Contents_DDF_df
+COM6,COM,Hospitals,Commercial,COM6_Structure_DDF_df,COM6_Contents_DDF_df
+COM7,COM,Medical Offices/Clinic,Commercial,COM7_Structure_DDF_df,COM7_Contents_DDF_df
+COM8,COM,Entertainment & Recreation,Commercial,COM8_Structure_DDF_df,COM8_Contents_DDF_df
+COM9,COM,Theaters,Commercial,COM9_Structure_DDF_df,COM9_Contents_DDF_df
+EDU1,EDU,Schools,Education,EDU1_Structure_DDF_df,EDU1_Contents_DDF_df
+EDU2,EDU,Colleges/Universities,Education,EDU2_Structure_DDF_df,EDU2_Contents_DDF_df
+GOV1,GOV,General Services,Government,GOV1_Structure_DDF_df,GOV1_Contents_DDF_df
+GOV2,GOV,Emergency Response,Government,GOV2_Structure_DDF_df,GOV2_Contents_DDF_df
+IND1,IND,Heavy,Industrial,IND1_Structure_DDF_df,IND1_Contents_DDF_df
+IND2,IND,Light,Industrial,IND2_Structure_DDF_df,IND2_Contents_DDF_df
+IND3,IND,Food/Drug/Chemical,Industrial,IND3_Structure_DDF_df,IND3_Contents_DDF_df
+IND4,IND,Metals/Minerals Processing,Industrial,IND4_Structure_DDF_df,IND4_Contents_DDF_df
+IND5,IND,High Technology,Industrial,IND5_Structure_DDF_df,IND5_Contents_DDF_df
+IND6,IND,Construction,Industrial,IND6_Structure_DDF_df,IND6_Contents_DDF_df
+REL1,REL,Church,Religion/Non-Profit,REL1_Structure_DDF_df,REL1_Contents_DDF_df
+RES1,RES,Single Family Dwelling,Residential,RES1_Structure_DDF_df,RES1_Contents_DDF_df
+RES2,RES,Manufactured Home,Residential,RES2_Structure_DDF_df,RES2_Contents_DDF_df
+RES3A,RES,Multi Family Dwelling A,Residential,RES3A_Structure_DDF_df,RES3A_Contents_DDF_df
+RES3B,RES,Multi Family Dwelling B,Residential,RES3B_Structure_DDF_df,RES3B_Contents_DDF_df
+RES3C,RES,Multi Family Dwelling C,Residential,RES3C_Structure_DDF_df,RES3C_Contents_DDF_df
+RES3D,RES,Multi Family Dwelling D,Residential,RES3D_Structure_DDF_df,RES3D_Contents_DDF_df
+RES3E,RES,Multi Family Dwelling E,Residential,RES3E_Structure_DDF_df,RES3E_Contents_DDF_df
+RES3F,RES,Multi Family Dwelling F,Residential,RES3F_Structure_DDF_df,RES3F_Contents_DDF_df
+RES4,RES,Temporary Lodging,Residential,RES4_Structure_DDF_df,RES4_Contents_DDF_df
+RES5,RES,Institutional Dormitory,Residential,RES5_Structure_DDF_df,RES5_Contents_DDF_df
+RES6,RES,Nursing Home,Residential,RES6_Structure_DDF_df,RES6_Contents_DDF_df
