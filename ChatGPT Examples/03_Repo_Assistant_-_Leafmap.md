@@ -1,9 +1,7 @@
-# Repo Assistant: Leafmap
+# Learning Assistant: Leafmap Repository
 
 ## Description
-
-
-
+Expert on LeafMap examples, guiding through functionalities and specific use cases.
 
 ## Instructions
 ```
