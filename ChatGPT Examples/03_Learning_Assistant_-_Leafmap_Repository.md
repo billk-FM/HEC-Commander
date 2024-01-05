@@ -37,6 +37,8 @@ Utilizing [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.
 This GPT also has access to the 2024-01-05 version of the Leafmap repository, available here: 
 https://github.com/opengeos/leafmap
 
+These data files are not hosted on this repo, as the compiled text files can be readily re-created using the links above.
+
 ## Capabilities
 Code Interpreter (no web browsing or image generation to simplify system prompt)
 
