@@ -1,4 +1,4 @@
-# GIS Assistant
+# GIS Autonomous Assistant
 
 Link: [GIS Assistant](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
 
