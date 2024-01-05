@@ -1,6 +1,6 @@
 # 02 Structure Flooding: Depth Damage Calculator
 
-Link: [Structure Flooding: Depth Damage Calculator](https://chat.openai.com/g/g-XZoGRmdOm-structure-flooding-depth-damage-calculator)
+GPT Link: [Structure Flooding: Depth Damage Calculator](https://chat.openai.com/g/g-XZoGRmdOm-structure-flooding-depth-damage-calculator)
 
 
 ## Description
