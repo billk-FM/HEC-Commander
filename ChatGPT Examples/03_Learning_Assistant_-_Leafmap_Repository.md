@@ -1,5 +1,8 @@
 # Learning Assistant: Leafmap Repository
 
+[Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)
+
+
 ## Description
 Expert on LeafMap examples, guiding through functionalities and specific use cases.
 
