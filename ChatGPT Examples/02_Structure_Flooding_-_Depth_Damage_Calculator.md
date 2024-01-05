@@ -1,6 +1,6 @@
-# 02 Structure Flooding - Depth Damage Calculator
+# 02 Structure Flooding: Depth Damage Calculator
 
-Link: [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
+Link: [Structure Flooding: Depth Damage Calculator]([https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo](https://chat.openai.com/g/g-XZoGRmdOm-structure-flooding-depth-damage-calculator))
 
 
 ## Description
