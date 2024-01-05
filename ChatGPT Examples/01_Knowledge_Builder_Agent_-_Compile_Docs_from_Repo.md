@@ -1,6 +1,7 @@
 # Knowledge Builder Agent: Compile Docs from Repo
 
-Link: [Knowledge Builder Agent: Compile Docs from Repo]([https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
+Link: [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
+
 
 ## Description
 Compiles Knowledge for Retrieval.  Provide a zipped Repo for Processing.
