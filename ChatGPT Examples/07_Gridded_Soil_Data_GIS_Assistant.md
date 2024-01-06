@@ -1,8 +1,6 @@
+# Gridded Soil Data GIS Assistant
 
-
-
-Gridded Soil Data GIS Assistant
-Link: [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
+Link: [Gridded Soil Data GIS Assistant]([https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo](https://chat.openai.com/g/g-6mEgJHzsU-gridded-soil-data-gis-assistant))
 
 
 ## Description
