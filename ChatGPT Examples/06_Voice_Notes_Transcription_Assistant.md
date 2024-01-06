@@ -41,7 +41,7 @@ Now, take a deep breath, and let’s give an excellent voice transcription:
 None (user uploads files for processing)
 
 ## Capabilities
-Code Interpreter (no web browsing or image generation to simplify system prompt)
+No additional capabilities (to simplify system prompt)
 
 ## Actions
 None
