@@ -1,5 +1,7 @@
 # HEC-Commander Repository Assistant
 
+[HEC-Commander Repository Assistant](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
+
 ## Description
 Expert in HEC-Commander scripts and markdowns.
 
