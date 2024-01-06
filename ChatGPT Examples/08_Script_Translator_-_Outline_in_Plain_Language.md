@@ -1,5 +1,7 @@
 # Script Translator: Outline in Plain Language
 
+Link: [Script Translator: Outline in Plain Language](https://chat.openai.com/g/g-c2T23DMnI-script-translator-outline-in-plain-language)
+
 ## Description
 
 
