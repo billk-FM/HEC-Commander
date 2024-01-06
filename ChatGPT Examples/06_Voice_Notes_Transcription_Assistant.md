@@ -1,10 +1,11 @@
 
-# GIS Autonomous Assistant
+# Voice Notes Transcription Assistant
 
-Link: [GIS Autonomous Assistant](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
+Link: [Voice Notes Transcription Assistant](https://chat.openai.com/g/g-ukU8K3GhQ-voice-notes-transcription-app)
 
 
 ## Description
+Transcription and editing assistant for voice notes.
 
 ## Instructions
 ```
