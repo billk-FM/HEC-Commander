@@ -4,7 +4,7 @@ GPT Link: [Structure Flooding: Depth Damage Calculator](https://chat.openai.com/
 
 
 ## Description
-Provides flood depth-damage estimates using HEC-FIA/FEMA Documentation
+Provides flood depth-damage estimates using HEC-FIA/FEMA publicly-availalbe documentation.  This community-built assistant uses publicly available documentation and is not affiliated with the Hydrologic Engineering Center.
 
 ## Instructions
 ```
