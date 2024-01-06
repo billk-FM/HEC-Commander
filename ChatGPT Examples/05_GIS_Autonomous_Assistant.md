@@ -1,6 +1,6 @@
 # GIS Autonomous Assistant
 
-Link: [GIS Autonomous Assistant]([https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant))
+Link: [GIS Autonomous Assistant]([https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
 
 
 ## Description
