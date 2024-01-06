@@ -1,7 +1,7 @@
 
 # Voice Notes Transcription Assistant
 
-Link: [Voice Notes Transcription Assistant](https://chat.openai.com/g/g-ukU8K3GhQ-voice-notes-transcription-app)
+Link: [Voice Notes Transcription Assistant](https://chat.openai.com/g/g-ukU8K3GhQ-voice-notes-transcription-assistant)
 
 
 ## Description
