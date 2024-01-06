@@ -4,9 +4,7 @@ Link: [Gridded Soil Data GIS Assistant]([https://chat.openai.com/g/g-v0Op0PXqN-k
 
 
 ## Description
-Expert in GSSURGO soil data, spatial analysis and mapping
-
-
+Expert in GSSURGO soil data, spatial analysis and mapping.  This is a community-built assistant with access to publicly available documentation from the USGS GSSURGO website, and is not directly affiliated with USGS.
 
 
 ## Instructions
