@@ -2,11 +2,11 @@
 
 ## 01. Knowledge Builder Agent: Compile Docs from Repo
 [Read More](./01_Knowledge_Builder_Agent_-_Compile_Docs_from_Repo.md) | [GPT Link](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
-This GPT is designed to create compiled text documents for knowledge retrieval from GitHub projects. It processes GitHub repository archives by extracting, reviewing, and compiling the content. This agent is ideal for users looking to consolidate and simplify their access to repository documentation. It's particularly useful for educational and quick-reference purposes.
+This GPT is designed to create compiled text documents for knowledge retrieval from GitHub projects. It processes GitHub repository archives by extracting, reviewing, and compiling the content. This agent is ideal for users looking to consolidate and simplify their access to repository documentation. It's particularly useful for building custom GPT's with your own documentation, or documentation from a project you are trying to explore and utilize with AI-assisted coding. 
 
 ## 02. Structure Flooding: Depth Damage Calculator
 [Read More](./02_Structure_Flooding_-_Depth_Damage_Calculator.md) | [GPT Link](https://chat.openai.com/g/g-XZoGRmdOm-structure-flooding-depth-damage-calculator)
-The Structure Flooding: Depth Damage Calculator is a specialized tool for providing flood depth-damage estimates using HEC-FIA/FEMA Documentation. It assists Water Resource Engineers and Certified Floodplain Managers in estimating flood damage with established methodologies. This GPT excels in situations requiring quick, reliable damage estimates and is an invaluable tool for planning and response.
+The Structure Flooding: Depth Damage Calculator is a specialized tool for providing flood depth-damage estimates using HEC-FIA/FEMA Documentation. It assists Water Resource Engineers and Certified Floodplain Managers in estimating flood damage with established methodologies. 
 
 ## 03. Learning Assistant: Leafmap Repository
 [Read More](./03_Learning_Assistant_-_Leafmap_Repository.md) | [GPT Link](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)
