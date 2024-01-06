@@ -45,11 +45,11 @@ The following files were downloaded and provided to the GPT for its knowledge ba
 - **HEC-FIA_31_Users_Manual_2019-Dec.pdf** from [U.S. Army Corps of Engineers](https://www.hec.usace.army.mil/confluence/fiadocs/fiaum/latest)
 
 ## Code Interpreter Files
+- [Individual DDF Dataframes.zip](./data/Individual%20DDF%20Dataframes.zip) - Contains individual data frames for depth damage functions.
+- [README.md](./data/REAMDME.md) - Description or instructions related to the data.
+- [Structure Occupancy Description and Dataframe List](./data/structure_occupancy_description_and_dataframe_list_df.csv) - CSV file containing structured data.
 
-1. **Individual DDF Dataframes.zip**: This compressed file includes a series of depth-damage functions extracted from the HEC-FIA program.
-2. **structure_occupancy_description_and_dataframe_list_df.csv**: This file provides a descriptive summary of the structure, occupancy details, and a list of depth-damage function dataframes.
-
-The depth-damage functions were sourced from the [HEC-FIA program](https://www.hec.usace.army.mil/software/hec-fia/), a software developed by the U.S. Army Corps of Engineers. The functions were subsequently reformatted to facilitate easier data analysis via ChatGPT.
+The depth-damage functions and other structure occupancy information were sourced from the [HEC-FIA program](https://www.hec.usace.army.mil/software/hec-fia/), a software developed by the U.S. Army Corps of Engineers. The functions were subsequently reformatted to facilitate easier data analysis via ChatGPT.
 
 
 ## Capabilities
