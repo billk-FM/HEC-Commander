@@ -1,6 +1,6 @@
 # Water Resource Python Notebook Assistant
 Link: [Water Resource Python Notebook Assistant](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant)  
-_GPT Visibility: Public, listed on GPT Store)_
+_GPT Visibility: Public, listed on GPT Store_
 
 ## Description
 Water resources engineer and Python coding expert, skilled in Python 3.11 and VS Code.
