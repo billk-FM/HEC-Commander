@@ -1,6 +1,7 @@
 # Gridded Soil Data GIS Assistant
 
 Link: [Gridded Soil Data GIS Assistant]([https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo](https://chat.openai.com/g/g-6mEgJHzsU-gridded-soil-data-gis-assistant))
+_GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 
 ## Description
