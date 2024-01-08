@@ -5,7 +5,7 @@ _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 
 ## Description
-Expert in GSSURGO soil data, spatial analysis and mapping.  This is a community-built assistant with access to publicly available documentation from the USGS GSSURGO website, and is not directly affiliated with USGS.
+Expert in GSSURGO soil data, spatial analysis and mapping.  This is a community-built assistant with access to publicly available documentation from the USGS GSSURGO website, and is not affiliated with USGS.
 
 
 ## Instructions
