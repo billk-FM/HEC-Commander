@@ -1,6 +1,7 @@
 # Jupyter Notebook Portability Enhancer
 
-Link: [Jupyter Notebook Portability Enhancer](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer)
+Link: [Jupyter Notebook Portability Enhancer](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer)  
+_GPT Visibility: Public, listed on GPT Store)_
 
 ## Description
 Make Jupyter Notebooks Portable by Generating a code cell to handle package installation inside of a virtual environment.
