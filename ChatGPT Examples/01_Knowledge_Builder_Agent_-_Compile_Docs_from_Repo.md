@@ -1,7 +1,7 @@
 # Knowledge Builder Agent: Compile Docs from Repo
 
 Link: [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)  
-_GPT Visibility: Public, listed on GPT Store)_
+_GPT Visibility: Public, listed on GPT Store_
 
 ## Description
 Compiles Knowledge for Retrieval.  Provide a zipped Repo for Processing.
