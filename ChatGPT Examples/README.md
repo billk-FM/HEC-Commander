@@ -17,7 +17,7 @@ As the 'Leafmap Examples Expert', this GPT guides users through the Leafmap pack
 The Markdown Text Assistant is specialized in GitHub Flavored Markdown, helping users to format text, create lists, embed images, and more. It's designed to assist those looking to improve their markdown documents on GitHub, providing guidance on syntax and structure. This GPT is an invaluable resource for creating more readable, professional, and functional GitHub documentation.
 
 ## 05. GIS Autonomous Assistant
-[Read More](./05_GIS_Autonomous_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)
+[Read More](./05_GIS_Autonomous_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
 This GPT serves as an autonomous assistant for GIS-related tasks, providing expertise in geographic information systems. It helps users understand and utilize GIS tools and data effectively. Whether you're analyzing spatial data, creating maps, or managing GIS databases, this assistant provides knowledgeable support, making complex GIS tasks more approachable and manageable.
 
 ## 06. Voice Notes Transcription Assistant
