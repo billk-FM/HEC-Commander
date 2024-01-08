@@ -1,7 +1,7 @@
 # Markdown Text Assistant: GH Flavor
 
 Link: [Markdown Text Assistant: GH Flavor](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor)  
-_GPT Visibility: Public, listed on GPT Store)_
+_GPT Visibility: Public, listed on GPT Store_
 
 ## Description
 Helpful Assistant for GitHub Markdown and README building.  This is a community-built project with no affiliation with GitHub.
