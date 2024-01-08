@@ -1,7 +1,7 @@
 # Learning Assistant: Leafmap Repository
 
 Link: [Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)  
-GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)
+_GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 ## Description
 Expert on LeafMap examples, guiding through functionalities and specific use cases.  //  This community-built assistant uses open-source documentation under MIT License and is not affiliated with leafmap project.
