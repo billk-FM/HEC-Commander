@@ -1,7 +1,7 @@
 # GIS Autonomous Assistant
 
 Link: [GIS Autonomous Assistant](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
-
+_GPT Visibility: Public, listed on GPT Store)_
 
 ## Description
 Helpful GIS Assistant using Code Interpreter
