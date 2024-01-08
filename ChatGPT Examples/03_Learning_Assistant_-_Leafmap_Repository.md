@@ -1,6 +1,6 @@
 # Learning Assistant: Leafmap Repository
 
-Link: [Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)
+Link: [Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)  
 GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)
 
 ## Description
