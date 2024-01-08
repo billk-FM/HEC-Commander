@@ -25,7 +25,7 @@ This GPT serves as an autonomous assistant for GIS-related tasks, providing expe
 The Voice Notes Transcription Assistant is designed to transcribe and organize voice notes efficiently. It's a valuable tool for professionals and students alike, turning spoken words into written text. This assistant is perfect for meetings, lectures, or any scenario where quick, accurate transcriptions are needed, providing a written record for reference and analysis.
 
 ## 07. Gridded Soil Data GIS Assistant
-[Read More](./07_Gridded_Soil_Data_GIS_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
+[Read More](./07_Gridded_Soil_Data_GIS_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-6mEgJHzsU-gridded-soil-data-gis-assistant)
 The Gridded Soil Data GIS Assistant is an expert in handling and analyzing spatial soil data. It aids users in processing gridded soil datasets, providing insights into soil composition, properties, and distribution. This GPT is a valuable resource for environmental scientists, agricultural planners, and anyone needing detailed soil information for land management and analysis.
 
 ## 08. Script Translator: Outline in Plain Language
