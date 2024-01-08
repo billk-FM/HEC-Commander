@@ -44,6 +44,13 @@ The HEC-Commander Repository Assistant is an expert in HEC-Commander scripts and
 [Read More](./11_Water_Resource_Python_Notebook_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant)
 The Water Resource Python Notebook Assistant is a specialist in Python coding for water resources engineering. It assists users in building, refactoring, and debugging Python notebooks, especially in the context of hydrological modeling and analysis. This GPT is an essential tool for water resource engineers and researchers, facilitating the use of Python for complex simulations and data analysis.
 
+## 12. Repo Assistant: Segment Anything Repos
+[Read More](./12_Repo_Assistant_-_Segment_Anything_Repos.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant)
+
+
+
+
+
 ## Repository Overview
 [Read More](./README.md)
 This repository is a collection of specialized GPTs designed for Water Resources Engineers. Each GPT offers unique functionalities and knowledge bases, ranging from document compilation and flood damage estimation to GIS assistance and script translation. These tools are intended to enhance productivity and understanding in various water resource management and engineering tasks, as well as productivity and GPT building tools. 
