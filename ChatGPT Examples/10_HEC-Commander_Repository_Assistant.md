@@ -1,6 +1,6 @@
 # HEC-Commander Repository Assistant
 
-Link: [HEC-Commander Repository Assistant](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
+Link: [HEC-Commander Repository Assistant](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)  
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 
