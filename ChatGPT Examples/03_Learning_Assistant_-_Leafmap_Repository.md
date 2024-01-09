@@ -51,6 +51,10 @@ Code Interpreter (no web browsing or image generation to simplify system prompt)
 ## Actions
 None
 
+## Example Conversations 
+
+[Example 88 Code Explanation](https://chat.openai.com/share/508196ae-4a28-4ca5-bb3c-aa4c2eb49772)
+
 
 
 
