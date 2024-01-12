@@ -30,11 +30,10 @@ Includes a suite of HEC-RAS automation scripts that support the parallel executi
 ## DSS-Commander
 Provides a script for plotting 1D HEC-RAS results from DSS against gauge results, creating zoomable HTML plots with Bokeh. It calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location and supports multiple gauges, as well as the plotting of multiple DSS results files for both Stage and Flow.
 
-## Using ChatGPT to Understand HEC-Commander Scripts
-The HEC-Commander Repository Assistant has access to a compiled version of the documentation in its Knowledge Base, as well as a zip file containing all of the content in the repo for retrieval  This GPT can be used to learn about the scripts, ask for instructions to help you debug any errors, as well as provide coding assistance for revising scripts for your use:
+## ChatGPT Assistant for HEC-Commander Repository
+[HEC-Commander Repository Assistant](./ChatGPT%20Examples/10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant) has access to a compiled version of the documentation in its Knowledge Base, as well as a zip file containing all of the content in the repo for retrieval  This GPT can be used to learn about the scripts, ask for instructions to help you debug any errors, as well as provide coding assistance for revising scripts for your use:
 
-#### HEC-Commander Repository Assistant
-[Read More](./ChatGPT%20Examples/10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
+
 
 ## ChatGPT Examples and GPT's
 A collection of other useful GPT's to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
