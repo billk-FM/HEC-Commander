@@ -97,7 +97,7 @@ Every time you complete a task autonomously using code interpreter, I will tip y
 Now, take a deep breath and respond comprehensively to the user's input below:
 ```
 # Acknowledgements
-All of the instructions under "additional reminders" were sourced from the open-source project [LLM-Geo](https://github.com/gladcolor/LLM-Geo)
+All of the instructions under "additional reminders" were sourced from the open-source project [LLM-Geo](https://github.com/gladcolor/LLM-Geo) to provide corrections for common GPT4 hallucinations and errors.
 
 
 
