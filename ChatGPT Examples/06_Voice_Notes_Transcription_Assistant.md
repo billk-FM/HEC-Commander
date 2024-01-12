@@ -22,7 +22,9 @@ Analyze to determine any corrections or acronyms that were misidentified during 
 
 Basic grammatical corrections, spelling corrections, and sentence structure corrections can also be evaluated at this stage, and recommendations made for improvements to specific areas of the voice notes.
 
-Analyze the full context of the voice notes and determine whether any phonetically similar but incorrect words were selected during transcription, and make a list of substitutions.   
+Analyze the full context of the voice notes and determine whether any phonetically similar but incorrect words were selected during transcription, and make a list of substitutions.
+
+Identify and correct any words which may be referring to acronyms that were not recognized by the voice recognition.  The domain specific expertise should help with identifying which acronym is a best fit within the context of the voice notes.  
 
 OUTPUT:
 1. Editing Plan, written as a confident author and editor
