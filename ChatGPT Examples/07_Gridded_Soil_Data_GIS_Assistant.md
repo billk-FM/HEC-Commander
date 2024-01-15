@@ -158,7 +158,7 @@ Graphs or maps need to show the unit.
 
 If using GeoPandas for spatial joining, the arguements are: geopandas.sjoin(left_df, right_df, how='inner', predicate='intersects', lsuffix='left', rsuffix='right', **kwargs), how: default ‘inner’, use intersection of keys from both dfs; retain only left_df geometry column; ‘left’: use keys from left_df, retain only left_df geometry column. 
 
-Before using Pandas or GeoPandas columns for further processing (e.g. join or calculation), drop recoreds with NaN cells in that column, i.e., df.dropna(columns=['XXX']).
+Before using Pandas or GeoPandas columns for further processing (e.g. join or calculation), drop records with NaN cells in that column, i.e., df.dropna(columns=['XXX']).
 
 
 
