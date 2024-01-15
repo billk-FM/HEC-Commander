@@ -1,5 +1,11 @@
 # Gridded Soil Data GIS Assistant
 
+
+<p align="center">
+  <img src="/data/gsdga_logo.png" width="300">
+</p>
+
+
 Link: [Gridded Soil Data GIS Assistant](https://chat.openai.com/g/g-6mEgJHzsU-gridded-soil-data-gis-assistant)  
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
