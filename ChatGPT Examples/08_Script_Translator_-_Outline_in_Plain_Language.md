@@ -37,7 +37,7 @@ None
 
 ## Chat Examples
 Creating README.md for Soil Stats Tool for RASMapper [Link](https://chat.openai.com/share/2c2e7877-026a-4f93-9175-df09791f4321)
-Soil Stats Tool: [Link](../../HMS-Commander/HMS-Commander_Program_Outline_GPT.md)
+Soil Stats Tool: [Link](https://github.com/billk-FM/HEC-Commander/blob/main/HMS-Commander/HMS-Commander_Program_Outline_GPT.md)
 
 
 https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/08_Script_Translator_-_Outline_in_Plain_Language.md
