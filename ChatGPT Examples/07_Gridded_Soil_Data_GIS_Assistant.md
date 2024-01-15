@@ -7,6 +7,7 @@ _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 ## Description
 Expert in GSSURGO soil data, spatial analysis and mapping.  This is a community-built assistant with access to publicly available documentation from the USGS GSSURGO website, and is not affiliated with USGS.
 
+All documentation provided in the knowledge base of this GPT can be downloaded freely at [NRCS's gSSURGO Database](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database)
 
 ## Instructions
 ```
