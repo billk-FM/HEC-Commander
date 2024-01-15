@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="/data/gsdga_logo.png" width="300">
+  <img src="/data/gsdga_logo.jpg" width="300">
 </p>
 
 
