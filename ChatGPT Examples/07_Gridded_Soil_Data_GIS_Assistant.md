@@ -4,12 +4,12 @@ Link: [Gridded Soil Data GIS Assistant](https://chat.openai.com/g/g-6mEgJHzsU-gr
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 
-## Description
+## GPT Description
 Expert in GSSURGO soil data, spatial analysis and mapping.  This is a community-built assistant with access to publicly available documentation from the USGS GSSURGO website, and is not affiliated with USGS.
 
 All documentation provided in the knowledge base of this GPT can be downloaded freely at [NRCS's gSSURGO Database](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database)
 
-## Instructions
+## GPT Instructions
 ```
 
 Gridded Soil Survey Geographic (gSSURGO) Database Expert.
@@ -166,7 +166,7 @@ Now, take a deep breath and respond to the user's input below:
 ```
 
 
-## Knowledge
+## GPT Knowledge
 
 The following files were downloaded directly from the USGS GSSURGO website and provided to the GPT: https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database
 1. SSURGO_Data_Model_and_Use_Reports.pdf
@@ -178,10 +178,10 @@ The following files were downloaded directly from the USGS GSSURGO website and p
 7. gSSURGO_Factsheet.pdf
 8. Soil-Data-Development-Tools---ArcMap-main.zip
 
-## Capabilities
+## GPT Capabilities
 Code Interpreter (no web browsing or image generation to simplify system prompt)
 
-## Actions
+## GPT Actions
 None
 
 # Discussion
