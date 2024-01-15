@@ -184,3 +184,15 @@ Code Interpreter (no web browsing or image generation to simplify system prompt)
 ## Actions
 None
 
+# Discussion
+
+## Potential Uses of the Soil Data Assistant GPT: 
+With access to python examples from USGS, open source workflows can be devised to add functionality. The GPT is adept at performing spatial analysis and data manipulation tasks using open-source GIS packages like Geopandas, Rasterio, and Pyproj. Whether converting vector data to raster format, performing spatial joins, or handling multi-dimensional geospatial data arrays, this GPT can handle autonomously or assist with instructions.
+
+A notable capability is the conversion of proprietary scripts (like those used in ArcGIS) to open-source formats. For instance, the conversion of an ArcPy-based script to utilize libraries like Geopandas and Rasterio demonstrates the adaptability of this GPT to different GIS software environments.
+
+## Real-World Testing
+This GPT was created to assist in quickly calculating soil statistics for watershed areas and sub-areas, by inputting a gridded soil raster derived from GSSURGO, and a watershed outline from HEC-RAS’s infiltration layers. This was handled completely autonomously! 
+
+## Limitations
+The inability of GPT’s to upload/download >1MB files through public API’s is a major limitation, as well as the total file size limitation of 512MB. Complex operations are expected to time out, and require local script execution - which the GPT can assist you with! As local execution environments such as open interpreter advance in functionality, AI-assisted GIS will become more and more powerful!
