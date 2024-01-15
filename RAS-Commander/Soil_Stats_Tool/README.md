@@ -25,7 +25,8 @@ The "Soil Stats Tool for RASMapper" is a Python-based Jupyter Notebook designed 
 ## Usage
 1. **Set User Inputs**:
    - Update the shp_path with the path to your watershed boundary shapefile.
-   - Update the tif_path with the path to your infiltration raster file (TIFF format).
+   - Update the tif_path with the path to your infiltration raster file (.tif from RASMapper).
+   - Don't forget to include the infiltration HDF file!  The script uses this to look up the mukeys
 2. **Run the Notebook**:
    - Execute the cells in the notebook in sequence.
    - The script will automatically install any required dependencies.
