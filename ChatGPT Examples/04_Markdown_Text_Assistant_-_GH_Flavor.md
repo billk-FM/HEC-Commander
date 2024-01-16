@@ -1,5 +1,9 @@
 # Markdown Text Assistant: GH Flavor
 
+<p align="center">
+  <img src="./data/mta_gh_logo.png" width="300">
+</p>
+
 Link: [Markdown Text Assistant: GH Flavor](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor)  
 _GPT Visibility: Public, listed on GPT Store_
 
