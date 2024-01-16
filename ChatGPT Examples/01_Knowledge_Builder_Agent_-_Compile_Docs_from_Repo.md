@@ -1,5 +1,9 @@
 # Knowledge Builder Agent: Compile Docs from Repo
 
+<p align="center">
+  <img src="./data/kb_cdfr.png" width="300">
+</p>
+
 Link: [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)  
 _GPT Visibility: Public, listed on GPT Store_
 
