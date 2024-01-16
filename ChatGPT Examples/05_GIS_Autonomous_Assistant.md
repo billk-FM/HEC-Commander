@@ -1,5 +1,9 @@
 # GIS Autonomous Assistant
 
+<p align="center">
+  <img src="./data/gisaa_logo.png" width="400">
+</p>
+
 Link: [GIS Autonomous Assistant](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)  
 _GPT Visibility: Public, listed on GPT Store_
 
