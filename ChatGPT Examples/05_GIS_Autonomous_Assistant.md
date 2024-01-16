@@ -1,7 +1,7 @@
 # GIS Autonomous Assistant
 
 <p align="center">
-  <img src="./data/gisaa_logo.png" width="400">
+  <img src="./data/gisaa_logo.png" width="300">
 </p>
 
 Link: [GIS Autonomous Assistant](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)  
