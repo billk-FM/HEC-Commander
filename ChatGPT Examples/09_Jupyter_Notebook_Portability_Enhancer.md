@@ -1,5 +1,9 @@
 # Jupyter Notebook Portability Enhancer
 
+<p align="center">
+  <img src="./data/jnpe_logo.png" width="300">
+</p>
+
 Link: [Jupyter Notebook Portability Enhancer](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer)  
 _GPT Visibility: Public, listed on GPT Store_
 
