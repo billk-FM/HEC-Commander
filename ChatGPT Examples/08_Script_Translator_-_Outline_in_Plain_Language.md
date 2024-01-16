@@ -1,5 +1,9 @@
 # Script Translator: Outline in Plain Language
 
+<p align="center">
+  <img src="./data/st_opl_logo.png" width="300">
+</p>
+
 Link: [Script Translator: Outline in Plain Language](https://chat.openai.com/g/g-c2T23DMnI-script-translator-outline-in-plain-language)  
 _GPT Visibility: Public, listed on GPT Store_
 
