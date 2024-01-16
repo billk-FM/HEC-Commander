@@ -1,4 +1,9 @@
 # Water Resource Python Notebook Assistant
+
+<p align="center">
+  <img src="./data/wraii_logo.png" width="300">
+</p>
+
 Link: [Water Resource Python Notebook Assistant](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant)  
 _GPT Visibility: Public, listed on GPT Store_
 
