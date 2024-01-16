@@ -1,5 +1,4 @@
-
-# Voice Notes Transcription Assistant
+ # Voice Notes Transcription Assistant
 
 <p align="center">
   <img src="./data/vnta_logo.png" width="700">
@@ -55,7 +54,7 @@ None
 
 # Discussion 
 
-The voice notes transcription assistant utilizes a ChainofThought prompt to help users correct and format voice notes. The chain of thought prompt is simply a direction to the model to prepare a summary and editing plan where basic grammatical corrections, spelling corrections, sentence structure conrrections. Then the full context of the voice notes are used to determine if there are any phonetically similar but incorrect words. This is also where the model will evaluate whether any of the text is an instruction for the model to follow (such as "delete that", "go back", etc). Finally, the model is directed to identify and correct any acronyms and ensure they fit the context. 
+The voice notes transcription assistant utilizes a Chain of Thought prompt to help users correct and format voice notes. The chain of thought prompt is simply a direction to the model to prepare a summary and editing plan where basic grammatical corrections, spelling corrections, sentence structure conrrections. Then the full context of the voice notes are used to determine if there are any phonetically similar but incorrect words. This is also where the model will evaluate whether any of the text is an instruction for the model to follow (such as "delete that", "go back", etc). Finally, the model is directed to identify and correct any acronyms and ensure they fit the context. 
 
 Then, transcribed voice notes are prepared. The model is instructed to follow the voice notes input word for word except where corrections are called out in the editing plan. It will also apply formatting, paragraph breaks, and put lists in bulleted format.
 
