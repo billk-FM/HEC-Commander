@@ -1,5 +1,10 @@
 # Learning Assistant: Leafmap Repository
 
+<p align="center">
+  <img src="./data/la_lr_logo.png" width="300">
+</p>
+
+
 Link: [Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-rcQ2xaKHj-learning-assistant-leafmap-repository)  
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
