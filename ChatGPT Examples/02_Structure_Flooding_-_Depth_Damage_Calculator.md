@@ -1,5 +1,9 @@
 # Structure Flooding: Depth Damage Calculator
 
+<p align="center">
+  <img src="./data/sf_ddc_logo.png" width="300">
+</p>
+
 GPT Link: [Structure Flooding: Depth Damage Calculator](https://chat.openai.com/g/g-XZoGRmdOm-structure-flooding-depth-damage-calculator)  
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
