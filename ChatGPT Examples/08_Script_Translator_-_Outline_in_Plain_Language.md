@@ -40,7 +40,7 @@ None
 # Discussion
 
 ## Chat Examples
-Creating README.md for Soil Stats Tool for RASMapper [Link](https://chat.openai.com/share/2c2e7877-026a-4f93-9175-df09791f4321)  
-Soil Stats Tool: [Link](https://github.com/billk-FM/HEC-Commander/blob/main/HMS-Commander/HMS-Commander_Program_Outline_GPT.md)  
-HMS-Commander Outlined in Plain Language [Link](https://github.com/billk-FM/HEC-Commander/blob/main/HMS-Commander/HMS-Commander_Program_Outline_GPT.md)
+- Creating README.md for Soil Stats Tool for RASMapper [Link](https://chat.openai.com/share/2c2e7877-026a-4f93-9175-df09791f4321)  
+- Soil Stats Tool: [Link](https://github.com/billk-FM/HEC-Commander/blob/main/HMS-Commander/HMS-Commander_Program_Outline_GPT.md)  
+- HMS-Commander Outlined in Plain Language [Link](https://github.com/billk-FM/HEC-Commander/blob/main/HMS-Commander/HMS-Commander_Program_Outline_GPT.md)
 
