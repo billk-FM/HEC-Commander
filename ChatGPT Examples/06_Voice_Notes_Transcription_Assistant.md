@@ -1,6 +1,10 @@
 
 # Voice Notes Transcription Assistant
 
+<p align="center">
+  <img src="./data/vnta_logo.png" width="300">
+</p>
+
 Link: [Voice Notes Transcription Assistant](https://chat.openai.com/g/g-ukU8K3GhQ-voice-notes-transcription-assistant)  
 _GPT Visibility: Public, listed on GPT Store_
 
