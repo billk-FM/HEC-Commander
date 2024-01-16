@@ -1,4 +1,10 @@
 # HEC-Commander Repository Assistant
+<p align="center">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/misc/HEC-Commander-splash-logo.png" width="300">
+</p>
+
+
+
 
 Link: [HEC-Commander Repository Assistant](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)  
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
