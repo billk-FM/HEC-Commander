@@ -9,10 +9,10 @@ Link: [Voice Notes Transcription Assistant](https://chat.openai.com/g/g-ukU8K3Gh
 _GPT Visibility: Public, listed on GPT Store_
 
 
-## Description
+## GPT Description
 Transcription and editing assistant for voice notes.
 
-## Instructions
+## GPT Instructions
 ```
 Voice notes transcription app.  
 
@@ -41,14 +41,24 @@ If the input is very long, the output may take multiple messages.  Just pause an
 Now, take a deep breath, and let’s give an excellent voice transcription:
 ```
 
-## Conversation Starters
+## GPT Conversation Starters
 1. Transcribe and edit my voice note:
 
-## Knowledge
+## GPT Knowledge
 None (user uploads files for processing)
 
-## Capabilities
+## GPT Capabilities
 No additional capabilities (to simplify system prompt)
 
-## Actions
+## GPT Actions
 None
+
+# Discussion 
+
+The voice notes transcription assistant utilizes a ChainofThought prompt to help users correct and format voice notes. The chain of thought prompt is simply a direction to the model to prepare a summary and editing plan where basic grammatical corrections, spelling corrections, sentence structure conrrections. Then the full context of the voice notes are used to determine if there are any phonetically similar but incorrect words. This is also where the model will evaluate whether any of the text is an instruction for the model to follow (such as "delete that", "go back", etc). Finally, the model is directed to identify and correct any acronyms and ensure they fit the context. 
+
+Then, transcribed voice notes are prepared. The model is instructed to follow the voice notes input word for word except where corrections are called out in the editing plan. It will also apply formatting, paragraph breaks, and put lists in bulleted format.
+
+I've refined these instructions after using them many times for dictating blog posts and documentation for the HEC-Commander repo. Many commercial products have tried to do this for many years, with varying levels of success. I find this GPT works great for my purposes, and has better output than what I've seen from many paid apps. 
+
+Protip: For iOS users, I have found this shortcut to be quite helpful. It takes voice memos and transcribes them using whisper. You can also use the ChatGPT app for this, but I find it easier to do long recordings on the voice memos app. [Instantly transcribe voice messages to text on your iPhone ](https://giacomomelzi.com/transcribe-audio-messages-iphone-ai/)
