@@ -1,5 +1,5 @@
 # Repo Assistant: Segment Anything Repos
-Link: [Segment Anything Repos](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos
+Link: [Segment Anything Repos](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
 
 ## Description
 Expert at Segment Anything, Segment Geospatial, and FastSAM
