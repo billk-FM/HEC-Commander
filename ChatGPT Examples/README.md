@@ -9,7 +9,7 @@ This GPT is designed to create compiled text documents for knowledge retrieval f
 The Structure Flooding: Depth Damage Calculator is a specialized tool for providing flood depth-damage estimates using HEC-FIA/FEMA Documentation. It assists Water Resource Engineers and Certified Floodplain Managers in estimating flood damage with established methodologies. 
 
 ## 03. Learning Assistant: Leafmap Repository
-[Read More](./03_Learning_Assistant_-_Leafmap_Repository.md) | [GPT Link](https://chat.openai.com/g/g-yDZg1QiQJ-learning-assistant-leafmap-repository)
+[Read More](./03_Learning_Assistant_-_Leafmap_Repository.md) | [GPT Link](https://chat.openai.com/g/g-rcQ2xaKHj-learning-assistant-leafmap-repository)
 As the 'Leafmap Examples Expert', this GPT guides users through the Leafmap package, focusing on its examples and functionalities as outlined in the provided GitHub repository and documentation. It serves as an educational tool for those looking to expand their GIS capabilities with Leafmap. This assistant is perfect for users seeking detailed, step-by-step guidance on implementing Leafmap's various features and applications.
 
 ## 04. Markdown Text Assistant: GH Flavor
