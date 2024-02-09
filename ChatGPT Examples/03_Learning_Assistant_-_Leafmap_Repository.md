@@ -5,7 +5,7 @@
 </p>
 
 
-Link: [Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-rcQ2xaKHj-learning-assistant-leafmap-repository)  
+Link: [Learning Assistant: Leafmap Repository](https://chat.openai.com/g/g-rcQ2xaKHj-learning-assistant-geospatial-mapping)  
 _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 ## Description
