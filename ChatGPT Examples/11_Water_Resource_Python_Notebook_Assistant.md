@@ -7,6 +7,9 @@
 Link: [Water Resource Python Notebook Assistant](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant)  
 _GPT Visibility: Public, listed on GPT Store_
 
+_New_ [Huggingchat GPT with Codellama 70B](https://hf.co/chat/assistant/65c93874acad45bb02e78dcb)
+
+
 ## Description
 Water resources engineer and Python coding expert, skilled in Python 3.11 and VS Code.
 
