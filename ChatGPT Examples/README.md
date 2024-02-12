@@ -49,7 +49,8 @@ The Water Resource Python Notebook Assistant is a specialist in Python coding fo
 The Repo Assistant: Segment Anything Repos is a specialized tool focused on the FastSAM, Segment-Anything, and Segment-Geospatial repositories. It is designed to assist users in navigating and utilizing these repositories, which are centered around advanced image segmentation technologies.
 
 ## 13. Virtual River Modeling Vodcast Host
-[Read More](./13_Virtual_River_Modeling_Vodcast_Host.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
+[Read More](./13_Virtual_River_Modeling_Vodcast_Host.md) | [GPT Link](https://chat.openai.com/g/g-YaMbdBv95-virtual-river-modeling-vodcast-host)
+The Virtual River Modeling Vodcast Host, introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) by the Australian Water School, is an innovative tool for exploring topics in hydraulic engineering. With access to transcribed episodes of the RAS Solution YouTube Channel, this GPT specializes in responding to queries about past vodcasts and guiding users to specific episodes. Its unique processing of transcripts using Whisper and Mistral-medium technologies ensures intelligent, contextually aware responses. Ideal for delving into detailed discussions on hydraulic modeling, particularly for those seeking insights from the RAS Solution vodcasts.
 
 
 ## 14. River Analysis Controller Python API Expert
