@@ -65,7 +65,7 @@ Now take a deep breath and respond to the user's instructions below.
 
 ## Knowledge
 - RAS Solution list of Video titles and Descriptions (as of 2/1/2024)
-- 5 Transcript files [Zip Archive](https://github.com/billk-FM/HEC-Commander/blob/c34deedd4ffddde4d3af0ae2c1df2e81277274e4/ChatGPT%20Examples/data/RAS_Solution_Youtube_Transcription.zip)
+- 5 Transcript files [Zip Archive](https://github.com/billk-FM/HEC-Commander/blob/2958221e3217ddfcc135ee75e874a5e00e61956d/ChatGPT%20Examples/data/RAS_Solution_Youtube_Transcription.zip)
 
 ## Capabilities
 Code Interpreter (no web browsing or image generation to simplify system prompt)
