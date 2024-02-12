@@ -52,14 +52,13 @@ The Repo Assistant: Segment Anything Repos is a specialized tool focused on the 
 [Read More](./13_Virtual_River_Modeling_Vodcast_Host.md) | [GPT Link](https://chat.openai.com/g/g-YaMbdBv95-virtual-river-modeling-vodcast-host)
 The Virtual River Modeling Vodcast Host, introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) by the Australian Water School, is an innovative tool for exploring topics in hydraulic engineering. With access to transcribed episodes of the RAS Solution YouTube Channel, this GPT specializes in responding to queries about past vodcasts and guiding users to specific episodes. Its unique processing of transcripts using Whisper and Mistral-medium technologies ensures intelligent, contextually aware responses. Ideal for delving into detailed discussions on hydraulic modeling, particularly for those seeking insights from the RAS Solution vodcasts.
 
-
 ## 14. River Analysis Controller Python API Expert
-[Read More](./14_.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
+[Read More](./14_River_Analysis_Controller_Python_API_Expert.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
+The River Analysis Controller: Python API Expert was introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) hosted by Australian Water School.  This is an early, unexplored GPT with access to the pyras library.  The intention of this GPT is to create hecrascontroller scripts in python using AI assistance, but has not yet been put to the test!
 
 Coming Soon:
 ## 14. Python Notebook GUI Builder
-[Read More](./14_.md) | [GPT](https://chat.openai.com/g/g-PiRR7COwh-python-gui-app-builder)
-
+[Sneak Peek](https://chat.openai.com/g/g-PiRR7COwh-python-gui-app-builder)
 
 
 ## Repository Overview
