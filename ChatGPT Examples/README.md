@@ -49,11 +49,15 @@ The Water Resource Python Notebook Assistant is a specialist in Python coding fo
 The Repo Assistant: Segment Anything Repos is a specialized tool focused on the FastSAM, Segment-Anything, and Segment-Geospatial repositories. It is designed to assist users in navigating and utilizing these repositories, which are centered around advanced image segmentation technologies.
 
 ## 13. Virtual River Modeling Vodcast Host
+[Read More](./13_.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
 
+
+## 14. River Modeling Python API Expert
+[Read More](./14_.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
+
+Coming Soon:
 ## 14. Python Notebook GUI Builder
-
-## 15. River Modeling Python API Expert
-
+[Read More](./14_.md) | [GPT](https://chat.openai.com/g/g-PiRR7COwh-python-gui-app-builder)
 
 
 
