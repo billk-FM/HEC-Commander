@@ -52,7 +52,7 @@ The Repo Assistant: Segment Anything Repos is a specialized tool focused on the 
 [Read More](./13_.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
 
 
-## 14. River Modeling Python API Expert
+## 14. River Analysis Controller Python API Expert
 [Read More](./14_.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
 
 Coming Soon:
