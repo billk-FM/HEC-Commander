@@ -48,6 +48,56 @@ The notebook begins with a user inputs section, allowing for a more organized an
 
 ---
 
+## RAS-Commander 1.0 User Inputs
+
+**The inputs in the first 2 code cells are treated as defaults and are persistent.** 
+**The GUI can override these settings for a single run, but will not save them.**
+
+**Operation Mode**
+
+* `Operation_Mode`: This variable determines how RAS-Commander operates. It can be set to either `"Run Missing"` or `"Build from DSS"`.
+    * `"Run Missing"`: This mode will run an existing project, only executing plans that are missing from the HEC-RAS output folder.
+    * `"Build from DSS"`: This mode will build plans from a HEC-RAS template folder and then run them.
+
+**General Inputs**
+
+* `HECRAS_project_folder`: This variable specifies the path to the HEC-RAS project folder.
+    * In `"Run Missing"` mode, this is the HEC-RAS project you wish to execute (results go back into this folder).
+    * In `"Build from DSS"` mode, this folder will be overwritten with new plans created from the template folder.
+* `HECRAS_Deploy_Targets`: This is a list of paths to remote target folders used to execute parallel runs during `"Build from DSS"` mode. These folders are temporary.
+* `Number_Parallel_Runs`: This integer specifies the number of copies of each plan to run in parallel on each target machine.
+
+**Inputs for "Build from DSS" Mode**
+
+* `HECRAS_template_folder`: This variable specifies the path to the HEC-RAS template folder used to build new plans.
+* `Plan_Number`: This string specifies the plan number in the template folder to use for building new plans. This plan itself will not be executed.
+* `DSS_Source_Folder`: This variable specifies the path to the folder containing the DSS files to import into the HEC-RAS project.
+* `DSS_Search_Word`: This string is used to search for DSS files to import.
+* `DSS_Replace_Word`: This string is used to replace the search word in HEC-RAS DSS outputs to prevent overwriting DSS input files.
+* `DSS_File_Name_Filter_Word` (optional): This string can be used to filter the names of DSS files for import. Only files containing this word will be imported.
+
+**Infiltration Layer Inputs (for "Build from DSS" Mode only)**
+
+* `Enable_Infiltration_Overrides`: This boolean variable controls whether to enable infiltration layer overrides.
+* `Infiltration_From_RASMapper_csv`: This variable specifies the path to a CSV file containing infiltration data from RAS Mapper, used to build the scaled infiltration layer in HEC-RAS.
+* `user_calibration_runs_csv_fullpath`: This variable specifies the path to a CSV file containing user-defined calibration runs (for scaling 2D impervious grids).
+
+**Additional Settings**
+
+* `hecras_exe_path`: This variable specifies the path to the HEC-RAS executable file.
+* `Psexec_Run_In_System_Account`: This variable determines whether to run PSEXEC in the system account.
+* `Psexec_Session_ID`: This variable specifies the Session ID to run PSEXEC in, if not running in the system account.
+* `Psexec_Priority`: This variable sets the priority of the PSEXEC process.
+* `Remote_Share_Path`: This variable specifies the local path corresponding to a simple remote file share.
+* `Remote_Base_Directory`: This variable is constructed from `Remote_Share_Path` and used in batch file creation.
+* `Folder_Safety_Prefix_Length`: This integer specifies the number of characters of the folder prefix that need to match for safety checks.
+* `exclusions`: This list contains file extensions to exclude during folder deployment.
+* `File_Copy_Threads`: This integer specifies the number of parallel threads to use for file copying.
+
+
+
+
+
 ## Contributing
 
 Encounter any issues or have suggestions? Please open an issue on the GitHub repository or reach out to the author at billk@fenstermaker.com.
