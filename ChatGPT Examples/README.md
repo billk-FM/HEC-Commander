@@ -58,7 +58,8 @@ The River Analysis Controller: Python API Expert was introduced during the [Febr
 
 Coming Soon:
 ## 15. Python Notebook GUI Builder
-[Sneak Peek](https://chat.openai.com/g/g-PiRR7COwh-python-gui-app-builder)
+[Read More](./15_Notebook_GUI_Builder.md) | [GPT](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder)
+The Python Notebook GUI Builder is a specialized GPT focusing on integrating Tkinter and Tkbootstrap GUIs within Jupyter Notebooks, particularly in a Windows environment using VS Code.  The assistant excels in layout design, entry box formatting, and window prioritization, and it communicates in a formal, technical tone. This tool is ideal for those looking to enhance their Jupyter Notebooks with interactive, custom GUI elements, streamlining user input and data presentation.
 
 
 ## Repository Overview
