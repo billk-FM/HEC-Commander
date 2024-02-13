@@ -34,11 +34,13 @@ The notebook begins with a user inputs section, allowing for a more organized an
 
 ## How to Run
 
-1. Download the updated script: **[RAS-Commander _1.0.ipynb](./RAS-Commander%20_1.0.ipynb)**
-2. Open the notebook in VSCode.
-3. Select the desired operation mode and update the necessary inputs.
-4. Ensure your Python environment is set as advised in the Quick Start Guide.
-5. Run the notebook to initiate the chosen operation.
+1. Make sure you followed the [Quick Start Guide for RAS-Commander.pdf](./Quick%20Start%20Guide%20for%20RAS-Commander.pdf)**.
+2. Download the updated script: **[RAS-Commander _1.0.ipynb](./RAS-Commander%20_1.0.ipynb)**
+3. Open the notebook in VSCode.
+4. Select the desired operation mode and update the necessary inputs.
+5. Select the Python environment you want to use (from Quick Start)
+6. Run the notebook to initiate the chosen operation.
+7. Use GUI to review and edit input information before running. 
 
 ---
 
