@@ -1,6 +1,6 @@
 # Notebook GUI Builder
 Link: [Notebook GUI Builder](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder)
-https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder
+
 ## Description
 Formal, technical coding assistant for Tkinter in Jupyter Notebooks.
 
