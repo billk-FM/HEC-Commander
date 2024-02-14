@@ -22,14 +22,20 @@ This post discusses the role of AI in revolutionizing water resource management 
 </p>
 
 ### [From 10x to 0.25x Engineering: By The Numbers](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/2.%2010XEngineering_By_The_Numbers.md)
-In this article, we delve into the quantitative aspects of 10x engineering. It provides a detailed analysis of how metrics and data-driven approaches are shaping the future of engineering, as well as a breakdown of cloud computing costs for various platforms and approaches.
+In this article, we delve into the quantitative aspects of 10x engineering. It provides a detailed analysis of how metrics and data-driven approaches are shaping the future of engineering, as well as a breakdown of cloud computing costs for various platforms and approaches. 
 
-### [Moore's Law, AI Speedrunning the Golden Age of Computing](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/3.%20AI_Speedrunning_the_Golden_Age_of_Computing.md)
-This article revisits the golden age of computing and explores the current resurgence in computational efficiency and power, driven by AI advancements and Moore's Law.
+<br></br>
+
+<h1 align="center" style="font-weight:bold; font-size: 36px;">Moore's Law, AI Speedrunning the Golden Age of Computing</h1>
+
 
 <p align="center">
   <img src="img/MooresLawSpaceCommanders.png" width=30%>
 </p>
+
+### [Moore's Law, AI Speedrunning the Golden Age of Computing](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/3.%20AI_Speedrunning_the_Golden_Age_of_Computing.md)
+This article revisits the golden age of computing and explores the current resurgence in computational efficiency and power, driven by AI advancements and Moore's Law. 
+
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
 
