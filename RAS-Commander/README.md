@@ -59,7 +59,7 @@ The notebook begins with a user inputs section, allowing for a more organized an
 
 
 <p align="center">
-  <img src="/img/RAS-Commander-GUI-full2.png" width="300">
+  <img src="img/RAS-Commander-GUI-full2.png" width="300">
 </p>
 
 **The GUI can override these settings for a single run, but will not save them.**
