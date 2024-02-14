@@ -97,7 +97,29 @@ The notebook begins with a user inputs section, allowing for a more organized an
 * `File_Copy_Threads`: This integer specifies the number of parallel threads to use for file copying.
 
 
+## Example Infiltration Paramters from RASMapper
+This CSV should be a direct copy/paste from RASMapper's Infiltration Layer:
+```
+ID,Name,Maximum Deficit,Initial Deficit,Potential Percolation Rate
+0,NoData,0,0,0
+1,1725696,0,0,0
+10,1725684,10.49,4.11,0.57
+11,1725716,15.45,6.31,0.6
+12,1725726,17.47,5.25,0.34
+```
 
+# Example User Run Parameters
+
+
+```
+user_run_number_from_csv,initial_deficit_scale,maximum_deficit_scale,percolation_rate_scale,impervious_area_scale,recession_factor,initial_flow_area_ratio,threshold_flow_to_peak_ratio,time_of_concentration_scale,storage_coefficient_scale
+1,0.9,1,0.5,1,0.1,1,0.1,1,1
+2,1.15,1,0.5,1,0.1,1,0.1,1,1
+3,1.1,1,0.5,1,0.1,1,0.1,1,1
+4,1.05,1,0.5,1,0.1,1,0.1,1,1
+```
+
+Example_User_Run_Parameters.csv
 
 
 ## Contributing
