@@ -1,4 +1,4 @@
-# RAS-Commander 1.0
+# RAS-Commander 1.0 (GUI Version)
 ## Enhanced Single Notebook for Parallel-Executing HEC-RAS Plans
 
 ---
