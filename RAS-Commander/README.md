@@ -1,4 +1,4 @@
-# RAS-Commander
+# RAS-Commander 1.0
 ## Enhanced Single Notebook for Parallel-Executing HEC-RAS Plans
 
 ---
@@ -53,7 +53,22 @@ The notebook begins with a user inputs section, allowing for a more organized an
 ## RAS-Commander 1.0 User Inputs
 
 **The inputs in the first 2 code cells are treated as defaults and are persistent.** 
+
+
+
+
+
+<p align="center">
+  <img src="/img/RAS-Commander-GUI-full2.png" width="300">
+</p>
+
 **The GUI can override these settings for a single run, but will not save them.**
+
+
+
+
+
+
 
 **Operation Mode**
 
