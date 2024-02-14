@@ -11,7 +11,7 @@ Developed to support Region 4 of the Louisiana Watershed Initiative by Fensterma
 William Mark Katzenmeyer, P.E., C.F.M.
 
 ## Notable Contributors
-- [Sean Micek, P.E.](https://github.com/openSourcerer9000) - HMS-Commander Jython core logic, implementation of calibration regions
+- [Sean Micek, P.E.](https://github.com/openSourcerer9000) - HMS-Commander Jython core logic, implementation of calibration regions. RAS-Commander infiltration HDF revision prototyping
 - Tyler Young, E.I. - DSS-Commander calibration metrics, debugging, and testing of all tools
 
 For queries or further information, please contact billk@fenstermaker.com.
