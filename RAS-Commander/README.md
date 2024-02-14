@@ -66,7 +66,7 @@ The User Inputs code cell is shown below:
 
 The Additional Settings code Cell is shown below: 
 <p align="center">
-  <img src="img/RAS-Commander-Additional_Settings.png" width="300">
+  <img src="img/RAS-Commander-Additional_Settings.png" width="100">
 </p>
 
 **The inputs in the first 2 code cells are treated as defaults and are persistent.** 
