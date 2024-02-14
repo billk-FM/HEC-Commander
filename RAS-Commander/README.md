@@ -99,6 +99,12 @@ The Additional Settings code Cell is shown below:
   <img src="img/RAS-Commander-GUI-Build_From_DSS.png" width="300">
 </p> 
 
+    * `"Additional Settings"`: This button allows the editing of additional settings via GUI:
+
+ <p align="center">
+  <img src="img/RAS-Commander-GUI-Additional_Settings.png" width="300">
+</p>    
+
 **General Inputs**
 
 * `HECRAS_project_folder`: This variable specifies the path to the HEC-RAS project folder.
