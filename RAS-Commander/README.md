@@ -87,23 +87,17 @@ The Additional Settings code Cell is shown below:
 
 **Operation Mode**
 
-* `Operation_Mode`: This variable determines how RAS-Commander operates. It can be set to either `"Run Missing"` or `"Build from DSS"`.
-    * `"Run Missing"`: This mode will run an existing project, only executing plans that are missing from the HEC-RAS output folder.
-<p align="center">
-  <img src="img/RAS-Commander-GUI-Run_Missing.png" width="300">
-</p> 
-  
-    * `"Build from DSS"`: This mode will build plans from a HEC-RAS template folder and then run them.
+* `Operation_Mode`: This variable determines the operational mode of RAS-Commander. It can be set to either `"Run Missing"` or `"Build from DSS"`.
 
-<p align="center">
-  <img src="img/RAS-Commander-GUI-Build_From_DSS.png" width="300">
-</p> 
+    * `"Run Missing"`: In this mode, RAS-Commander runs an existing project, executing only those plans that are missing from the HEC-RAS output folder.
+      ![Run Missing Mode](img/RAS-Commander-GUI-Run_Missing.png) 
 
-    * `"Additional Settings"`: This button allows the editing of additional settings via GUI:
+    * `"Build from DSS"`: This mode enables RAS-Commander to build plans from a HEC-RAS template folder and subsequently run them.
+      ![Build from DSS Mode](img/RAS-Commander-GUI-Build_From_DSS.png) 
 
- <p align="center">
-  <img src="img/RAS-Commander-GUI-Additional_Settings.png" width="100">
-</p>    
+    * `"Additional Settings"`: This option opens a GUI for editing additional settings.
+      ![Additional Settings](img/RAS-Commander-GUI-Additional_Settings.png)
+
 
 **General Inputs**
 
