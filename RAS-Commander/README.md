@@ -51,6 +51,23 @@ The notebook begins with a user inputs section, allowing for a more organized an
 ---
 
 ## RAS-Commander 1.0 User Inputs
+User inputs should be placed in the first 2 cells of the notebook, "User Inputs" and "Additional Settings.  These values are then presented to the user in a GUI format, which allows non-persistent changes (to allow for testing without changing default values). 
+
+Here is a screenshot showing notebook with all cells collapsed and the GUI visible:
+<p align="center">
+  <img src="img/RAS-Commander-GUI-full2.png" width="300">
+</p>
+
+The User Inputs code cell is shown below: 
+<p align="center">
+  <img src="img/RAS-Commander-User_Inputs.png" width="300">
+</p>
+
+
+The Additional Settings code Cell is shown below: 
+<p align="center">
+  <img src="img/RAS-Commander-Additional_Settings.png" width="300">
+</p>
 
 **The inputs in the first 2 code cells are treated as defaults and are persistent.** 
 
@@ -58,9 +75,7 @@ The notebook begins with a user inputs section, allowing for a more organized an
 
 
 
-<p align="center">
-  <img src="img/RAS-Commander-GUI-full2.png" width="300">
-</p>
+
 
 **The GUI can override these settings for a single run, but will not save them.**
 
@@ -74,7 +89,15 @@ The notebook begins with a user inputs section, allowing for a more organized an
 
 * `Operation_Mode`: This variable determines how RAS-Commander operates. It can be set to either `"Run Missing"` or `"Build from DSS"`.
     * `"Run Missing"`: This mode will run an existing project, only executing plans that are missing from the HEC-RAS output folder.
+<p align="center">
+  <img src="img/RAS-Commander-GUI-Run_Missing.png" width="300">
+</p> 
+  
     * `"Build from DSS"`: This mode will build plans from a HEC-RAS template folder and then run them.
+
+<p align="center">
+  <img src="img/RAS-Commander-GUI-Build_From_DSS.png" width="300">
+</p> 
 
 **General Inputs**
 
