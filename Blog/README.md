@@ -38,23 +38,25 @@ This article revisits the golden age of computing and explores the current resur
 Blog/3._AI_Speedrunning_the_Golden_Age_of_Computing.md
 <br></br>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon:</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Automating Parallel HEC-RAS Execution: Command Line is All You Need</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Automating HEC-HMS Execution with Jython: Jupyter Notebook Execution with Custom Parameters</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Automating Parallel HEC-RAS Execution: Command Line is All You Need</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Simplifying Python Notebooks Environment Setup with a Custom GPT</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Automating HEC-HMS Execution with Jython: Jupyter Notebook Execution with Custom Parameters</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: IDE-Based CoPilots: Novel Methods for Scripting with AI</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Simplifying Python Notebooks Environment Setup with a Custom GPT</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Prompt Examples for Water Resource Engineers using HEC-RAS and HEC-HMS</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> IDE-Based CoPilots: Novel Methods for Scripting with AI</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Back to Basics: Optimizing 2D HEC-RAS Model Runtimes</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Prompt Examples for Water Resource Engineers using HEC-RAS and HEC-HMS</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Back to Basics: Optimizing 1D HEC-RAS Finite Volume Runtimes</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Back to Basics: Optimizing 2D HEC-RAS Model Runtimes</h1>
 
-<h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon: Back to Basics: Optimizing Your Technology Platform for HEC-RAS Modeling</h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Back to Basics: Optimizing 1D HEC-RAS Finite Volume Runtimes</h1>
+
+<h1 align="center" style="font-weight:bold; font-size: 36px;"> Back to Basics: Optimizing Your Technology Platform for HEC-RAS Modeling</h1>
 
 
 
