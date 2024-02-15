@@ -155,10 +155,12 @@ ID,Name,Maximum Deficit,Initial Deficit,Potential Percolation Rate
 11,1725716,15.45,6.31,0.6
 12,1725726,17.47,5.25,0.34
 ```
+Note, only MD, ID, and PR are scaled in the 1.0 version of this script. 
+
 
 # Example User Run Parameters
 
-
+Note, this is exactly the same CSV run file as is used in HEC-HMS.  Baseflow factors are not scaled in HEC-RAS and are ignored. TC and R cannot be scaled in HEC-RAS and are ignored.  Only Initial Deficit, Maximum Deficit, and Percolation rate are scaled in the 1.0 version of the script.  End users should use the ChatGPT examples and guidance in this repo to add any required features for their specific use cases. 
 ```
 user_run_number_from_csv,initial_deficit_scale,maximum_deficit_scale,percolation_rate_scale,impervious_area_scale,recession_factor,initial_flow_area_ratio,threshold_flow_to_peak_ratio,time_of_concentration_scale,storage_coefficient_scale
 1,0.9,1,0.5,1,0.1,1,0.1,1,1
