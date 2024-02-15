@@ -40,6 +40,7 @@ Provides a script for plotting 1D HEC-RAS results from DSS against gauge results
 ## HEC-Commander Blog
 A collection of blogs and missives about AI, HEC-RAS and HMS scripting, and topics related to the tools in this repo [HEC-Commander Blog](./Blog/README.md) 
 
+# Extras 
 
 ## ChatGPT Examples and GPT's
 A collection of other useful GPT's to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) 
