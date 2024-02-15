@@ -34,13 +34,18 @@ Includes a suite of HEC-RAS automation scripts that support the parallel executi
 ## DSS-Commander
 Provides a script for plotting 1D HEC-RAS results from DSS against gauge results, creating zoomable HTML plots with Bokeh. It calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location and supports multiple gauges, as well as the plotting of multiple DSS results files for both Stage and Flow.
 
+## Miscellaneous Scripts and Tools
+Under each HMS, RAS, and DSS Commander folders are miscellaneous scripts and tools to assist with workflows related to those programs.  These include soil statistics tools, tools for setting ineffective flow area permanency + more. 
+
+
+# Extras 
+
+
 ## ChatGPT Assistant for HEC-Commander Repository
 [HEC-Commander Repository Assistant](./ChatGPT%20Examples/10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant) has access to a compiled version of the documentation in its Knowledge Base, as well as a zip file containing all of the content in the repo for retrieval  This GPT can be used to learn about the scripts, ask for instructions to help you debug any errors, as well as provide coding assistance for revising scripts for your use:
 
 ## HEC-Commander Blog
 A collection of blogs and missives about AI, HEC-RAS and HMS scripting, and topics related to the tools in this repo [HEC-Commander Blog](./Blog/README.md) 
-
-# Extras 
 
 ## ChatGPT Examples and GPT's
 A collection of other useful GPT's to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) 
