@@ -33,7 +33,7 @@ In this article, we delve into the quantitative aspects of 10x engineering. It p
   <img src="img/MooresLawSpaceCommanders.png" width=30%>
 </p>
 
-### [Moore's Law, AI Speedrunning the Golden Age of Computing](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/3.%20AI_Speedrunning_the_Golden_Age_of_Computing.md)
+### [Moore's Law, AI Speedrunning the Golden Age of Computing](./3.%20AI_Speedrunning_the_Golden_Age_of_Computing.md)
 This article revisits the golden age of computing and explores the current resurgence in computational efficiency and power, driven by AI advancements and Moore's Law. 
 
 <br></br>
