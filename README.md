@@ -1,6 +1,10 @@
 # HEC-Commander Tools
 
-![Fenstermaker Logo](misc/fenstermaker-logo.png)
+
+
+<p align="center">
+  <img src="misc/fenstermaker-logo.png" width=30%>
+</p>
 
 HEC-Commander Tools is a suite of python notebooks developed with AI assistance for water resource engineering workflows, primarily focused on providing automation for HEC-RAS and HEC-HMS through jupyter notebooks with ai-assisted coding.
 
