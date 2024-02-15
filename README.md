@@ -37,10 +37,13 @@ Provides a script for plotting 1D HEC-RAS results from DSS against gauge results
 ## ChatGPT Assistant for HEC-Commander Repository
 [HEC-Commander Repository Assistant](./ChatGPT%20Examples/10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant) has access to a compiled version of the documentation in its Knowledge Base, as well as a zip file containing all of the content in the repo for retrieval  This GPT can be used to learn about the scripts, ask for instructions to help you debug any errors, as well as provide coding assistance for revising scripts for your use:
 
+## HEC-Commander Blog
+A collection of blogs and missives about AI, HEC-RAS and HMS scripting, and topics related to the tools in this repo [HEC-Commander Blog](./Blog/README.md) 
 
 
 ## ChatGPT Examples and GPT's
-A collection of other useful GPT's to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
+A collection of other useful GPT's to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) 
+The HEC-Commander Repo has it's own GPT to help you use/edit/adapt the tools here: [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
 
 ## Quick Start Guide
 <details>
