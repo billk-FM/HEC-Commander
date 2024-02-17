@@ -1,5 +1,5 @@
 # Repository of GPT's for Water Resources Engineers
-<img src="img/kb_logo.png" alt="Knowledge Builder Agent Logo" width="25%"/>
+<img src="./data/kb_logo.png" alt="Knowledge Builder Agent Logo" width="25%"/>
 <img src="./img/sf_logo.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="25%"/>
 <img src="./img/la_logo.png" alt="Learning Assistant: Leafmap Repository Logo" width="25%"/>
 <img src="./img/mta_logo.png" alt="Markdown Text Assistant: GH Flavor Logo" width="25%"/>
