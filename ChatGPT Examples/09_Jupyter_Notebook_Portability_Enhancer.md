@@ -5,7 +5,13 @@
 </p>
 
 Link: [Jupyter Notebook Portability Enhancer](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer)  
-_GPT Visibility: Public, listed on GPT Store_
+_GPT Visibility: Public, listed on GPT Store_ 
+
+
+*New* Huggingface Assistant 
+
+Huggingface Assistants Link: [Jupyter Notebook Portability Enhancer](https://hf.co/chat/assistant/65d0df9c1a0734a9345fafba)  
+This version is free, but lacks a code interpreter and has a smaller context window than GPT-4.  Useful for smaller scripts or single code cells.  
 
 ## Description
 Make Jupyter Notebooks Portable by Generating a code cell to handle package installation inside of a virtual environment.
