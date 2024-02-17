@@ -7,6 +7,12 @@
 Link: [Markdown Text Assistant: GH Flavor](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor)  
 _GPT Visibility: Public, listed on GPT Store_
 
+
+*New* Huggingface Assistant 
+
+Huggingface Assistants Link: [Huggingface Markdown Text Assistant: GH Flavor](https://hf.co/chat/assistant/65d0dcfaf4ede0cff60f8396)  
+This version is free, but lacks a code interpreter and has a smaller context window than GPT-4.  Useful for smaller scripts or single code cells.  
+
 ## Description
 Helpful Assistant for GitHub Markdown and README building.  This is a community-built project with no affiliation with GitHub.
 
