@@ -10,7 +10,7 @@ _GPT Visibility: Public, listed on GPT Store_
 
 *New* Huggingface Assistant 
 
-Huggingface Assistants Link: [Huggingface Markdown Text Assistant: GH Flavor](https://hf.co/chat/assistant/65d0dcfaf4ede0cff60f8396)  
+Huggingface Assistants Link: [Huggingface Markdown Text Assistant: GH Flavor](https://hf.co/chat/assistant/65d0df9c1a0734a9345fafba)  
 This version is free, but lacks a code interpreter and has a smaller context window than GPT-4.  Useful for smaller scripts or single code cells.  
 
 ## Description
