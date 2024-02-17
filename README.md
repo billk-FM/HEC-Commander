@@ -29,6 +29,8 @@ Includes a suite of HEC-RAS automation scripts that support the parallel executi
 ## DSS-Commander
 Provides a script for plotting 1D HEC-RAS results from DSS against gauge results, creating zoomable HTML plots with Bokeh. It calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location and supports multiple gauges, as well as the plotting of multiple DSS results files for both Stage and Flow.
 
+*New* [GHNCD to DSS Precipitation Grid Comparison Tool](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander/GHNCD_Comparison_Tool)
+
 ## Miscellaneous Scripts and Tools
 Under each HMS, RAS, and DSS Commander folders are miscellaneous scripts and tools to assist with workflows related to those programs.  These include soil statistics tools, tools for setting ineffective flow area permanency + more. 
 
