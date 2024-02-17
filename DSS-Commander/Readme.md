@@ -7,7 +7,7 @@
 
 DSS-Commander contains a script for plotting HEC-RAS 1D results from DSS against gauge results by creating zoomable HTML plots using Bokeh. Calibration statistics (RMSE, r, PBIAS, NSE) are also calculated for each location that is plotted.
 
-These scripts are built on the functionality of [pydsstools by gyanz] (https://github.com/gyanz/pydsstools)
+These scripts are built on the functionality of [pydsstools by gyanz](https://github.com/gyanz/pydsstools)
 
 
 For STAGE time series, RMSE is calculated with the mean depth of all gauged values and all other statistics are calculated using Depth
