@@ -20,11 +20,6 @@ William Mark Katzenmeyer, P.E., C.F.M.
 
 For queries or further information, please contact billk@fenstermaker.com.
 
-## Blog
-
-Please go to the [Blog folder](https://github.com/billk-FM/HEC-Commander/tree/main/Blog)  above for archived posts!
-
-
 ## HMS-Commander
 Contains automation scripts for HEC-HMS that allow the generation of multiple DSS output files with user-defined calibration parameters. This tool was developed to support 1D HEC-RAS calibration and validation workflows using deficit and constant loss methods with optional recession baseflow, and employs a user-generated CSV file to input scale factors for each individual parameter. A second version of teh script allows definition of multiple calibration regions, enabling spatial variability of scale factors.
 
