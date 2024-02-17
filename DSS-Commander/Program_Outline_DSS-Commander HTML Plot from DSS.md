@@ -1,3 +1,9 @@
+
+Created with [Script Translator: Outline in Plain Language](https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/08_Script_Translator_-_Outline_in_Plain_Language.md)
+
+For more detailed summaries of specific code cells or segments, use the GPT above (free version available) to re-summarize
+
+
 ## Summary of Code Cell 1: User Inputs and Configuration Parameters
 
 This code cell is dedicated to defining various user inputs and configuration parameters for a data visualization script. It's designed to plot data from DSS (Data Storage System) files, commonly used in hydrology and water resources engineering. The main elements of this code cell include:
