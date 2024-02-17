@@ -1,6 +1,15 @@
 # Notebook GUI Builder
 Link: [Notebook GUI Builder](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder)
 
+*New* Huggingface Assistant 
+
+Huggingface Assistants Link: [Notebook GUI Builder](https://hf.co/chat/assistant/65d0e11b1a0734a9345fb000)  
+This version is free, but lacks a code interpreter and has a smaller context window than GPT-4.  Useful for smaller scripts or single code cells.  
+
+
+
+
+
 ## Description
 Formal, technical coding assistant for Tkinter in Jupyter Notebooks.
 
