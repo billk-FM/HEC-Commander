@@ -8,6 +8,11 @@ Link: [Voice Notes Transcription Assistant](https://chat.openai.com/g/g-ukU8K3Gh
 _GPT Visibility: Public, listed on GPT Store_
 
 
+*New* Huggingface Assistant 
+
+Huggingface Assistants Link: [Voice Notes Transcription Assistant](https://hf.co/chat/assistant/65d0de7e0650231c0f279feb)  
+This version is free, but lacks a code interpreter and has a smaller context window than GPT-4.  Useful for smaller scripts or single code cells
+
 ## GPT Description
 Transcription and editing assistant for voice notes.
 
