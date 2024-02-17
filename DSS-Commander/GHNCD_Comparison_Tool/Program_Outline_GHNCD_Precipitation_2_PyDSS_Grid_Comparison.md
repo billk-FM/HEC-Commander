@@ -1,3 +1,9 @@
+https://chat.openai.com/g/g-c2T23DMnI-script-translator-outline-in-plain-language
+
+
+
+
+
 ### Comprehensive Summary of "GHNCD_Precipitation_2_PyDSS_Grid_Comparison" Notebook
 
 #### Summary of the First Code Cell
