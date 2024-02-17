@@ -1,7 +1,6 @@
-https://chat.openai.com/g/g-c2T23DMnI-script-translator-outline-in-plain-language
+Created with [Script Translator: Outline in Plain Language](https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/08_Script_Translator_-_Outline_in_Plain_Language.md)
 
-
-
+For more detailed summaries of specific code cells or segments, use the GPT above (free version available) to re-summarize
 
 
 ### Comprehensive Summary of "GHNCD_Precipitation_2_PyDSS_Grid_Comparison" Notebook
