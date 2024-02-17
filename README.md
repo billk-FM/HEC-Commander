@@ -20,10 +20,10 @@ William Mark Katzenmeyer, P.E., C.F.M.
 
 For queries or further information, please contact billk@fenstermaker.com.
 
-## HMS-Commander
+## [HMS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/HMS-Commander)
 Contains automation scripts for HEC-HMS that allow the generation of multiple DSS output files with user-defined calibration parameters. This tool was developed to support 1D HEC-RAS calibration and validation workflows using deficit and constant loss methods with optional recession baseflow, and employs a user-generated CSV file to input scale factors for each individual parameter. A second version of teh script allows definition of multiple calibration regions, enabling spatial variability of scale factors.
 
-## RAS-Commander
+## [RAS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/RAS-Commander)
 Includes a suite of HEC-RAS automation scripts that support the parallel execution of HEC-RAS unsteady plans, as well as construction of plan files utilizing multiple HEC-HMS inputs. Defines DSS output file names, generates batch scripts for headless execution, and manages the deployment and parallel execution of HEC-RAS runs on local and remote machines using peer-to-peer Windows network shares. These scripts are applicable for both 1D and 2D model formats, and now support overriding RASMapper infiltration override layers.
 
 ## [DSS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander)
@@ -38,10 +38,10 @@ Under each HMS, RAS, and DSS Commander folders are miscellaneous scripts and too
  
 # Extras 
 
-## HEC-Commander Blog
+## [HEC-Commander Blog](https://github.com/billk-FM/HEC-Commander/tree/main/Blog)
 A collection of blogs and missives about AI, HEC-RAS and HMS scripting, and topics related to the tools in this repo [HEC-Commander Blog](./Blog/README.md) 
 
-## ChatGPT Examples and GPT's
+## [ChatGPT Examples and GPT's](https://github.com/billk-FM/HEC-Commander/tree/main/ChatGPT%20Examples)
 A collection of other useful GPT's and ChatGPT conversation examples to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) 
 
 ## ChatGPT Assistant for HEC-Commander Repository
