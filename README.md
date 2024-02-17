@@ -26,7 +26,7 @@ Contains automation scripts for HEC-HMS that allow the generation of multiple DS
 ## RAS-Commander
 Includes a suite of HEC-RAS automation scripts that support the parallel execution of HEC-RAS unsteady plans, as well as construction of plan files utilizing multiple HEC-HMS inputs. Defines DSS output file names, generates batch scripts for headless execution, and manages the deployment and parallel execution of HEC-RAS runs on local and remote machines using peer-to-peer Windows network shares. These scripts are applicable for both 1D and 2D model formats, and now support overriding RASMapper infiltration override layers.
 
-## DSS-Commander
+## [DSS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander)
 Provides a script for plotting 1D HEC-RAS results from DSS against gauge results, creating zoomable HTML plots with Bokeh. It calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location and supports multiple gauges, as well as the plotting of multiple DSS results files for both Stage and Flow.
 
 *New* [GHNCD to DSS Precipitation Grid Comparison Tool](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander/GHNCD_Comparison_Tool)
