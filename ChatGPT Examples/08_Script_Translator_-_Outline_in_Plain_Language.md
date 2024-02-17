@@ -4,11 +4,13 @@
   <img src="./data/st_opl_logo.png" width="300">
 </p>
 
-ChatGPT+ GPT Link: [Script Translator: Outline in Plain Language](https://chat.openai.com/g/g-c2T23DMnI-script-translator-outline-in-plain-language)  
+ChatGPT+ GPT Link: [Script Translator: Outline in Plain Language](https://chat.openai.com/g/g-c2T23DMnI-script-translator-outline-in-plain-language) 
+
 _GPT Visibility: Public, listed on GPT Store_
 
 *New* Huggingface Assistant 
-Huggingface Assistants Link: [Huggingface Script Translator: Outline in Plain Language](https://hf.co/chat/assistant/65d0d99566fa9d07218c4bf4) 
+
+Huggingface Assistants Link: [Huggingface Script Translator: Outline in Plain Language](https://hf.co/chat/assistant/65d0d99566fa9d07218c4bf4)  
 This version is free, but lacks a code interpreter and has a smaller context window than GPT-4.  Useful for smaller scripts or single code cells.  
 
 
