@@ -1,62 +1,40 @@
 # Repository of GPT's for Water Resources Engineers
-
-This one worked:
-
-<p align="center">
-  <img src="./data/jnpe_logo.png" alt="Jupyter Notebook Portability Enhancer Logo" width="30%"/>
-</p>
-
-
-These didn't: 
-
-<p align="center">
-  <img src="./data/sf_ddc_logo.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/la_lr_logo.png" alt="Learning Assistant: Leafmap Repository Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/mta_gh_logo.png" alt="Markdown Text Assistant: GH Flavor Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/gisaa_logo.png" alt="GIS Autonomous Assistant Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/gsdga_logo.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/st_opl_logo.png" alt="Script Translator: Outline in Plain Language Logo" width="30%"/>
-</p>
-
-
-Knowledge Builder's logo as well as the ones I moved above their headlines worked: 
-
-
 <p align="center">
   <img src="./data/kb_cdfr.png" alt="Knowledge Builder Agent Logo" width="30%"/>
 </p>
-
 
 ## 01. Knowledge Builder Agent: Compile Docs from Repo
 [Read More](./01_Knowledge_Builder_Agent_-_Compile_Docs_from_Repo.md) | [GPT Link](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
 This GPT is designed to create compiled text documents for knowledge retrieval from GitHub projects. It processes GitHub repository archives by extracting, reviewing, and compiling the content. This agent is ideal for users looking to consolidate and simplify their access to repository documentation. It's particularly useful for building custom GPT's with your own documentation, or documentation from a project you are trying to explore and utilize with AI-assisted coding. 
 
+<p align="center">
+  <img src="./data/sf_ddc_logo.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="30%"/>
+</p>
+
 ## 02. Structure Flooding: Depth Damage Calculator
 [Read More](./02_Structure_Flooding_-_Depth_Damage_Calculator.md) | [GPT Link](https://chat.openai.com/g/g-XZoGRmdOm-structure-flooding-depth-damage-calculator)
 The Structure Flooding: Depth Damage Calculator is a specialized tool for providing flood depth-damage estimates using HEC-FIA/FEMA Documentation. It assists Water Resource Engineers and Certified Floodplain Managers in estimating flood damage with established methodologies. 
+
+<p align="center">
+  <img src="./data/la_lr_logo.png" alt="Learning Assistant: Leafmap Repository Logo" width="30%"/>
+</p>
 
 ## 03. Learning Assistant: Leafmap Repository
 [Read More](./03_Learning_Assistant_-_Leafmap_Repository.md) | [GPT Link](https://chat.openai.com/g/g-rcQ2xaKHj-learning-assistant-geospatial-mapping)
 As the 'Leafmap Examples Expert', this GPT guides users through the Leafmap package, focusing on its examples and functionalities as outlined in the provided GitHub repository and documentation. It serves as an educational tool for those looking to expand their GIS capabilities with Leafmap. This assistant is perfect for users seeking detailed, step-by-step guidance on implementing Leafmap's various features and applications.
 
+<p align="center">
+  <img src="./data/mta_gh_logo.png" alt="Markdown Text Assistant: GH Flavor Logo" width="30%"/>
+</p>
+
 ## 04. Markdown Text Assistant: GH Flavor
 [Read More](./04_Markdown_Text_Assistant_-_GH_Flavor.md) | [GPT Link](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0dcfaf4ede0cff60f8396) 
 The Markdown Text Assistant is specialized in GitHub Flavored Markdown, helping users to format text, create lists, embed images, and more. It's designed to assist those looking to improve their markdown documents on GitHub, providing guidance on syntax and structure. This GPT is an invaluable resource for creating more readable, professional, and functional GitHub documentation.
+
+
+<p align="center">
+  <img src="./data/gisaa_logo.png" alt="GIS Autonomous Assistant Logo" width="30%"/>
+</p>
 
 ## 05. GIS Autonomous Assistant
 [Read More](./05_GIS_Autonomous_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
@@ -70,10 +48,17 @@ This GPT serves as an autonomous assistant for GIS-related tasks, providing expe
 [Read More](./06_Voice_Notes_Transcription_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0de7e0650231c0f279feb) 
 The Voice Notes Transcription Assistant is designed to transcribe and organize voice notes efficiently. It's a valuable tool for professionals and students alike, turning spoken words into written text. This assistant is perfect for meetings, lectures, or any scenario where quick, accurate transcriptions are needed, providing a written record for reference and analysis.
 
+<p align="center">
+  <img src="./data/gsdga_logo.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
+</p>
 
 ## 07. Gridded Soil Data GIS Assistant
 [Read More](./07_Gridded_Soil_Data_GIS_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-6mEgJHzsU-gridded-soil-data-gis-assistant)
 The Gridded Soil Data GIS Assistant is an expert in handling and analyzing spatial soil data. It aids users in processing gridded soil datasets, providing insights into soil composition, properties, and distribution. This GPT is a valuable resource for environmental scientists, agricultural planners, and anyone needing detailed soil information for land management and analysis.
+
+<p align="center">
+  <img src="./data/st_opl_logo.png" alt="Script Translator: Outline in Plain Language Logo" width="30%"/>
+</p>
 
 ## 08. Script Translator: Outline in Plain Language
 [Read More](./08_Script_Translator_-_Outline_in_Plain_Language.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0d99566fa9d07218c4bf4) 
