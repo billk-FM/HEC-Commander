@@ -17,9 +17,7 @@
   <img src="./data/gis_aa.png" alt="GIS Autonomous Assistant Logo" width="30%"/>
 </p>
 
-<p align="center">
-  <img src="./data/vnta_logo.png" alt="Voice Notes Transcription Assistant Logo" width="30%"/>
-</p>
+
 
 <p align="center">
   <img src="./data/gsd_gda.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
@@ -81,9 +79,14 @@ The Markdown Text Assistant is specialized in GitHub Flavored Markdown, helping 
 [Read More](./05_GIS_Autonomous_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-2mZE2aq07-gis-assistant)
 This GPT serves as an autonomous assistant for GIS-related tasks, providing expertise in geographic information systems. It helps users understand and utilize GIS tools and data effectively. Whether you're analyzing spatial data, creating maps, or managing GIS databases, this assistant provides knowledgeable support, making complex GIS tasks more approachable and manageable.
 
+<p align="center">
+  <img src="./data/vnta_logo.png" alt="Voice Notes Transcription Assistant Logo" width="30%"/>
+</p>
+
 ## 06. Voice Notes Transcription Assistant
 [Read More](./06_Voice_Notes_Transcription_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0de7e0650231c0f279feb) 
 The Voice Notes Transcription Assistant is designed to transcribe and organize voice notes efficiently. It's a valuable tool for professionals and students alike, turning spoken words into written text. This assistant is perfect for meetings, lectures, or any scenario where quick, accurate transcriptions are needed, providing a written record for reference and analysis.
+
 
 ## 07. Gridded Soil Data GIS Assistant
 [Read More](./07_Gridded_Soil_Data_GIS_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-6mEgJHzsU-gridded-soil-data-gis-assistant)
