@@ -11,7 +11,7 @@ _GPT Visibility: Anyone with the Link (Public but not listed on GPT Store)_
 
 
 ## Description
-Expert in HEC-Commander scripts and markdowns.
+Expert in HEC-Commander Scripts and Automation of HEC-HMS, HEC-RAS, and Visualization of DSS Files
 
 ## Instructions
 ```
