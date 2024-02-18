@@ -88,7 +88,9 @@ The HEC-Commander Repository Assistant is an expert in HEC-Commander scripts and
 [Read More](./11_Water_Resource_Python_Notebook_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant) [Huggingchat GPT with Codellama 70B](https://hf.co/chat/assistant/65c93874acad45bb02e78dcb)
 The Water Resource Python Notebook Assistant is a specialist in Python coding for water resources engineering. It assists users in building, refactoring, and debugging Python notebooks, especially in the context of hydrological modeling and analysis. This GPT is an essential tool for water resource engineers and researchers, facilitating the use of Python for complex simulations and data analysis.
 
-
+<p align="center">
+  <img src="./data/sala_logo.png" width="30%">
+</p>
 
 ## 12. Repo Assistant: Segment Anything Repos
 [Read More](./12_Repo_Assistant_-_Segment_Anything_Repos.md) | [GPT Link](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
@@ -105,7 +107,7 @@ The Repo Assistant: Segment Anything Repos is a specialized tool focused on the 
 The Virtual River Modeling Vodcast Host, introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) by the Australian Water School, is an innovative tool for exploring topics in hydraulic engineering. With access to transcribed episodes of the RAS Solution YouTube Channel, this GPT specializes in responding to queries about past vodcasts and guiding users to specific episodes. Its unique processing of transcripts using Whisper and Mistral-medium technologies ensures intelligent, contextually aware responses. Ideal for delving into detailed discussions on hydraulic modeling, particularly for those seeking insights from the RAS Solution vodcasts.
 
 <p align="center">
-  <img src="./data/racape.png" width="30%">
+  <img src="./data/racpae.png" width="30%">
 </p>
 
 ## 14. River Analysis Controller Python API Expert
