@@ -1,20 +1,64 @@
 # Repository of GPT's for Water Resources Engineers
-<img src="./data/kb_logo.png" alt="Knowledge Builder Agent Logo" width="25%"/>
-<img src="./img/sf_logo.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="25%"/>
-<img src="./img/la_logo.png" alt="Learning Assistant: Leafmap Repository Logo" width="25%"/>
-<img src="./img/mta_logo.png" alt="Markdown Text Assistant: GH Flavor Logo" width="25%"/>
-<img src="./img/gis_logo.png" alt="GIS Autonomous Assistant Logo" width="25%"/>
-<img src="./img/vnta_logo.png" alt="Voice Notes Transcription Assistant Logo" width="25%"/>
-<img src="./img/gsd_logo.png" alt="Gridded Soil Data GIS Assistant Logo" width="25%"/>
-<img src="./img/st_logo.png" alt="Script Translator: Outline in Plain Language Logo" width="25%"/>
-<img src="./img/jnpe_logo.png" alt="Jupyter Notebook Portability Enhancer Logo" width="25%"/>
-<img src="./img/hec_logo.png" alt="HEC-Commander Repository Assistant Logo" width="25%"/>
-<img src="./img/wr_logo.png" alt="Water Resource Python Notebook Assistant Logo" width="25%"/>
-<img src="./img/ra_logo.png" alt="Repo Assistant: Segment Anything Repos Logo" width="25%"/>
-<img src="./img/vrm_logo.png" alt="Virtual River Modeling Vodcast Host Logo" width="25%"/>
-<img src="./img/rac_logo.png" alt="River Analysis Controller Python API Expert Logo" width="25%"/>
-<!-- Assuming 'Python Notebook GUI Builder' uses the initials 'pngb', the following would be the tag for it -->
-<img src="./img/pngb_logo.png" alt="Python Notebook GUI Builder Logo" width="25%"/>
+<p align="center">
+  <img src="./data/kb_cdfr.png" alt="Knowledge Builder Agent Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/sf_ddc.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/la_lr.png" alt="Learning Assistant: Leafmap Repository Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/mta_gh.png" alt="Markdown Text Assistant: GH Flavor Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/gis_aa.png" alt="GIS Autonomous Assistant Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/vnta_logo.png" alt="Voice Notes Transcription Assistant Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/gsd_gda.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/st_opl.png" alt="Script Translator: Outline in Plain Language Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/jnpe_logo.png" alt="Jupyter Notebook Portability Enhancer Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/hec_rc.png" alt="HEC-Commander Repository Assistant Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/wr_pna.png" alt="Water Resource Python Notebook Assistant Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/ra_sar.png" alt="Repo Assistant: Segment Anything Repos Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/vrm_vh.png" alt="Virtual River Modeling Vodcast Host Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/rac_pa.png" alt="River Analysis Controller Python API Expert Logo" width="30%"/>
+</p>
+
+<p align="center">
+  <img src="./data/pnb_gb.png" alt="Python Notebook GUI Builder Logo" width="30%"/>
+</p>
+
 
 ## 01. Knowledge Builder Agent: Compile Docs from Repo
 [Read More](./01_Knowledge_Builder_Agent_-_Compile_Docs_from_Repo.md) | [GPT Link](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
