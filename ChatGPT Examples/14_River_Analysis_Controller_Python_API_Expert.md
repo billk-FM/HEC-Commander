@@ -1,5 +1,10 @@
 # River Analysis Controller: Python API Expert
 
+<p align="center">
+  <img src="./data/racpae.png" width="300">
+</p>
+
+
 **Debut:** The River Analysis Controller: Python API Expert was introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) hosted by Australian Water School.  This is an early, unexplored GPT with access to the pyras library.  The intention of this GPT is to create hecrascontroller scripts in python using AI assistance, but has not yet been put to the test!
 
 **Link:** 
