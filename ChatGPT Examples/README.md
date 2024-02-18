@@ -1,63 +1,46 @@
 # Repository of GPT's for Water Resources Engineers
 
-
-<p align="center">
-  <img src="./data/sf_ddc.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/la_lr.png" alt="Learning Assistant: Leafmap Repository Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/mta_gh.png" alt="Markdown Text Assistant: GH Flavor Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/gis_aa.png" alt="GIS Autonomous Assistant Logo" width="30%"/>
-</p>
-
-
-
-<p align="center">
-  <img src="./data/gsd_gda.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
-</p>
-
-<p align="center">
-  <img src="./data/st_opl.png" alt="Script Translator: Outline in Plain Language Logo" width="30%"/>
-</p>
+This one worked:
 
 <p align="center">
   <img src="./data/jnpe_logo.png" alt="Jupyter Notebook Portability Enhancer Logo" width="30%"/>
 </p>
 
+
+These didn't: 
+
 <p align="center">
-  <img src="./data/hec_rc.png" alt="HEC-Commander Repository Assistant Logo" width="30%"/>
+  <img src="./data/sf_ddc_logo.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="./data/wr_pna.png" alt="Water Resource Python Notebook Assistant Logo" width="30%"/>
+  <img src="./data/la_lr_logo.png" alt="Learning Assistant: Leafmap Repository Logo" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="./data/ra_sar.png" alt="Repo Assistant: Segment Anything Repos Logo" width="30%"/>
+  <img src="./data/mta_gh_logo.png" alt="Markdown Text Assistant: GH Flavor Logo" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="./data/vrm_vh.png" alt="Virtual River Modeling Vodcast Host Logo" width="30%"/>
+  <img src="./data/gisaa_logo.png" alt="GIS Autonomous Assistant Logo" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="./data/rac_pa.png" alt="River Analysis Controller Python API Expert Logo" width="30%"/>
+  <img src="./data/gsdga_logo.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
 </p>
 
 <p align="center">
-  <img src="./data/pnb_gb.png" alt="Python Notebook GUI Builder Logo" width="30%"/>
+  <img src="./data/st_opl_logo.png" alt="Script Translator: Outline in Plain Language Logo" width="30%"/>
 </p>
+
+
+Knowledge Builder's logo as well as the ones I moved above their headlines worked: 
+
 
 <p align="center">
   <img src="./data/kb_cdfr.png" alt="Knowledge Builder Agent Logo" width="30%"/>
 </p>
+
 
 ## 01. Knowledge Builder Agent: Compile Docs from Repo
 [Read More](./01_Knowledge_Builder_Agent_-_Compile_Docs_from_Repo.md) | [GPT Link](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
