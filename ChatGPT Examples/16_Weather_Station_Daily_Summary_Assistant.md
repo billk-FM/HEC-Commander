@@ -1,14 +1,10 @@
-https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant
+# Weather Station Daily Summary Assistant
+
 
 <p align="center">
   <img src="./data/wsdsa_logo.png" width="300">
 </p>
 
-# Weather Station Daily Summary Assistant
-
-<p align="center">
-  <img src="./data/pnge.png" width="300">
-</p>
 
 Link: [Weather Station Daily Summary Assistant](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
 
