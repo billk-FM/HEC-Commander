@@ -1,5 +1,9 @@
 # Virtual River Modeling Vodcast Host
 
+<p align="center">
+  <img src="./data/vrmvh.png" width="300">
+</p>
+
 **Debut:** The Virtual River Modeling Vodcast Host was introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) hosted by Australian Water School.
 
 **Capabilities:** 
