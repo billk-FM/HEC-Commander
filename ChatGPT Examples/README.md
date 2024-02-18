@@ -96,6 +96,10 @@ The Gridded Soil Data GIS Assistant is an expert in handling and analyzing spati
 [Read More](./08_Script_Translator_-_Outline_in_Plain_Language.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0d99566fa9d07218c4bf4) 
 The Script Translator takes complex scripts and outlines them in plain language, making technical content accessible to a broader audience. It's particularly useful for educators, researchers, and project managers who need to translate technical jargon into understandable terms. Whether you're working with code, research papers, or technical guides, this assistant ensures your material is clear and comprehensible.
 
+<p align="center">
+  <img src="./data/jnpe_logo.png" alt="Jupyter Notebook Portability Enhancer Logo" width="30%"/>
+</p>
+
 ## 09. Jupyter Notebook Portability Enhancer
 [Read More](./09_Jupyter_Notebook_Portability_Enhancer.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0df9c1a0734a9345fafba) 
 The Jupyter Notebook Portability Enhancer makes Jupyter Notebooks more accessible and portable. It generates code cells to handle package installation inside virtual environments, streamlining the setup process. This GPT is invaluable for data scientists and educators who frequently share Jupyter Notebooks, ensuring smooth transitions and functionality across different systems.
