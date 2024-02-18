@@ -122,7 +122,11 @@ The River Analysis Controller: Python API Expert was introduced during the [Febr
 [Read More](./15_Notebook_GUI_Builder.md) | [GPT](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0e11b1a0734a9345fb000) 
 The Python Notebook GUI Builder is a specialized GPT focusing on integrating Tkinter and Tkbootstrap GUIs within Jupyter Notebooks, particularly in a Windows environment using VS Code.  The assistant excels in layout design, entry box formatting, and window prioritization, and it communicates in a formal, technical tone. This tool is ideal for those looking to enhance their Jupyter Notebooks with interactive, custom GUI elements, streamlining user input and data presentation.
 
-## Coming Soon: Video Streaming and Recording Expert, Water Resources River Analysis Modeling Expert, GHNCD Data Download Expert
+## 16. ChatGPT Examples/16_Weather_Station_Daily_Summary_Assistant.md
+[Read More](./16_Weather_Station_Daily_Summary_Assistant.md) | [GPT](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
+Expert Assistant in GHNCD Weather Station Daily Summaries from AWS Open Data.  This GPT is the companion to the [GHNCD DSS Comparison Tool](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander/GHNCD_Comparison_Tool) script that allows compilation of GHNCD data from AWS and comparison of land based GHNCD stations with DSS gridded precipitation
+
+## Coming Soon: Video Streaming and Recording Expert, Water Resources River Analysis Modeling Expert
 
 
 ## Repository Overview
