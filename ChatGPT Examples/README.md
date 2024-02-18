@@ -1,7 +1,5 @@
 # Repository of GPT's for Water Resources Engineers
-<p align="center">
-  <img src="./data/kb_cdfr.png" alt="Knowledge Builder Agent Logo" width="30%"/>
-</p>
+
 
 <p align="center">
   <img src="./data/sf_ddc.png" alt="Structure Flooding: Depth Damage Calculator Logo" width="30%"/>
@@ -59,6 +57,9 @@
   <img src="./data/pnb_gb.png" alt="Python Notebook GUI Builder Logo" width="30%"/>
 </p>
 
+<p align="center">
+  <img src="./data/kb_cdfr.png" alt="Knowledge Builder Agent Logo" width="30%"/>
+</p>
 
 ## 01. Knowledge Builder Agent: Compile Docs from Repo
 [Read More](./01_Knowledge_Builder_Agent_-_Compile_Docs_from_Repo.md) | [GPT Link](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
