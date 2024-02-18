@@ -49,7 +49,7 @@ This GPT serves as an autonomous assistant for GIS-related tasks, providing expe
 The Voice Notes Transcription Assistant is designed to transcribe and organize voice notes efficiently. It's a valuable tool for professionals and students alike, turning spoken words into written text. This assistant is perfect for meetings, lectures, or any scenario where quick, accurate transcriptions are needed, providing a written record for reference and analysis.
 
 <p align="center">
-  <img src="./data/gsdga_logo.png" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
+  <img src="./data/gsdga_logo.jpg" alt="Gridded Soil Data GIS Assistant Logo" width="30%"/>
 </p>
 
 ## 07. Gridded Soil Data GIS Assistant
