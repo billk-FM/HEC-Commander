@@ -72,27 +72,50 @@ The Script Translator takes complex scripts and outlines them in plain language,
 [Read More](./09_Jupyter_Notebook_Portability_Enhancer.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0df9c1a0734a9345fafba) 
 The Jupyter Notebook Portability Enhancer makes Jupyter Notebooks more accessible and portable. It generates code cells to handle package installation inside virtual environments, streamlining the setup process. This GPT is invaluable for data scientists and educators who frequently share Jupyter Notebooks, ensuring smooth transitions and functionality across different systems.
 
+<p align="center">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/misc/HEC-Commander-splash-logo.png" width="30%">
+</p>
+
 ## 10. HEC-Commander Repository Assistant
 [Read More](./10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)  
 The HEC-Commander Repository Assistant is an expert in HEC-Commander scripts and markdowns, offering a comprehensive understanding of this suite. It aids users in navigating and utilizing HEC-Commander tools, providing a rich source of documentation and support. This GPT is ideal for engineers and technicians working with hydrologic modeling and analysis, enhancing their ability to leverage HEC-Commander's full potential.
+
+<p align="center">
+  <img src="./data/wraii_logo.png" width="30%">
+</p>
 
 ## 11. Water Resource Python Notebook Assistant
 [Read More](./11_Water_Resource_Python_Notebook_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant) [Huggingchat GPT with Codellama 70B](https://hf.co/chat/assistant/65c93874acad45bb02e78dcb)
 The Water Resource Python Notebook Assistant is a specialist in Python coding for water resources engineering. It assists users in building, refactoring, and debugging Python notebooks, especially in the context of hydrological modeling and analysis. This GPT is an essential tool for water resource engineers and researchers, facilitating the use of Python for complex simulations and data analysis.
 
+
+
 ## 12. Repo Assistant: Segment Anything Repos
 [Read More](./12_Repo_Assistant_-_Segment_Anything_Repos.md) | [GPT Link](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
 The Repo Assistant: Segment Anything Repos is a specialized tool focused on the FastSAM, Segment-Anything, and Segment-Geospatial repositories. It is designed to assist users in navigating and utilizing these repositories, which are centered around advanced image segmentation technologies.
+
+
+<p align="center">
+  <img src="./data/vrmvh.png" width="30%">
+</p>
+
 
 ## 13. Virtual River Modeling Vodcast Host
 [Read More](./13_Virtual_River_Modeling_Vodcast_Host.md) | [GPT Link](https://chat.openai.com/g/g-YaMbdBv95-virtual-river-modeling-vodcast-host)
 The Virtual River Modeling Vodcast Host, introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) by the Australian Water School, is an innovative tool for exploring topics in hydraulic engineering. With access to transcribed episodes of the RAS Solution YouTube Channel, this GPT specializes in responding to queries about past vodcasts and guiding users to specific episodes. Its unique processing of transcripts using Whisper and Mistral-medium technologies ensures intelligent, contextually aware responses. Ideal for delving into detailed discussions on hydraulic modeling, particularly for those seeking insights from the RAS Solution vodcasts.
 
+<p align="center">
+  <img src="./data/racape.png" width="30%">
+</p>
+
 ## 14. River Analysis Controller Python API Expert
 [Read More](./14_River_Analysis_Controller_Python_API_Expert.md) | [GPT](https://chat.openai.com/g/g-IhZ9qC7Gs-river-analysis-controller-python-api-expert)
 The River Analysis Controller: Python API Expert was introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) hosted by Australian Water School.  This is an early, unexplored GPT with access to the pyras library.  The intention of this GPT is to create hecrascontroller scripts in python using AI assistance, but has not yet been put to the test!
 
-Coming Soon:
+<p align="center">
+  <img src="./data/pnge.png" width="30%">
+</p>
+
 ## 15. Python Notebook GUI Builder
 [Read More](./15_Notebook_GUI_Builder.md) | [GPT](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0e11b1a0734a9345fb000) 
 The Python Notebook GUI Builder is a specialized GPT focusing on integrating Tkinter and Tkbootstrap GUIs within Jupyter Notebooks, particularly in a Windows environment using VS Code.  The assistant excels in layout design, entry box formatting, and window prioritization, and it communicates in a formal, technical tone. This tool is ideal for those looking to enhance their Jupyter Notebooks with interactive, custom GUI elements, streamlining user input and data presentation.
