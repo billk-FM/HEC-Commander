@@ -1,4 +1,9 @@
 # Notebook GUI Builder
+
+<p align="center">
+  <img src="./data/pnge.png" width="300">
+</p>
+
 Link: [Notebook GUI Builder](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder)
 
 *New* Huggingface Assistant 
