@@ -1,4 +1,11 @@
 # Repo Assistant: Segment Anything Repos
+
+<p align="center">
+  <img src="./data/sala_logo.png" width="300">
+</p>
+
+
+
 Link: [Segment Anything Repos](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
 
 ## Description
