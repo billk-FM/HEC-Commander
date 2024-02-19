@@ -6,6 +6,11 @@ The GHNCD Precipitation Comparison Tool consists of two Jupyter Notebook scripts
 A full example with watershed shapefile and DSS input files can be found at the link below:
 [GHNCD_Precipitation_DSS_Comparison_Example.zip](https://chfenstermaker-my.sharepoint.com/:u:/g/personal/billk_fenstermaker_com/EeCDcSW6G1hJgc1PxnkqYOwBnu85HWsGaL8wuvZYgqq_tw?e=Tzgk3q) 
 
+Also, a custom GPT has been created to accompany these scripts to help users with using/extending their capabilities or building their own workflows: 
+[Weather Station Daily Summary Assistant](https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/16_Weather_Station_Daily_Summary_Assistant.md)
+
+
+
 ## Requirements
 To run these scripts, you will need a Python environment with specific libraries installed. The primary requirements are Jupyter Notebook, Pandas for data manipulation, Geopandas for spatial data operations, Matplotlib for plotting, and additional libraries for handling geospatial data and performing numerical operations.
 
