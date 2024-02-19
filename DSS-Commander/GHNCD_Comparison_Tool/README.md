@@ -13,7 +13,7 @@ A full example with watershed shapefile and DSS input files can be found at the 
 
 
 Also, a custom GPT has been created to accompany these scripts to help users with using/extending their capabilities or building their own workflows: 
-[Weather Station Daily Summary Assistant](../ChatGPT%20Examples/16_Weather_Station_Daily_Summary_Assistant.md)
+[Weather Station Daily Summary Assistant](./ChatGPT%20Examples/16_Weather_Station_Daily_Summary_Assistant.md)
 
 
 
