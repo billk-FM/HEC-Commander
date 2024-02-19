@@ -55,18 +55,18 @@ User inputs should be placed in the first 2 cells of the notebook, "User Inputs"
 
 Here is a screenshot showing notebook with all cells collapsed and the GUI visible:
 <p align="center">
-  <img src="img/RAS-Commander-GUI-full2.png" width="300">
+  <img src="img/RAS-Commander-GUI-full2.png" width="50%">
 </p>
 
 The User Inputs code cell is shown below: 
 <p align="center">
-  <img src="img/RAS-Commander-User_Inputs.png" width="300">
+  <img src="img/RAS-Commander-User_Inputs.png" width="50%">
 </p>
 
 
 The Additional Settings code Cell is shown below: 
 <p align="center">
-  <img src="img/RAS-Commander-Additional_Settings.png" width="300">
+  <img src="img/RAS-Commander-Additional_Settings.png" width="50%">
 </p>
 
 **The inputs in the first 2 code cells are treated as defaults and are persistent.** 
@@ -92,19 +92,19 @@ The Additional Settings code Cell is shown below:
     * `"Run Missing"`: In this mode, RAS-Commander runs an existing project, executing only those plans that are missing from the HEC-RAS output folder.
       
       <p align="center">
-        <img src="img/RAS-Commander-GUI-Run_Missing.png" width="300">
+        <img src="img/RAS-Commander-GUI-Run_Missing.png" width="50%">
       </p>
 
     * `"Build from DSS"`: This mode enables RAS-Commander to build plans from a HEC-RAS template folder and subsequently run them.
       
       <p align="center">
-        <img src="img/RAS-Commander-GUI-Build_From_DSS.png" width="300">
+        <img src="img/RAS-Commander-GUI-Build_From_DSS.png" width="50%">
       </p>
 
     * `"Additional Settings"`: This option opens a GUI for editing additional settings.
       
       <p align="center">
-        <img src="img/RAS-Commander-GUI-Additional_Settings.png" width="100">
+        <img src="img/RAS-Commander-GUI-Additional_Settings.png" width="50%">
       </p>
 
 
