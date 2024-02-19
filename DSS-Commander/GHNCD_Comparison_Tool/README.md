@@ -7,7 +7,7 @@ A full example with watershed shapefile and DSS input files can be found at the 
 [GHNCD_Precipitation_DSS_Comparison_Example.zip](https://chfenstermaker-my.sharepoint.com/:u:/g/personal/billk_fenstermaker_com/EeCDcSW6G1hJgc1PxnkqYOwBnu85HWsGaL8wuvZYgqq_tw?e=Tzgk3q) 
 
 <p align="center">
-  <img src="./data/wsdsa_logo.png" width="20%">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/data/wsdsa_logo.png" width="20%">
 </p>
 
 
