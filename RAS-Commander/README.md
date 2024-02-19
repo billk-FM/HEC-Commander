@@ -66,7 +66,7 @@ The User Inputs code cell is shown below:
 
 The Additional Settings code Cell is shown below: 
 <p align="center">
-  <img src="img/RAS-Commander-Additional_Settings.png" width="20%">
+  <img src="img/RAS-Commander-Additional_Settings.png" width="50%">
 </p>
 
 **The inputs in the first 2 code cells are treated as defaults and are persistent.** 
@@ -104,7 +104,7 @@ The Additional Settings code Cell is shown below:
     * `"Additional Settings"`: This option opens a GUI for editing additional settings.
       
       <p align="center">
-        <img src="img/RAS-Commander-GUI-Additional_Settings.png" width="50%">
+        <img src="img/RAS-Commander-GUI-Additional_Settings.png" width="30%">
       </p>
 
 
