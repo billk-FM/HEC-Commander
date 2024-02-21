@@ -44,7 +44,7 @@ A collection of blogs and missives about AI, HEC-RAS and HMS scripting, and topi
 ## [ChatGPT Examples and GPT's](https://github.com/billk-FM/HEC-Commander/tree/main/ChatGPT%20Examples)
 A collection of other useful GPT's and ChatGPT conversation examples to complement this repository can be found in the [ChatGPT Examples Folder](./ChatGPT%20Examples/README.md) 
 
-## ChatGPT Assistant for HEC-Commander Repository
+## [ChatGPT Assistant for HEC-Commander Repository](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
 [HEC-Commander Repository Assistant](./ChatGPT%20Examples/10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant) has access to a compiled version of the documentation in its Knowledge Base, as well as a zip file containing all of the content in the repo for retrieval  This GPT can be used to learn about the scripts, ask for instructions to help you debug any errors, as well as provide coding assistance for revising scripts for your use:
 
 
