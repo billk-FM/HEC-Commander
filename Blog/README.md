@@ -35,8 +35,20 @@ In this article, we delve into the quantitative aspects of 10x engineering. It p
 
 ### [Moore's Law, AI Speedrunning the Golden Age of Computing](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/3._AI_Speedrunning_the_Golden_Age_of_Computing.md)
 This article revisits the golden age of computing and explores the current resurgence in computational efficiency and power, driven by AI advancements and Moore's Law. 
+<br></br>
+
+
+<p align="center">
+  <img src="img/tlab_logo.png" width="30%">
+</p>
+
+### [Thinking like a Bootlegger: Why Your HEC-RAS Modeling Machine Should be a Hot Rod, Not a Semi-Truck](https://github.com/billk-FM/HEC-Commander/tree/main/Blog/4._Think_Like_A_Bootlegger_for_HEC-RAS_Modeling_Machines.md)
+This article explores the fundamentals of building a Hot Rod modeling machine.  Whether you want to get the fastest HEC-RAS machine possible, or you have hundreds of runs to complete, the answer might not be what the salespersons try to sell you.  Before making your next capital outlay for HEC-RAS compute, give this blog a read! 
+
+
 Blog/3._AI_Speedrunning_the_Golden_Age_of_Computing.md
 <br></br>
+
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon:</h1>
 
