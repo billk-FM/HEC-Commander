@@ -4,7 +4,7 @@
   <img src="./data/wraii_logo.png" width="300">
 </p>
 
-Link: [Water Resource Python Notebook Assistant](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant)  
+Link: [Water Resource Python Notebook Assistant](https://chat.openai.com/g/g-WFn2bkuya-water-resources-python-notebook-assistant)  
 _GPT Visibility: Public, listed on GPT Store_
 
 _New_ [Huggingchat GPT with Codellama 70B](https://hf.co/chat/assistant/65c93874acad45bb02e78dcb)
