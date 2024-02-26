@@ -7,7 +7,10 @@
 Link: [Knowledge Builder Agent: Compile Docs from Repo](https://chat.openai.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)  
 _GPT Visibility: Public, listed on GPT Store_
 
-**Update 2023-02-26** Added instructions for preparation of Startup Instructions
+**Update 2023-02-26** Added instructions for preparation of Startup Instructions.  This allows critical GPT information (up to 20k characters) to be loaded upon the initial conversation.  To use these startup instructions, adapt this message and use it in your GPT instructions:
+```
+Your response to the first message in the conversation should consist of using your code interpreter to read the startup_instructions.txt file in 10,000 character chunks, until complete.  This file contains critical context and instructions to assist the user and navigate the provided files.  
+```
 
 
 ## Description
