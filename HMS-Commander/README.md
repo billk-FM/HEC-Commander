@@ -52,39 +52,57 @@ This script performs the following steps:
 
 Please use a Python 3.9 environment or higher, and ensure you have the correct version of the Java SDK installed for the version of HEC-HMS you have specified in the script.  The script has been tested with HEC-HMS 4.9, Jython 2.4.3 and Java SDK 20.0.1, per the Quick Guide.    
 
-# User Defined Inputs Overview
+## User-Defined Inputs for HMS-Commander Scripts
 
-In the HMS-Commander Python notebooks, several user-defined inputs are required to customize the automation and execution of HEC-HMS models. Below is an overview of the primary inputs that users need to specify:
+To successfully run the HMS-Commander scripts for automating the HEC-HMS Hydrologic Modeling System, users need to provide several key inputs. These inputs are essential for the script to function correctly and to achieve the desired outcomes from the hydrologic models.
 
-## HMS Project Directory and Project Name
-- `hms_project_directory`: The directory where your HEC-HMS project is located. 
-  - Example: `r"C:\WMK_Working\WF_WestForkCalcasieu_Demo\HMS"`
-- `hms_basin_file`: The name of the basin file within your HEC-HMS project.
-  - Example: `"2018_Existing_Conditions.basin"`
+### 1. HMS Project Directory and Project Name
 
-## Calibration Runs CSV Filename
-- `user_calibration_runs_csv_fullpath`: The full path to the CSV file containing the parameters for each calibration run. This file should be placed in the HMS Project Directory.
-  - Example: `r"C:\WMK_Working\WF_WestForkCalcasieu_Demo\Example_User_Run_Parameters.csv"`
+- **`hms_project_directory`**
+  - **Description:** This is the directory where your HEC-HMS project is located.
+  - **Example:** `hms_project_directory = r"C:\Your_HMS_Project_Directory"`
 
-## HMS Run Names
-- `hms_run_names`: A list of run names defined in your HEC-HMS project. Each name will generate a full set of user-defined runs.
-  - Example: 
+### 2. Basin File Name
+
+- **`hms_basin_file`**
+  - **Description:** The name of your HEC-HMS basin file.
+  - **Example:** `hms_basin_file = "Your_HMS_Basin.basin"`
+
+### 3. Calibration Runs CSV Filename
+
+- **`user_calibration_runs_csv_filename`**
+  - **Description:** The name of the CSV file that contains the calibration run parameters. This file should be located in the HMS Project Directory.
+  - **Example:** `user_calibration_runs_csv_filename = "Example_Test.csv"`
+
+### 4. HMS Run Names
+
+- **`hms_run_names`**
+  - **Description:** A list of run names as defined in your HEC-HMS project. Each name in this list will generate a full set of user-defined runs.
+  - **Example:**
     ```python
     hms_run_names = [
-        #"Delta 2020",
-        "May 2021",
+        "Your_Run_Name_1",
+        # Add more run names as needed
     ]
     ```
 
-## DSS Output File Suffix
-- `hms_dss_suffix`: A suffix to add to the DSS output files for differentiation. This helps in organizing and identifying various run sets.
-  - Example: `"_Demo_2024-02-15"`
+### 5. DSS Output File Suffix
 
-## Recession Baseflow Setting
-- `hms_recession_baseflow`: A boolean value indicating whether to override the "Baseflow: None" setting in the HMS model to "Baseflow: Recession". This is useful for adding recession baseflow parameters to the simulation.
-  - Example: `True`
+- **`hms_dss_suffix`**
+  - **Description:** A suffix for the DSS output file to differentiate between various run sets.
+  - **Example:**
+    ```python
+    hms_dss_suffix = "_Batch_Name"  # define your suffix here
+    print("DSS Suffix: " + hms_dss_suffix)
+    ```
 
-These inputs are critical for tailoring the HMS-Commander scripts to specific project needs, ensuring that the automated processes align with the user's modeling objectives.
+### 6. Override Baseflow Setting
+
+- **`hms_recession_baseflow`**
+  - **Description:** A boolean value to determine whether to override the 'Baseflow: None' setting to 'Baseflow: Recession'. Set to True to activate this override.
+  - **Example:** `hms_recession_baseflow = True`
+
+Properly specifying these user-defined inputs is crucial for tailoring the HMS-Commander scripts to meet the specific needs of your project.
 
 
 
