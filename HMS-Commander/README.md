@@ -32,7 +32,6 @@ This script performs the following steps:
 5. Repeat until all user runs have beeen executed
 
 
-<br>
 **[HMS-Commander - With Calibration Regions.ipynb](./HMS-Commander%20-%20With%20Calibration%20Regions.ipynb)**
 
 Same features as HMS-Commander, with the abilit to create Calibration Regions
@@ -43,23 +42,50 @@ This script performs the following steps:
 1. Read User Input CSV
 2. Read Calibration Regions Shapefile
 3. Determine calibration region for each subbasin
-4. For each user-defined run whose output file is missing, update the following
-  - Soil and Baseflow Parameters (.basin file)
-  - TC and R (.basin file)
-  - Output DSS file name (.run file)
-  - Impervious Grids if scale >1.0 (.grid file)
-5. Execute HEC-HMS using Jython
-6. Restore files
-7. Repeat until all user runs have beeen executed
+4. (Same as above)
 
 <br>
 ### Quick Start Guide for HEC-Commander
-*Quick Start Guide in PDF Format with screenshots: 
-https://github.com/billk-FM/HEC-Commander/blob/main/Quick%20Start%20Guide%20for%20HEC-Commander.pdf
+[Quick Start Guide in PDF Format with screenshots:](https://github.com/billk-FM/HEC-Commander/blob/main/Quick%20Start%20Guide%20for%20HEC-Commander.pdf)
 
 **You must ensure that Jython is installed to the default location**:  C:\jython2.7.3\
 
 Please use a Python 3.9 environment or higher, and ensure you have the correct version of the Java SDK installed for the version of HEC-HMS you have specified in the script.  The script has been tested with HEC-HMS 4.9, Jython 2.4.3 and Java SDK 20.0.1, per the Quick Guide.    
+
+# User Defined Inputs Overview
+
+In the HMS-Commander Python notebooks, several user-defined inputs are required to customize the automation and execution of HEC-HMS models. Below is an overview of the primary inputs that users need to specify:
+
+## HMS Project Directory and Project Name
+- `hms_project_directory`: The directory where your HEC-HMS project is located. 
+  - Example: `r"C:\WMK_Working\WF_WestForkCalcasieu_Demo\HMS"`
+- `hms_basin_file`: The name of the basin file within your HEC-HMS project.
+  - Example: `"2018_Existing_Conditions.basin"`
+
+## Calibration Runs CSV Filename
+- `user_calibration_runs_csv_fullpath`: The full path to the CSV file containing the parameters for each calibration run. This file should be placed in the HMS Project Directory.
+  - Example: `r"C:\WMK_Working\WF_WestForkCalcasieu_Demo\Example_User_Run_Parameters.csv"`
+
+## HMS Run Names
+- `hms_run_names`: A list of run names defined in your HEC-HMS project. Each name will generate a full set of user-defined runs.
+  - Example: 
+    ```python
+    hms_run_names = [
+        #"Delta 2020",
+        "May 2021",
+    ]
+    ```
+
+## DSS Output File Suffix
+- `hms_dss_suffix`: A suffix to add to the DSS output files for differentiation. This helps in organizing and identifying various run sets.
+  - Example: `"_Demo_2024-02-15"`
+
+## Recession Baseflow Setting
+- `hms_recession_baseflow`: A boolean value indicating whether to override the "Baseflow: None" setting in the HMS model to "Baseflow: Recession". This is useful for adding recession baseflow parameters to the simulation.
+  - Example: `True`
+
+These inputs are critical for tailoring the HMS-Commander scripts to specific project needs, ensuring that the automated processes align with the user's modeling objectives.
+
 
 
 ### Prepare the Run Parameters CSV
