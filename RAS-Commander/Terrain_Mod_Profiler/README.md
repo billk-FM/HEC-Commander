@@ -10,7 +10,7 @@ This Python notebook provides utilities to generate detailed terrain profiles fo
 
 ## Background
 
-LiDAR-derived channels in HEC-RAS can have noisy or flat-bottom profiles, leading to computational difficulties and longer run times. The performance and stability of the model can often be significantly improved by introducing a defined pilot channel, especially in low-flow conditions. This approach, recommended in [Making Your HEC-RAS Model Run Faster](https://www.hec.usace.army.mil/confluence/rasdocs/hgt/files/latest/91881845/105585053/2/1658159468274/Making+HEC-RASModels+Run+Faster.pdf), leverages the RASMapper Terrain Modifications layer to efficiently define these pilot channels.
+LiDAR-derived channels in HEC-RAS can have noisy or flat-bottom profiles, leading to computational difficulties and longer run times. The performance and stability of the model can often be significantly improved by introducing a defined pilot channel, especially in low-flow conditions. This approach, recommended in [Making Your HEC-RAS Model Run Faster](https://www.hec.usace.army.mil/confluence/rasdocs/hgt/files/latest/91881845/105585053/2/1658159468274/Making+HEC-RASModels+Run+Faster.pdf), leverages the RASMapper Terrain Modifications layer to efficiently define these pilot channels.  This script facilitates the creation of STA-Elevation pairs to define the bottom profile of the terrain modifications at a specified sampling and grouping interval. 
 
 ## Core Functionalities
 
