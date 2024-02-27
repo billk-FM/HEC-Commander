@@ -1,6 +1,7 @@
 # Terrain Modification Profile Generator
 
-Author: William Katzenmeyer, P.E., C.F.M.
+Author: William Katzenmeyer, P.E., C.F.M. 
+
 **[Notebook Link](https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/Terrain_Mod_Profiler/Terrain_Mod_Profile_Generator.ipynb)**
 
 ## Purpose
