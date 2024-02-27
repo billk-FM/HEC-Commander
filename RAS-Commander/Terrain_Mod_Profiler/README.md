@@ -2,7 +2,7 @@
 
 Author: William Katzenmeyer, P.E., C.F.M.
 
-Link to Notebook: 
+**[Link to Notebook](https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/Terrain_Mod_Profiler/Terrain_Mod_Profile_Generator.ipynb)**
 
 # Terrain Modification Profile Generator
 
