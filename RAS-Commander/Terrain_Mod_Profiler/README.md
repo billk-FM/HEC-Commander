@@ -2,6 +2,12 @@
 
 Author: William Katzenmeyer, P.E., C.F.M.
 
+
+<p align="center">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_Logo.png" width="50%">
+</p>
+
+
 **[Link to Notebook](https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/Terrain_Mod_Profiler/Terrain_Mod_Profile_Generator.ipynb)**
 
 # Terrain Modification Profile Generator
@@ -33,6 +39,7 @@ LiDAR-derived channels in HEC-RAS can have noisy or flat-bottom profiles, leadin
 - **Profile_Vertical_Adjust:** Vertical adjustment applied to the defined lowest points.
 - **Sampling_Interval:** Raster sampling interval (in meters).
 - **Projection_File_Path:** Projection file for HEC-RAS RASMapper.
+  
 <p align="center">
   <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_1.png" width="50%">
 </p>
