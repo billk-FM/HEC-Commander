@@ -71,7 +71,7 @@ You must specify the paths to your terrain modifications and terrain TIFF files:
 The script generates a CSV file containing a profile for each terrain modification polyline. 
 
 <p align="center">
-  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_2.png" width="75">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_2.png" width="75%">
 </p>
 
 Example of output format:
