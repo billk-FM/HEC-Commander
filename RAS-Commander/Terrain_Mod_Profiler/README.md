@@ -94,3 +94,19 @@ Example of output format:
 
 These profiles can be directly used in the terrain modification editor in RASMapper.
 
+## Designing this Script with ChatGPT
+
+I would be remiss if I didn't mention that this script was coded 100% with GPT-4 using my Water Resources Python Notebook Assistant, Markdown Text Assistant (GH Flavor), and Jupyter Notebook Portability Enhancer.
+
+- **Water Resources Python Notebook Assistant:** [Visit here](https://chat.openai.com/g/g-WFn2bkuya-water-resources-python-notebook-assistant)
+- **Markdown Text Assistant (GH Flavor):** [Visit here](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor)
+- **Jupyter Notebook Portability Enhancer:** [Visit here](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer)
+
+### Chat Examples
+
+Here are some representative examples of the conversations that contributed to the development of this script:
+
+- Initial Code Description in Plain Language >> Python Function Generation: [View conversation](https://chat.openai.com/share/b9dfe6e4-60b2-4f28-b8dd-fe4730759c19)
+- Incorporating Logic for First and Last points: [View conversation](https://chat.openai.com/share/2c009eb2-b89f-4bac-84f8-e5cf34348abb)
+- Automating the package installation: [View conversation](https://chat.openai.com/share/d8e06227-ceb5-4e84-8f32-6a64f7b08946)
+- Writing a README: [View conversation](https://chat.openai.com/share/c3a8a68f-2453-4cd7-9eb3-8ed2c1c4c827)
