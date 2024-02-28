@@ -4,7 +4,7 @@ Author: William Katzenmeyer, P.E., C.F.M.
 
 
 <p align="center">
-  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_Logo.png" width="50%">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_Logo.png" width="30%">
 </p>
 
 
