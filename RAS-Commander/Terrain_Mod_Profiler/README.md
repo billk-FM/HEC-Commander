@@ -33,6 +33,12 @@ LiDAR-derived channels in HEC-RAS can have noisy or flat-bottom profiles, leadin
 - **Profile_Vertical_Adjust:** Vertical adjustment applied to the defined lowest points.
 - **Sampling_Interval:** Raster sampling interval (in meters).
 - **Projection_File_Path:** Projection file for HEC-RAS RASMapper.
+<p align="center">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_1.png" width="300">
+</p>
+<p align="center">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_2.png" width="300">
+</p>
 
 ### Run the Notebook:
 
