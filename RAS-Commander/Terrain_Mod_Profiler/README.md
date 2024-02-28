@@ -34,11 +34,9 @@ LiDAR-derived channels in HEC-RAS can have noisy or flat-bottom profiles, leadin
 - **Sampling_Interval:** Raster sampling interval (in meters).
 - **Projection_File_Path:** Projection file for HEC-RAS RASMapper.
 <p align="center">
-  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_1.png" width="300">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_1.png" width="50%">
 </p>
-<p align="center">
-  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_2.png" width="300">
-</p>
+
 
 ### Run the Notebook:
 
@@ -71,6 +69,10 @@ You must specify the paths to your terrain modifications and terrain TIFF files:
 ## Script Output
 
 The script generates a CSV file containing a profile for each terrain modification polyline. 
+
+<p align="center">
+  <img src="https://github.com/billk-FM/HEC-Commander/blob/main/RAS-Commander/img/Terrain_Profiler_2.png" width="75">
+</p>
 
 Example of output format:
 
