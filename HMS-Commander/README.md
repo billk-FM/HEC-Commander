@@ -4,7 +4,7 @@
 
 # HMS-Commander
 
-Python Notebooks for automating HEC-HMS Hydrologic Modeling System initially developed for LWI Region 4. The provided scripts automate calibration workflows for HEC-HMS models utilizing deficit and constant loss methods, clark unit hydrograph and recession baseflow methods. A white paper is also provided in this repository with examples of how to leverage large language models to edit and extend these scripts for other project-specific workflows.
+HMS-Commander is a python Notebooks for automating HEC-HMS Hydrologic Modeling System workflows, initially developed for LWI Region 4. The provided scripts automate calibration workflows for HEC-HMS models utilizing deficit and constant loss methods, clark unit hydrograph and recession baseflow methods. A white paper is also provided in this repository with examples of how to leverage large language models to edit and extend these scripts for other project-specific workflows.
 
 *[Quick Start Guide in PDF Format with screenshots:](https://github.com/billk-FM/HEC-Commander/blob/main/HMS-Commander/Quick%20Start%20Guide%20for%20HMS-Commander.pdf)*
 
