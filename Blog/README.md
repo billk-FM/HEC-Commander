@@ -18,14 +18,13 @@ Moore's Law, AI Speedrunning the Golden Age of Computing
 This article revisits the golden age of computing and explores the current resurgence in computational efficiency and power, driven by AI advancements and Moore's Law.
 
 <br></br>
-
+<h1 align="center" style="font-weight:bold; font-size: 36px;">Thinking like a Bootlegger: Why Your HEC-RAS Modeling Machine Should be a Hot Rod, Not a Semi-Truck</h1> 
 <p align="center"> <img src="img/tlab_logo.png" width="30%"> </p>
-Thinking like a Bootlegger: Why Your HEC-RAS Modeling Machine Should be a Hot Rod, Not a Semi-Truck
 This article explores the fundamentals of building a Hot Rod modeling machine. Whether you want to get the fastest HEC-RAS machine possible, or you have hundreds of runs to complete, the answer might not be what the salespersons try to sell you. Before making your next capital outlay for HEC-RAS compute, give this blog a read!
 
 <br></br>
 
-Using Terrain Mods on Your LIDAR Defined Channels
+<h1 align="center" style="font-weight:bold; font-size: 36px;">Using Terrain Mods on Your LIDAR Defined Channels</h1> 
 This blog post highlights a useful tip for achieving significant performance gains in HEC-RAS models by using RASMapper's terrain modifications layer to create pilot channels in LIDAR defined channels. It also introduces a new script, Terrain Mod Profiler, to automate the process of generating terrain profiles.
 
 <br></br>
