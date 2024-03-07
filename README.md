@@ -86,3 +86,8 @@ Download the Jython Installer from [Jython.org](https://www.jython.org/download.
 5. Add 'Everyone' and set permissions to 'Read/Write', click "Share"
 
 </details>
+
+# Youtube Channel
+A Youtube Channel with instructional videos to accompany this repository can be found here: [GPT-Commander Youtube Channel](https://www.youtube.com/@GPT_Commander)
+
+
