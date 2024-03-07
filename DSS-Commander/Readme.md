@@ -5,101 +5,113 @@
 
 # DSS-Commander
 
-DSS-Commander contains a script for plotting HEC-RAS 1D results from DSS against gauge results by creating zoomable HTML plots using Bokeh. Calibration statistics (RMSE, r, PBIAS, NSE) are also calculated for each location that is plotted.
+DSS-Commander is a Python script for plotting HEC-RAS 1D results from DSS files against gauge data, creating interactive HTML plots using Bokeh. It also calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location to assess model performance.
 
-These scripts are built on the functionality of [pydsstools by gyanz](https://github.com/gyanz/pydsstools)
+This script is built on the functionality of [pydsstools by gyanz](https://github.com/gyanz/pydsstools).
 
+## Features
 
-For STAGE time series, RMSE is calculated with the mean depth of all gauged values and all other statistics are calculated using Depth
-For FLOW time series, RMSE is calculated with the peak flow of all gauged values
+- Plots HEC-RAS 1D results from DSS files against gauge data
+- Generates interactive HTML plots using Bokeh for easy data exploration
+- Calculates calibration statistics (RMSE, r, PBIAS, NSE) for each plotted location
+- Supports both STAGE and FLOW time series
+- Customizable plot dimensions and appearance
+- Filters DSS pathnames based on user-defined criteria to create grouped plots
 
+## Calibration Statistics
 
+DSS-Commander calculates the following calibration statistics for each plotted location:
 
-<details>
-<summary>Quick Start Guide for DSS-Commander (Expand)</summary>
+- **RMSE (Root Mean Square Error)**: Measure of the average magnitude of the errors between modeled and observed values.
+  - For STAGE time series, RMSE is calculated using the mean depth of all gauged values.
+  - For FLOW time series, RMSE is calculated using the peak flow of all gauged values.
 
-*Quick Start Guide in PDF Format with screenshots: 
-https://github.com/billk-FM/HEC-Commander/blob/main/Quick%20Start%20Guide%20for%20HEC-Commander.pdf
+- **r (Pearson Correlation Coefficient)**: Measure of the linear correlation between modeled and observed values, ranging from -1 to 1.
 
-#
+- **PBIAS (Percent Bias)**: Measure of the average tendency of the modeled values to be larger or smaller than their observed counterparts, expressed as a percentage.
 
-**Install Python using Anaconda Navigator**   
-Download via **https://www.anaconda.com/**
+- **NSE (Nash-Sutcliffe Efficiency)**: Measure of how well the model predicts observed values relative to simply using the mean of observed values, ranging from -∞ to 1.
 
-Then, create a Python 3.11 Environment:
+These statistics provide a quantitative assessment of model performance and can help guide calibration efforts.
 
-1. Open Anaconda Navigator  
-2. Environments > Create   
-3. Create Python 3.11 Environment  
-4. Open a Terminal in the new environment  
-5. Install Required Dependencies with this command:  
+## User Inputs
 
+DSS-Commander requires the following user inputs:
 
-#
-**Install Visual Studio Code (VSCode) + Jupyter and Python Extensions**   
-Download via **https://code.visualstudio.com/Download**  
+- `DSS_Source_Path`: The path to the directory containing the DSS files to plot.
 
-After installing, Install the following Visual Studio Code Extensions (Ctrl+Shift+X):
+- `gauge_csv_file_name`: The name of the CSV file containing gauge data. This file must be located in the `DSS_Source_Path` directory.
 
-- Jupyer  
-- Python   
-- Python Environment Manager
+- `river_stations`: A list of river station IDs to plot. These should match the station IDs used in the DSS pathnames.
 
-</details>
+- `search_word`: A word to filter the DSS pathnames. Only pathnames containing this word will be included in the plots.
 
+- `plot_window_start`, `plot_window_end`: The start and end timestamps for the plot window, in the format "DDMMMYYYY HH:MM:SS".
 
-## Example User Input Section:
+- `base_condition_dss`: A search phrase to identify the base condition DSS time series. Time series matching this phrase will be plotted in blue.
 
-The script works by filtering the DSS pathnames to create grouped plots.  The user must specify the following information:
+- `search_parameter1`, `search_parameter2`: The time series types to plot, typically "STAGE" and "FLOW".
 
-```
-# USER INPUTS: 
+- `bokeh_plot_width`, `bokeh_plot_height`: The width and height of the Bokeh plots, in pixels.
 
-# DSS and Plotting Parameters
-DSS_Source_Path = r"C:\Path\To_Your\DSS Results"                                            # DSS Source Path with DSS files to plot   
-gauge_csv_file_name = "Gauge_Data.csv"                                                      # Gauge data file name (within root folder)     
-river_stations = ["12345", "6789", "101112"]                                                # Define List of River Stations to Plot
-search_word = "March"                                                                       # Enter a word from your HMS or RAS run name to filter results
-plot_window_start , plot_window_end = "01APR2021 00:00:00" , "10APR2021 00:00:00"           # Example: "28MAR2018 00:00:00" , "10APR2018 00:00:00"   
-base_condition_dss = "EVENT_BASE"                                                           # Time series matching this search phrase will be plotted in blue
+- `bokeh_table_width`, `bokeh_table_height`: The width and height of the Bokeh tables displaying calibration statistics, in pixels.
 
-# Time Series Type: ex. "STAGE" or "FLOW"
-search_parameter1 = "STAGE"
-search_parameter2 = "FLOW"
+- `output_html_file_name`: The name of the output HTML file containing the plots.
 
-# PLOT CUSTOMIZATION
-# Customization Options:
-bokeh_plot_width = 1250
-bokeh_plot_height = 600
-bokeh_table_width = 1250
-bokeh_table_height = 200
+- `bokeh_plot_title`: The title for the Bokeh plots.
 
-# File Names
-output_html_file_name = "_Plots.html"
-bokeh_plot_title = "Time Series Plots by River Station and Series Type"
+- `chan_bottom_elevation_dict`: A dictionary mapping river station IDs to their corresponding channel bottom elevations. This is used to calculate depth for stage time series.
 
-# Additional Information 
-# This is the bottom elevation of the river_stations mentioned above, so depth can be calculated (in the same order as the river_stations)
-chan_bottom_elevation_dict = {"89804": 112.3, "117188": 79.25, "110449": 43.66}
+For best results, ensure that the gauge data and DSS files fully cover the specified plot window.
 
-'''For best results, ensure the gauge data and dss files fully cover the plot window.  '''
-```
+## Gauge Data CSV Format
 
-For multiple events, it's best to keep the DSS and Plotting Parameters copied into a markdown cell or within a docstring for later use.  Detph is used to calculate statistics for stage, so bottom depth must be provided.  
+DSS-Commander requires a gauge data CSV file with the same timestamps and interval as the DSS files. The CSV file must have the following format:
 
-
-
-## Example Gauge_Data.csv file:
-
-The user must provide a gauge data CSV with the same timestamps and interval as the DSS file.  This file must be in the DSS_Source_Path and the CSV file name must defined in the input section.
-
-```Example Gauge Data CSV File:
 River Station,89804,89804,117188,110449,110449
 STAGE or FLOW,STAGE,FLOW,STAGE,STAGE,FLOW
 Date,USGS_STA_NUM1,USGS_STA_NUM1,USGS_STA_NUM2,USGS_STA_NUM3,USGS_STA_NUM3
 3/28/2018 0:00,116.8,60.7,95.195,50.146,371
 3/28/2018 1:00,116.8,60.7,95.195,50.126,368
 3/28/2018 2:00,116.79,60.1,95.195,50.136,369
-```
 
+The first row should contain the river station IDs, the second row should indicate whether each column contains STAGE or FLOW data, and the third row should provide the gauge station numbers or names. The remaining rows should contain the timestamp and corresponding gauge values.
 
+## Installation and Setup
+
+1. Install Python using Anaconda Navigator (download via https://www.anaconda.com/).
+
+2. Create a Python 3.11 environment in Anaconda Navigator:
+   - Open Anaconda Navigator
+   - Go to Environments > Create
+   - Create a Python 3.11 environment
+   - Open a terminal in the new environment
+
+3. Install the required dependencies by running the following command in the terminal:
+   
+   pip install pydsstools bokeh pandas numpy sklearn openpyxl 
+
+4. Install Visual Studio Code (download via https://code.visualstudio.com/Download).
+
+5. Install the following Visual Studio Code extensions:
+   - Jupyter
+   - Python
+   - Python Environment Manager
+
+6. Open the DSS-Commander script in Visual Studio Code and update the user inputs section according to your project's requirements.
+
+7. Run the script to generate the HTML plots and calibration statistics.
+
+The generated HTML plots will be saved in the `DSS_Source_Path` directory, along with Excel files containing the plotted data and calibration statistics.
+
+## License
+
+DSS-Commander is released under the MIT License. See `LICENSE` for more information.
+
+## Acknowledgements
+
+DSS-Commander is built on the functionality of [pydsstools by gyanz](https://github.com/gyanz/pydsstools).
+
+## Contact
+
+For questions, suggestions, or issues, please contact the author or open an issue on the GitHub repository.
