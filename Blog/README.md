@@ -42,8 +42,6 @@ This blog post highlights the need for balancing cell size and time step in larg
 
 <br></br>
 
-https://github.com/billk-FM/HEC-Commander/blob/main/Blog/6._Courant_Rules_Everything_Around_Me.md
-
 
 
 
