@@ -44,7 +44,7 @@ This blog post highlights the need for balancing cell size and time step in larg
 <p align="center">
   <img src="img/biayn-1_curves.png" width="30%">
 </p>
-<h1 align="center" style="font-weight:bold; font-size: 36px;"><a href="https://github.com/billk-FM/HEC-Commander/blob/main/Blog/7._Benchmarking_Is_All_You_Need.md">Courant Rules Everything Around Me: Balancing Accuracy, Resolution, and Efficiency in Large-Scale HEC-RAS Modeling </a></h1>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"><a href="https://github.com/billk-FM/HEC-Commander/blob/main/Blog/7._Benchmarking_Is_All_You_Need.md">Benchmarking is All You Need: A Data-Driven Approach to Optimizing HEC-RAS Performance</a></h1>
 This blog post details the informal benchmarking findings from 2022 supporting the previous blog posts about 10x engineering, cloud costs, and the bootlegger/hotrod mindset to HEC-RAS modeling hardware.  Detailed benchmarking results, figures, and raw data files are included.  
 
 <br></br>
