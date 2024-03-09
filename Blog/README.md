@@ -49,8 +49,6 @@ This blog post details the informal benchmarking findings from 2022 supporting t
 
 <br></br>
 
-https://github.com/billk-FM/HEC-Commander/blob/main/Blog/7._Benchmarking_Is_All_You_Need.md
-
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon:</h1>
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
