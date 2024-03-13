@@ -67,14 +67,14 @@ For best results, ensure that the gauge data and DSS files fully cover the speci
 ## Gauge Data CSV Format
 
 DSS-Commander requires a gauge data CSV file with the same timestamps and interval as the DSS files. The CSV file must have the following format:
-
+```
 River Station,89804,89804,117188,110449,110449
 STAGE or FLOW,STAGE,FLOW,STAGE,STAGE,FLOW
 Date,USGS_STA_NUM1,USGS_STA_NUM1,USGS_STA_NUM2,USGS_STA_NUM3,USGS_STA_NUM3
 3/28/2018 0:00,116.8,60.7,95.195,50.146,371
 3/28/2018 1:00,116.8,60.7,95.195,50.126,368
 3/28/2018 2:00,116.79,60.1,95.195,50.136,369
-
+```
 The first row should contain the river station IDs, the second row should indicate whether each column contains STAGE or FLOW data, and the third row should provide the gauge station numbers or names. The remaining rows should contain the timestamp and corresponding gauge values.
 
 ## Installation and Setup
@@ -97,10 +97,14 @@ The first row should contain the river station IDs, the second row should indica
    - Jupyter
    - Python
    - Python Environment Manager
+  
+ 6. Install C++ Build Tools for Visual Studio 2019 (for DSS-Commander)**
+[https://aka.ms/vs/17/release/vs_BuildTools.exe](https://aka.ms/vs/17/release/vs_BuildTools.exe) 
+When installing, select the "C++ Build Tools for Visual Studio 2019" option
 
-6. Open the DSS-Commander script in Visual Studio Code and update the user inputs section according to your project's requirements.
+7. Open the DSS-Commander script in Visual Studio Code and update the user inputs section according to your project's requirements.  If the required prerequisites are present, the script will handle installation of gdal, pydss and other python libraries necessary for the script operation.  
 
-7. Run the script to generate the HTML plots and calibration statistics.
+8. Run the script to generate the HTML plots and calibration statistics.
 
 The generated HTML plots will be saved in the `DSS_Source_Path` directory, along with Excel files containing the plotted data and calibration statistics.
 
