@@ -52,6 +52,7 @@ A collection of other useful GPT's and ChatGPT conversation examples to compleme
 ## Quick Start Guide
 <details>
 <summary>Quick Start Guide for HEC-Commander Tools (Click to Expand)</summary>
+[PDF Version of Quick Start Guide](https://github.com/billk-FM/HEC-Commander/blob/main/Quick%20Start%20Guide%20for%20HEC-Commander.pdf)
 
 **Install Python using Anaconda Navigator**   
 Download via [Anaconda.com](https://www.anaconda.com/)
@@ -84,6 +85,10 @@ Download the Jython Installer from [Jython.org](https://www.jython.org/download.
 3. Right-click on the folder, select "Properties"
 4. Go to "Sharing" tab, click "Share..."
 5. Add 'Everyone' and set permissions to 'Read/Write', click "Share"
+
+**Install C++ Build Tools for Visual Studio 2019 (for DSS-Commander)**
+[https://aka.ms/vs/17/release/vs_BuildTools.exe](https://aka.ms/vs/17/release/vs_BuildTools.exe) 
+When installing, select the "C++ Build Tools for Visual Studio 2019" option
 
 </details>
 
