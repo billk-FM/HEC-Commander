@@ -33,6 +33,22 @@ This blog post highlights a useful tip for achieving significant performance gai
 
 <br></br>
 
+<br></br>
+<p align="center">
+  <img src="img/CourantRulesEverythingAroundMe.png" width="30%">
+</p>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"><a href="https://github.com/billk-FM/HEC-Commander/blob/main/Blog/6._Courant_Rules_Everything_Around_Me.md">Courant Rules Everything Around Me: Balancing Accuracy, Resolution, and Efficiency in Large-Scale HEC-RAS Modeling </a></h1>
+This blog post highlights the need for balancing cell size and time step in large scale HEC-RAS models, as well as common pitfalls of over-reliance on adaptive timestep.  Anyone with a model that takes more than 24 hours should give this a read. 
+
+<br></br>
+<p align="center">
+  <img src="img/biayn-1_curves.png" width="30%">
+</p>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"><a href="https://github.com/billk-FM/HEC-Commander/blob/main/Blog/7._Benchmarking_Is_All_You_Need.md">Benchmarking is All You Need: A Data-Driven Approach to Optimizing HEC-RAS Performance</a></h1>
+This blog post details the informal benchmarking findings from 2022 supporting the previous blog posts about 10x engineering, cloud costs, and the bootlegger/hotrod mindset to HEC-RAS modeling hardware.  Detailed benchmarking results, figures, and raw data files are included.  
+
+<br></br>
+
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon:</h1>
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
