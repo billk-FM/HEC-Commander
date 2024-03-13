@@ -51,7 +51,8 @@ A collection of other useful GPT's and ChatGPT conversation examples to compleme
 
 ## Quick Start Guide
 <details>
-<summary>Quick Start Guide for HEC-Commander Tools (Click to Expand)</summary>
+<summary>Quick Start Guide for HEC-Commander Tools (Click to Expand)</summary> 
+  
 [PDF Version of Quick Start Guide](https://github.com/billk-FM/HEC-Commander/blob/main/Quick%20Start%20Guide%20for%20HEC-Commander.pdf)
 
 **Install Python using Anaconda Navigator**   
