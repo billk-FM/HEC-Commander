@@ -16,7 +16,8 @@ Author: William Katzenmeyer, P.E.., C.H. Fenstermaker and Associates, L.L.C.
 
 **[2D_Mannings_Region_Tables_to_CSV.ipynb](./2D_Mannings_Region_Tables_to_CSV.ipynb)**
 This script will output the Mannings "N" Regions defined in a 2-D HEC-RAS Geometry file and export them to CSV
-ChatGPT source for script:  [Few-Shot Example: Exporting 2D Mannings Regions to CSV](https://chat.openai.com/share/5c0f6028-c7a8-4d1e-baf9-75abeb450065)
+ChatGPT source for script:  [Few-Shot Example: Exporting 2D Mannings Regions to CSV](https://chat.openai.com/share/5c0f6028-c7a8-4d1e-baf9-75abeb450065) 
 
-**[/RASMapper_Layer_Generator_Map_Time_Intervals_for_Raster_Animations.ipyn](./RASMapper_Layer_Generator_Map_Time_Intervals_for_Raster_Animations.ipynb)**
+
+**[RASMapper_Layer_Generator_Map_Time_Intervals_for_Raster_Animations.ipyn](./RASMapper_Layer_Generator_Map_Time_Intervals_for_Raster_Animations.ipynb)**
 This RASMapper Layer Generator is a Python script that automates the process of generating time-based map layers for raster animations in HEC-RAS. It modifies the .rasmap file to include map layers at specified time intervals, allowing for dynamic visualization of flood progression over time using external packages.
