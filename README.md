@@ -6,7 +6,7 @@
   <img src="misc/fenstermaker-logo.png" width=60%>
 </p>
 
-HEC-Commander Tools is a suite of python notebooks developed with AI assistance for water resource engineering workflows, primarily focused on providing automation for HEC-RAS and HEC-HMS through Jupyter Notebooks.
+HEC-Commander Tools is a suite of python notebooks developed with AI assistance for water resource engineering workflows, primarily focused on providing automation for HEC-RAS and HEC-HMS through Jupyter Notebooks. Additionally, this repository contains blog posts and ChatGPT examples relevant to H&H modeling, automation and the use of LLM's for water resources workflows.
 
 Developed to support Region 4 of the Louisiana Watershed Initiative by Fenstermaker.  (Not affiliated with HEC, content is exclusively third party automation utilizing publicly available software)
 
