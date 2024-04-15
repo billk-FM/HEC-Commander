@@ -1,7 +1,26 @@
-#
+# Example 17: Converting PDF to Text
+
+In this example, we are converting PDF to text for easier ingestion by LLM interfaces such as ChatGPT.  Then we are counting the tokesn in each file
+
+To provide a useful comparision, several document collections were gathered: 
+- EPA-SWMM Documentation
+- FEMA FLood Risk Mapping Guidance
+- Harris County Flood Control District H&H Guidance
+- HEC-RAS Documentation 
+- NOAA 2022 Sea Level Rise Report + Appendices
+- TUFLOW Documentation
+- QGIS Documentation 
+
+These were compared agaist common LLM context window sizes:
+- Original ChatGPT: 8k
+- ChatGPT4-Turbo: 62k (inside the GPT+ interface 128k through API)
+- Claude: 200k
+- Gemini Pro: 1M
+
+To re-create this example, copy the code cells below to your own notebook, and place the notebook in the same folder as your PDF files.  The script will search subfolders and convert PDF to text and count the number of tokens in each file using the GPT2 tokenizer (which is still applicable to GPT-4)
 
 
-### Install PDFMiner
+### Install PDFMiner and Huggingface Transformers
 ```
 !pip install pdfminer.six
 !pip install transformers
@@ -287,7 +306,7 @@ Directory: .\TUFLOW\TUFLOW-PDF
   TUFLOW\TUFLOW-PDF\TUFLOW_FV_User_Manual.pdf	138068
 Subtotal tokens in '.\TUFLOW\TUFLOW-PDF': 638407
 ```
-#### Convert Output to Markdown Table
+#### Convert Output to Markdown Table with AI
 Using [Markdown Text Assistant](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor), 
 
 Instruction:  _"Provide table for each folder, including subtotals.  Don't include the full path for each file, just the file name and token count.  Open a markdown box and provide the table in markdown.   Provide full tables with no elides."_
