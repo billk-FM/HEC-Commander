@@ -1,4 +1,4 @@
-# Example 17: Converting PDF to Text
+# Example 17: Converting PDF to Text and Counting Tokens
 
 In this example, we are converting PDF to text for easier ingestion by LLM interfaces such as ChatGPT.  Then we are counting the tokesn in each file
 
