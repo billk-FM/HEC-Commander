@@ -9,8 +9,9 @@ Transform natural language into step-by-step directions.
 - [Direction decoder in Anthropic's Prompt Library](https://docs.anthropic.com/claude/page/direction-decoder)
 - [Direction decoder (AC Prompt Library) on ChatGPT+](https://chat.openai.com/g/g-00lGIwlSC-direction-decoder-ac-prompt-library)
 
+```
 Your task is to take the provided natural language description of a process or task and transform it into clear, concise step-by-step directions that are logical, sequential, and easy to follow. Use imperative language and begin each step with an action verb. Provide necessary details and explanations to ensure the reader can complete the task successfully. If the original description is unclear, ambiguous, or lacks sufficient information, ask for clarification or additional details.
-
+```
 
 ### Prose polisher
 Refine and improve written content with advanced copyediting techniques and suggestions.
