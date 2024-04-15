@@ -19,6 +19,8 @@ These were compared agaist common LLM context window sizes:
 
 To re-create this example, copy the code cells below to your own notebook, and place the notebook in the same folder as your PDF files.  The script will search subfolders and convert PDF to text and count the number of tokens in each file using the GPT2 tokenizer (which is still applicable to GPT-4)
 
+If your files aren't too large, you can try running this script directly in ChatGPT using this custom GPT: [Convert PDF to Text for Knowledge Base](https://chat.openai.com/g/g-tYD47i22J-convert-pdf-to-text-for-knowledge-base)
+
 
 ### Install PDFMiner and Huggingface Transformers
 ```
