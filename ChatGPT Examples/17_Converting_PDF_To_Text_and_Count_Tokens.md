@@ -534,6 +534,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-
+<p align="center">
+  <img src="./data/tokenizer_bar_chart.png" width="600">
+</p>
 
 
