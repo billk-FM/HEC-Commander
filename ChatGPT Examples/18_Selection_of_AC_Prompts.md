@@ -1,7 +1,7 @@
 # Selection of Prompts from Anthropic's Claude
 Link to Source: [Anthropic's Prompt Library](https://docs.anthropic.com/claude/prompt-library)
 
-Anthropic published a really great prompt library, so I ported a selection of the most useful ones into a set of invite-only GPT's.  They are only accessible from this page, with attribution, so that GPT+ users can also utilze them seamlessly.  
+Anthropic published a really great prompt library, so I ported a selection of the most useful ones into a set of invite-only GPT's.  They are only accessible from this page, with attribution, so that GPT+ users can also utilze them seamlessly.  _To save the GPT in your sidebar, click the GPT Name in the upper left hand corner, then click "Keep in Sidebar"_
 
 ### Direction decoder
 Transform natural language into step-by-step directions.
