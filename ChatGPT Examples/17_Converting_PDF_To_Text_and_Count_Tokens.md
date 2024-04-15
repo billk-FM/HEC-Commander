@@ -535,7 +535,7 @@ plt.show()
 ```
 
 <p align="center">
-  <img src="./data/tokenizer_bar_chart.png" width="600">
+  <img src="./data/tokenizer_bar_chart.png" width="90%">
 </p>
 
 
