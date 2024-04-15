@@ -1,6 +1,6 @@
 # Example 17: Converting PDF to Text and Counting Tokens
 
-In this example, we are converting PDF to text for easier ingestion by LLM interfaces such as ChatGPT.  Then we are counting the tokesn in each file
+In this example, we are converting PDF to text for easier ingestion by LLM interfaces such as ChatGPT.  Then we are counting the tokens in each file and providing subtotals that we can use to build a stacked bar graph.
 
 To provide a useful comparision, several document collections were gathered: 
 - EPA-SWMM Documentation
