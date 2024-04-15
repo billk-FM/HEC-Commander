@@ -465,33 +465,7 @@ Instruction:  _"Provide table for each folder, including subtotals.  Don't inclu
 | noaa-nos-techrpt02-global-regional-SLR-scenarios-US-application-guide.pdf | 18027  |
 | **Subtotal**                                | **112337**  |
 
-### QGIS-Combined-Documentation/docs/training_manual/database_concepts/img Folder Contents
 
-| File Name          | Token Count |
-|--------------------|-------------|
-| psql_cheatsheet.pdf | 1738        |
-| **Subtotal**        | **1738**    |
-
-### QGIS-Combined-Documentation/docs/training_manual/spatial_databases/img Folder Contents
-
-| File Name             | Token Count |
-|-----------------------|-------------|
-| postgis_cheatsheet.pdf | 2322        |
-| **Subtotal**           | **2322**    |
-
-### QGIS-Documentation-master/docs/training_manual/database_concepts/img Folder Contents
-
-| File Name          | Token Count |
-|--------------------|-------------|
-| psql_cheatsheet.pdf | 1738        |
-| **Subtotal**        | **1738**    |
-
-### QGIS-Documentation-master/docs/training_manual/spatial_databases/img Folder Contents
-
-| File Name             | Token Count |
-|-----------------------|-------------|
-| postgis_cheatsheet.pdf | 2322        |
-| **Subtotal**           | **2322**    |
 
 ### TUFLOW Folder Contents
 
@@ -513,13 +487,23 @@ Instruction:  _"Provide table for each folder, including subtotals.  Don't inclu
 
 
 
-### Create Stacked Bar Chart from Markdown
+
+
+## Create Stacked Bar Chart from Markdown
 
 Code for Stacked Bar Chart
 ```
 import matplotlib.pyplot as plt
 import numpy as np
 
+file_sizes = {
+    'EPA-SWMM Manuals': [123174, 843, 6079, 129471, 11509],
+    'FEMA - Flood Risk Mapping Guidance': [10260, 9684, 7382, 16494, 12163, 16144, 3126, 23163, 10859, 3370, 8843, 12681, 6581, 20766, 14057, 131684, 14877, 6196, 4304, 9172, 8787, 27664, 30510, 32708, 27240, 19097, 20018, 20292, 14845, 12858, 11562, 7380, 5694, 5222, 7397, 15906, 31101, 11612, 18298, 7457, 4976, 9552, 15940, 5865, 5200, 9652, 12552, 19566, 25606, 78738, 31538, 8625, 42223, 34484, 40525, 31965, 7421, 85033, 23489, 1756, 4255, 6612, 18874, 19877, 9426, 3824, 20355, 18050, 32075, 22559, 3655, 6632, 7282],
+    'HCFCD H&H Guidance': [234, 41904, 55441, 2358, 8233, 150891, 51271, 24048, 14488],
+    'HEC Documentation': [159008, 127080, 39239, 38014, 111211, 150838, 36517, 181428, 54071, 16756, 4014, 4119, 4119, 5010, 1421, 4885, 4699, 908, 21748, 304908, 165367, 83183, 6984, 4072],
+    'NOAA 2022 Sea Level Rise Report': [13153, 81157, 18027],
+    'TUFLOW Documentation': [786, 1102, 1119, 15991, 3100, 360310, 8852, 8931, 21531, 22905, 55712, 138068],
+}
 
 ai_models = {
     'Original ChatGPT': [8000],
