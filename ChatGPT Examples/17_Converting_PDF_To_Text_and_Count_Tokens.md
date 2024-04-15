@@ -118,7 +118,7 @@ print_results_with_subtotals(results)
 ```
 
 ### Example Outputs
-
+```
 Directory: .\ARBM
   ARBM\ARBNM_Project_Report_03252019.pdf	181797
   ARBM\ARBNM_Project_Report_BoundaryConditionPortion_03252019.pdf	5274
@@ -286,7 +286,7 @@ Directory: .\TUFLOW\TUFLOW-PDF
   TUFLOW\TUFLOW-PDF\TUFLOW_FV_ST_and_PT_Modules_User_Manual.pdf	55712
   TUFLOW\TUFLOW-PDF\TUFLOW_FV_User_Manual.pdf	138068
 Subtotal tokens in '.\TUFLOW\TUFLOW-PDF': 638407
-
+```
 #### Convert Output to Markdown Table
 Using [Markdown Text Assistant](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor), 
 
