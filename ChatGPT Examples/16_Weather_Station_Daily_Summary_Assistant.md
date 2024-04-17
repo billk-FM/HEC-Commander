@@ -6,7 +6,7 @@
 </p>
 
 
-Link: [Weather Station Daily Summary Assistant](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
+ChatGPT Link: [Weather Station Daily Summary Assistant](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
 
 
 ## Description
