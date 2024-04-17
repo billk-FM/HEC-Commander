@@ -13,9 +13,10 @@ A full example with watershed shapefile and DSS input files can be found at the 
 
 
 Also, a custom GPT has been created to accompany these scripts to help users with using/extending their capabilities or building their own workflows: 
-[Weather Station Daily Summary Assistant](https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/16_Weather_Station_Daily_Summary_Assistant.md)
 
 
+ChatGPT Link: [Weather Station Daily Summary Assistant](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
+[Weather Station Daily Summary Assistant - Documentation and Instructions](https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/16_Weather_Station_Daily_Summary_Assistant.md)
 
 ## Requirements
 To run these scripts, you will need a Python environment with specific libraries installed. The primary requirements are Jupyter Notebook, Pandas for data manipulation, Geopandas for spatial data operations, Matplotlib for plotting, and additional libraries for handling geospatial data and performing numerical operations.
