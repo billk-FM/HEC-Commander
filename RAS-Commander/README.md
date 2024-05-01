@@ -145,7 +145,7 @@ The Additional Settings code Cell is shown below:
 * `File_Copy_Threads`: This integer specifies the number of parallel threads to use for file copying.
 
 
-## Example Infiltration Paramters from RASMapper
+## Example Infiltration Parameters from RASMapper
 This CSV should be a direct copy/paste from RASMapper's Infiltration Layer:
 ```
 ID,Name,Maximum Deficit,Initial Deficit,Potential Percolation Rate
