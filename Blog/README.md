@@ -48,9 +48,6 @@ This blog post highlights the need for balancing cell size and time step in larg
 This blog post details the informal benchmarking findings from 2022 supporting the previous blog posts about 10x engineering, cloud costs, and the bootlegger/hotrod mindset to HEC-RAS modeling hardware.  Detailed benchmarking results, figures, and raw data files are included.  
 
 <br></br>
-
-https://github.com/billk-FM/HEC-Commander/blob/main/Blog/
-<br></br>
 <p align="center">
   <img src="img/infiltration-llama.png" width="30%">
 </p>
