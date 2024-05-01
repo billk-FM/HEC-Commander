@@ -49,6 +49,15 @@ This blog post details the informal benchmarking findings from 2022 supporting t
 
 <br></br>
 
+https://github.com/billk-FM/HEC-Commander/blob/main/Blog/
+<br></br>
+<p align="center">
+  <img src="img/infiltration-llama.png" width="30%">
+</p>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"><a href="https://github.com/billk-FM/HEC-Commander/blob/main/Blog/8._Deep_Dive_Infiltration_Overrides.md">Deep Dive: HEC-RAS 2D Infiltration Base Overrides using H5py</a></h1>
+This blog post does a deep dive on the RAS-Commander code that modifies 2D infiltration base overrides in individual geometry files.  Also includes the full code segments and examples of how to use the core functions in a user's own python workflows. 
+
+
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Coming Soon:</h1>
 
 <h1 align="center" style="font-weight:bold; font-size: 36px;"> Jupyter Notebooks: A LLM's Native Language for Code Execution</h1>
