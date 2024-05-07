@@ -3,17 +3,13 @@
 ## README Overview
 This repository is a collection of specialized GPTs designed for Water Resources Engineers. Each GPT offers unique functionalities and knowledge bases, ranging from document compilation and flood damage estimation to GIS assistance and script translation. These tools are intended to enhance productivity and understanding in various water resource management and engineering tasks, as well as productivity and GPT building tools.
 
-<p align="center">
-  <img src="./data/anthropic_prompt_portfolios_logo.png" alt="Anthropic's Claude Prompt Portfolios Logo" width="30%"/>
-</p>
+
 
 ## 18. Anthropic's Claude Prompt Examples
 [Multiple GPT Links Inside](./18_Selection_of_AC_Prompts.md)
 Anthropic's Claude Prompt Portfolios feature a selection of highly effective prompts, converted into an invite-only set of GPTs accessible only from this repository. These prompts are tailored to optimize user interaction with GPT+ platforms, enhancing task-specific AI assistance. Each prompt is designed to perform a specific function, ranging from decoding directions to enhancing prose, generating LaTeX code, formulating complex Excel functions, converting data formats, clarifying code, fabricating Python functions, optimizing Python code, and bug fixing. This collection serves as an invaluable tool for users looking to leverage the capabilities of language models for professional tasks.
 
-<p align="center">
-  <img src="./data/pdf_to_text_logo.png" alt="PDF to Text Conversion and Token Counting Assistant Logo" width="30%"/>
-</p>
+
 
 ## 17. PDF to Text Conversion and Token Counting Assistant
 [ChatGPT Example](./17_Converting_PDF_To_Text_and_Count_Tokens.md)
