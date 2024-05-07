@@ -1,6 +1,6 @@
-# Repository of GPT's for Water Resources Engineers
+# GPT's and ChatGPT Examples for Water Resources Engineers
 
-## Repository Overview
+## README Overview
 This repository is a collection of specialized GPTs designed for Water Resources Engineers. Each GPT offers unique functionalities and knowledge bases, ranging from document compilation and flood damage estimation to GIS assistance and script translation. These tools are intended to enhance productivity and understanding in various water resource management and engineering tasks, as well as productivity and GPT building tools.
 
 <p align="center">
