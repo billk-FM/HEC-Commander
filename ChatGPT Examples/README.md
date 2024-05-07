@@ -6,7 +6,7 @@ This repository is a collection of specialized GPTs designed for Water Resources
 
 
 ## 18. Anthropic's Claude Prompt Examples
-[Multiple GPT Links Inside](./18_Selection_of_AC_Prompts.md)
+[Multiple GPT Links Inside](./18_Selection_of_AC_Prompts.md) 
 Anthropic's Claude Prompt Portfolios feature a selection of highly effective prompts, converted into an invite-only set of GPTs accessible only from this repository. These prompts are tailored to optimize user interaction with GPT+ platforms, enhancing task-specific AI assistance. Each prompt is designed to perform a specific function, ranging from decoding directions to enhancing prose, generating LaTeX code, formulating complex Excel functions, converting data formats, clarifying code, fabricating Python functions, optimizing Python code, and bug fixing. This collection serves as an invaluable tool for users looking to leverage the capabilities of language models for professional tasks.
 
 
@@ -19,8 +19,9 @@ The PDF to Text Conversion and Token Counting Example facilitates the process of
   <img src="./data/wsdsa_logo.png" width="30%">
 </p>
 
-## 16. Weather Station Daily Summary Assistant
-[Read More](./16_Weather_Station_Daily_Summary_Assistant.md) | [GPT](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
+## 16. Weather Station Daily Summary Assistant 
+[Read More](./16_Weather_Station_Daily_Summary_Assistant.md) | [GPT](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant) 
+
 Expert Assistant in GHNCD Weather Station Daily Summaries from AWS Open Data.  This GPT is the companion to the [GHNCD DSS Comparison Tool](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander/GHNCD_Comparison_Tool) script that allows compilation of GHNCD data from AWS and comparison of land based GHNCD stations with DSS gridded precipitation.
 
 <p align="center">
