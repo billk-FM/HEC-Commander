@@ -8,14 +8,16 @@ This repository is a collection of specialized GPTs designed for Water Resources
 ## 18. Anthropic's Claude Prompt Examples
 [Multiple GPT Links Inside](./18_Selection_of_AC_Prompts.md) 
 
-Anthropic's Claude Prompt Portfolios feature a selection of highly effective prompts, converted into an invite-only set of GPTs accessible only from this repository. These prompts are tailored to optimize user interaction with GPT+ platforms, enhancing task-specific AI assistance. Each prompt is designed to perform a specific function, ranging from decoding directions to enhancing prose, generating LaTeX code, formulating complex Excel functions, converting data formats, clarifying code, fabricating Python functions, optimizing Python code, and bug fixing. This collection serves as an invaluable tool for users looking to leverage the capabilities of language models for professional tasks.
+Anthropic's Claude Prompt Portfolios feature a selection of highly effective prompts, converted into an invite-only set of GPTs accessible only from this repository. These prompts are tailored to optimize user interaction with GPT+ platforms, enhancing task-specific AI assistance. Each prompt is designed to perform a specific function, ranging from decoding directions to enhancing prose, generating LaTeX code, formulating complex Excel functions, converting data formats, clarifying code, fabricating Python functions, optimizing Python code, and bug fixing. This collection serves as an invaluable tool for users looking to leverage the capabilities of language models for professional tasks. 
 
-
+<br></br>
 
 ## 17. PDF to Text Conversion and Token Counting Assistant
 [ChatGPT Example](./17_Converting_PDF_To_Text_and_Count_Tokens.md) 
 
-The PDF to Text Conversion and Token Counting Example facilitates the process of converting PDF documents to text format and counting the number of tokens, using a local environment. This example is particularly useful for preparing large document collections for ingestion by language models such as ChatGPT, Claude and Google Gemini, by analyzing token counts relative to model context window sizes. It supports a variety of document types including governmental and technical manuals, and provides detailed summaries and visualizations of token distribution, assisting users in understanding and managing the text content for better compatibility with AI models.
+The PDF to Text Conversion and Token Counting Example facilitates the process of converting PDF documents to text format and counting the number of tokens, using a local environment. This example is particularly useful for preparing large document collections for ingestion by language models such as ChatGPT, Claude and Google Gemini, by analyzing token counts relative to model context window sizes. It supports a variety of document types including governmental and technical manuals, and provides detailed summaries and visualizations of token distribution, assisting users in understanding and managing the text content for better compatibility with AI models. 
+
+<br></br> 
 
 <p align="center">
   <img src="./data/wsdsa_logo.png" width="30%">
