@@ -130,6 +130,42 @@ The Python Notebook GUI Builder is a specialized GPT focusing on integrating Tki
 [Read More](./16_Weather_Station_Daily_Summary_Assistant.md) | [GPT](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant)
 Expert Assistant in GHNCD Weather Station Daily Summaries from AWS Open Data.  This GPT is the companion to the [GHNCD DSS Comparison Tool](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander/GHNCD_Comparison_Tool) script that allows compilation of GHNCD data from AWS and comparison of land based GHNCD stations with DSS gridded precipitation
 
+<br><\br>
+# 17. PDF to Text Conversion and Token Counting Assistant
+
+[ChatGPT Example](./17_Converting_PDF_To_Text_and_Count_Tokens.md)
+The PDF to Text Conversion and Token Counting Example facilitates the process of converting PDF documents to text format and counting the number of tokens, using a local environment. This example is particularly useful for preparing large document collections for ingestion by language models such as ChatGPT, Claude and Google Gemini, by analyzing token counts relative to model context window sizes. It supports a variety of document types including governmental and technical manuals, and provides detailed summaries and visualizations of token distribution, assisting users in understanding and managing the text content for better compatibility with AI models.
+
+<p align="center">
+  <img src="./data/pdf_to_text_logo.png" alt="PDF to Text Conversion and Token Counting Assistant Logo" width="30%"/>
+</p>
+<br><\br>
+
+
+
+# 18. Anthropic's Claude Prompt Examples
+
+[Multiple GPT Links Inside](./18_Selection_of_AC_Prompts.md)
+Anthropic's Claude Prompt Portfolios feature a selection of highly effective prompts, converted into an invite-only set of GPTs accessible only from this repository. These prompts are tailored to optimize user interaction with GPT+ platforms, enhancing task-specific AI assistance. Each prompt is designed to perform a specific function, ranging from decoding directions to enhancing prose, generating LaTeX code, formulating complex Excel functions, converting data formats, clarifying code, fabricating Python functions, optimizing Python code, and bug fixing. This collection serves as an invaluable tool for users looking to leverage the capabilities of language models for professional tasks.
+
+<p align="center">
+  <img src="./data/anthropic_prompt_portfolios_logo.png" alt="Anthropic's Claude Prompt Portfolios Logo" width="30%"/>
+</p>
+<br><\br>
+
+
+# 19. Free Huggingface Assistants with Llama-3-Instruct and Cohere Command-R
+
+[Read More](./19_Free_Huggingface_Assistants_with_Llama-3-Instruct_and_Cohere_Command-R.md) | [GPT Link](https://chat.openai.com/g/g-sfBGsjzqV-free-huggingface-assistants-llama-cohere)
+My Free Huggingface Assistants have been updated to include two advanced Large Language Models (LLMs), Llama-3-Instruct and Cohere Command-R, bringing near GPT-4 level capabilities to the public. These models enhance the free versions of GPT assistants, providing users with powerful tools to explore and utilize the latest in LLM technology without the cost associated with closed-source platforms. These models offer significant improvements and features, despite the absence of a code interpreter, making them suitable for testing a wide range of applications as well as providing a free interface for experimentation.
+
+<p align="center">
+  <img src="./data/llama_cohere_huggingface_update.png" alt="Free Huggingface Assistants Update" width="30%"/>
+</p>
+<br><\br>
+
+
+
 ## Coming Soon: Video Streaming and Recording Expert, Water Resources River Analysis Modeling Expert
 
 
