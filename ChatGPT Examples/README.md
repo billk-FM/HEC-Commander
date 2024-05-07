@@ -22,7 +22,7 @@ The PDF to Text Conversion and Token Counting Example facilitates the process of
 </p>
 
 ## 16. Weather Station Daily Summary Assistant 
-[Read More](./16_Weather_Station_Daily_Summary_Assistant.md) | [GPT](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant) 
+[Read More](./16_Weather_Station_Daily_Summary_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-vzcXviTtz-weather-station-daily-summary-assistant) 
 
 Expert Assistant in GHNCD Weather Station Daily Summaries from AWS Open Data.  This GPT is the companion to the [GHNCD DSS Comparison Tool](https://github.com/billk-FM/HEC-Commander/tree/main/DSS-Commander/GHNCD_Comparison_Tool) script that allows compilation of GHNCD data from AWS and comparison of land based GHNCD stations with DSS gridded precipitation.
 
@@ -31,7 +31,7 @@ Expert Assistant in GHNCD Weather Station Daily Summaries from AWS Open Data.  T
 </p>
 
 ## 15. Python Notebook GUI Builder
-[Read More](./15_Notebook_GUI_Builder.md) | [GPT](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0e11b1a0734a9345fb000) 
+[Read More](./15_Notebook_GUI_Builder.md) | [GPT](https://chat.openai.com/g/g-TZ19Fr7aK-notebook-gui-builder) | [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0e11b1a0734a9345fb000) 
 
 The Python Notebook GUI Builder is a specialized GPT focusing on integrating Tkinter and Tkbootstrap GUIs within Jupyter Notebooks, particularly in a Windows environment using VS Code.  The assistant excels in layout design, entry box formatting, and window prioritization, and it communicates in a formal, technical tone. This tool is ideal for those looking to enhance their Jupyter Notebooks with interactive, custom GUI elements, streamlining user input and data presentation.
 
@@ -67,7 +67,7 @@ The Repo Assistant: Segment Anything Repos is a specialized tool focused on the 
 </p>
 
 ## 11. Water Resource Python Notebook Assistant
-[Read More](./11_Water_Resource_Python_Notebook_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resources-python-notebook-assistant) [Huggingchat GPT with Codellama 70B](https://hf.co/chat/assistant/65c93874acad45bb02e78dcb) 
+[Read More](./11_Water_Resource_Python_Notebook_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resources-python-notebook-assistant) | [Huggingchat GPT with Codellama 70B](https://hf.co/chat/assistant/65c93874acad45bb02e78dcb) 
 
 The Water Resource Python Notebook Assistant is a specialist in Python coding for water resources engineering. It assists users in building, refactoring, and debugging Python notebooks, especially in the context of hydrological modeling and analysis. This GPT is an essential tool for water resource engineers and researchers, facilitating the use of Python for complex simulations and data analysis.
 
@@ -85,7 +85,7 @@ The HEC-Commander Repository Assistant is an expert in HEC-Commander scripts and
 </p>
 
 ## 09. Jupyter Notebook Portability Enhancer
-[Read More](./09_Jupyter_Notebook_Portability_Enhancer.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0df9c1a0734a9345fafba) 
+[Read More](./09_Jupyter_Notebook_Portability_Enhancer.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) |  [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0df9c1a0734a9345fafba) 
 
 The Jupyter Notebook Portability Enhancer makes Jupyter Notebooks more accessible and portable. It generates code cells to handle package installation inside virtual environments, streamlining the setup process. This GPT is invaluable for data scientists and educators who frequently share Jupyter Notebooks, ensuring smooth transitions and functionality across different systems.
 
@@ -94,7 +94,7 @@ The Jupyter Notebook Portability Enhancer makes Jupyter Notebooks more accessibl
 </p>
 
 ## 08. Script Translator: Outline in Plain Language
-[Read More](./08_Script_Translator_-_Outline_in_Plain_Language.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0d99566fa9d07218c4bf4) 
+[Read More](./08_Script_Translator_-_Outline_in_Plain_Language.md) | [GPT Link](https://chat.openai.com/g/g-WFn2bkuya-water-resource-python-notebook-assistant) | [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0d99566fa9d07218c4bf4) 
 
 The Script Translator takes complex scripts and outlines them in plain language, making technical content accessible to a broader audience. It's particularly useful for educators, researchers, and project managers who need to translate technical jargon into understandable terms. Whether you're working with code, research papers, or technical guides, this assistant ensures your material is clear and comprehensible.
 
@@ -112,7 +112,7 @@ The Gridded Soil Data GIS Assistant is an expert in handling and analyzing spati
 </p>
 
 ## 06. Voice Notes Transcription Assistant
-[Read More](./06_Voice_Notes_Transcription_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0de7e0650231c0f279feb) 
+[Read More](./06_Voice_Notes_Transcription_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer) | [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0de7e0650231c0f279feb) 
 
 The Voice Notes Transcription Assistant is designed to transcribe and organize voice notes efficiently. It's a valuable tool for professionals and students alike, turning spoken words into written text. This assistant is perfect for meetings, lectures, or any scenario where quick, accurate transcriptions are needed, providing a written record for reference and analysis.
 
@@ -130,7 +130,7 @@ This GPT serves as an autonomous assistant for GIS-related tasks, providing expe
 </p>
 
 ## 04. Markdown Text Assistant: GH Flavor
-[Read More](./04_Markdown_Text_Assistant_-_GH_Flavor.md) | [GPT Link](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor) [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0dcfaf4ede0cff60f8396) 
+[Read More](./04_Markdown_Text_Assistant_-_GH_Flavor.md) | [GPT Link](https://chat.openai.com/g/g-tuwysm1j4-markdown-text-assistant-gh-flavor) | [Free Huggingface Assistant Link](https://hf.co/chat/assistant/65d0dcfaf4ede0cff60f8396) 
 
 The Markdown Text Assistant is specialized in GitHub Flavored Markdown, helping users to format text, create lists, embed images, and more. It's designed to assist those looking to improve their markdown documents on GitHub, providing guidance on syntax and structure. This GPT is an invaluable resource for creating more readable, professional, and functional GitHub documentation.
 
