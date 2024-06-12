@@ -4,6 +4,15 @@
 This repository is a collection of specialized GPTs designed for Water Resources Engineers. Each GPT offers unique functionalities and knowledge bases, ranging from document compilation and flood damage estimation to GIS assistance and script translation. These tools are intended to enhance productivity and understanding in various water resource management and engineering tasks, as well as productivity and GPT building tools.
 
 
+## 20. Depth Area Reduction Factor Tutorial Helper
+
+GPT to simplify the tutorial [Creating Depth-Area Reduction Curves from Gridded Precipitation Data](https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/new-tutorials-to-check-out/creating-depth-area-reduction-curves-from-gridded-precipitation-data) and provide an alternative to excel plot creation. 
+
+
+## 19. Free Huggingface Assistants Updated with Llama-3-Instruct and Cohere Command-R Models
+[Multiple GPT Links Inside](./19._Free_Assistants.md) 
+
+With the release of two new Large Language Models (LLMs) that are near GPT-4 level: Llama-3-Instruct and Cohere Command-R, I have updated my free Hugging Face Assistants. These are free versions of ChatGPT's "GPTs" assistants with custom instructions and web search. With the upgrade to models with capabilities and performance comparable to GPT-4, everyone has access to a powerful and free tool for testing and experiencing the latest advancements in LLM technology.
 
 ## 18. Anthropic's Claude Prompt Examples
 [Multiple GPT Links Inside](./18_Selection_of_AC_Prompts.md) 
