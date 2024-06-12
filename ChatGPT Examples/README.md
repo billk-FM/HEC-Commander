@@ -3,9 +3,12 @@
 ## README Overview
 This repository is a collection of specialized GPTs designed for Water Resources Engineers. Each GPT offers unique functionalities and knowledge bases, ranging from document compilation and flood damage estimation to GIS assistance and script translation. These tools are intended to enhance productivity and understanding in various water resource management and engineering tasks, as well as productivity and GPT building tools.
 
+<p align="center">
+  <img src="./data/darfte.png" width="30%">
+</p>  
 
 ## 20. Depth Area Reduction Factor Tutorial Helper
-
+[Read More](./20._Depth-Area_Reduction_Curve_Tutorial_Helper.md) | [GPT Link](https://chatgpt.com/g/g-DFItDJe6N-depth-area-reduction-curves-tutorial-helper) 
 GPT to simplify the tutorial [Creating Depth-Area Reduction Curves from Gridded Precipitation Data](https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/new-tutorials-to-check-out/creating-depth-area-reduction-curves-from-gridded-precipitation-data) and provide an alternative to excel plot creation. 
 
 
