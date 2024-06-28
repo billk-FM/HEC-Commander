@@ -20,10 +20,6 @@ William Mark Katzenmeyer, P.E., C.F.M.
 
 For queries or further information, please contact billk@fenstermaker.com.
 
-*HEC-Commander Tools and AI-Assisted Scripting were presented at the Association of State Flooplain Managers (ASFPM) Annual Conference in Salt Lake City on June 27, 2024.*  Check out a [PDF of the presentation!](https://github.com/billk-FM/HEC-Commander/blob/main/misc/Leveraging%20AI-Assisted%20Scripting%20for%20HEC-RAS%20and%20HEC-HMS%20Automation%202024-06-27%20ASFPM%20Presentation%20.pdf)
-
-
-
 ## [HMS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/HMS-Commander)
 Contains automation scripts for HEC-HMS that allow the generation of multiple DSS output files with user-defined calibration parameters. This tool was developed to support 1D HEC-RAS calibration and validation workflows using deficit and constant loss methods with optional recession baseflow, and employs a user-generated CSV file to input scale factors for each individual parameter. A second version of teh script allows definition of multiple calibration regions, enabling spatial variability of scale factors.
 
@@ -50,6 +46,9 @@ A collection of other useful GPT's and ChatGPT conversation examples to compleme
 
 ## [ChatGPT Assistant for HEC-Commander Repository](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant)
 [HEC-Commander Repository Assistant](./ChatGPT%20Examples/10_HEC-Commander_Repository_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-xznmjo6qb-hec-commander-repository-assistant) has access to a compiled version of the documentation in its Knowledge Base, as well as a zip file containing all of the content in the repo for retrieval  This GPT can be used to learn about the scripts, ask for instructions to help you debug any errors, as well as provide coding assistance for revising scripts for your use:
+
+## HEC-Commander Tools and AI-Assisted Scripting Presentations
+The HEC-Commander tools and AI-assisted scripting were presented at Association of State Flooplain Managers (ASFPM) Annual Conference in Salt Lake City on June 27, 2024.*  Check out a [PDF of the presentation!](https://github.com/billk-FM/HEC-Commander/blob/main/misc/Leveraging%20AI-Assisted%20Scripting%20for%20HEC-RAS%20and%20HEC-HMS%20Automation%202024-06-27%20ASFPM%20Presentation%20.pdf)
 
 
 
