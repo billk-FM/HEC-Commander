@@ -20,6 +20,10 @@ William Mark Katzenmeyer, P.E., C.F.M.
 
 For queries or further information, please contact billk@fenstermaker.com.
 
+*HEC-Commander Tools and AI-Assisted Scripting were presented at the Association of State Flooplain Managers (ASFPM) Annual Conference in Salt Lake City on June 27, 2024.*  Check out a [PDF of the presentation!](https://github.com/billk-FM/HEC-Commander/blob/main/misc/Leveraging%20AI-Assisted%20Scripting%20for%20HEC-RAS%20and%20HEC-HMS%20Automation%202024-06-27%20ASFPM%20Presentation%20.pdf)
+
+
+
 ## [HMS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/HMS-Commander)
 Contains automation scripts for HEC-HMS that allow the generation of multiple DSS output files with user-defined calibration parameters. This tool was developed to support 1D HEC-RAS calibration and validation workflows using deficit and constant loss methods with optional recession baseflow, and employs a user-generated CSV file to input scale factors for each individual parameter. A second version of teh script allows definition of multiple calibration regions, enabling spatial variability of scale factors.
 
