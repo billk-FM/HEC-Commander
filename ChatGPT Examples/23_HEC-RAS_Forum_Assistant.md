@@ -4,8 +4,6 @@
   <img src="./data/hrfa.png" width="30%">
 </p>
 
-** HEC-RAS Forum Assistant GPT**
-
 The [HEC-RAS Forum Assistant GPT](https://chatgpt.com/g/g-Go2eeZKXw-river-modeling-forum-assistant) has been launched to help you with searching through the Kleinschmidt HEC-RAS Forums.  Equipped a with a scrape of the forums from July 1, 2024, this assistant can search the entire forum history with vector search and return relevant queries.   
 
 **Also Related**
