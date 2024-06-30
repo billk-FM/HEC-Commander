@@ -6,6 +6,8 @@
 
 The [HEC-RAS Forum Assistant GPT](https://chatgpt.com/g/g-Go2eeZKXw-river-modeling-forum-assistant) has been launched to help you with searching through the Kleinschmidt HEC-RAS Forums.  Equipped a with a scrape of the forums from July 1, 2024, this assistant can search the entire forum history with vector search and return relevant queries.   
 
+Here is an example conversation and output: [Flow Instabilities at Boundary Conditions](https://chatgpt.com/share/95b0f4b3-bf66-41a3-bff1-1dc9f62cadd3)
+
 **Also Related**
 The previous [Virtual River Modeling Vodcast Host](https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/13_Virtual_River_Modeling_Vodcast_Host.md), which has access to a Feb 2024 set of transcripts from the RAS Solution Vodcast, was introduced during the [February 07 AI in Water Resources Free Webinar](https://awschool.com.au/training/ai-tools/) hosted by Australian Water School.  This GPT 
 
