@@ -1,7 +1,7 @@
 # HEC-RAS Forum Assistant
 
 <p align="center">
-  <img src="./data/hrfa.png" width="300">
+  <img src="./data/hrfa.png" width="30%">
 </p>
 
 ** HEC-RAS Forum Assistant GPT**
