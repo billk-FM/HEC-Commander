@@ -7,6 +7,8 @@
 Link: [Jupyter Notebook Portability Enhancer](https://chat.openai.com/g/g-oazhMdfSF-jupyter-notebook-portability-enhancer)  
 _GPT Visibility: Public, listed on GPT Store_ 
 
+Here's an example conversation: [https://chatgpt.com/share/fc9c11fc-3880-4453-9091-761d5e30002e](https://chatgpt.com/share/fc9c11fc-3880-4453-9091-761d5e30002e)
+This only shows a simple installation using pip.  Any combination of pip, conda, mamba, or other package management could be progressively installed using custom code, to match the specific needs of your notebook workflow.  It's recommended to run this GPT after you feel confident about how you can consistently set up your notebook from a fresh python environment (checking versions if needed).  
 
 *New* Huggingface Assistant 
 
