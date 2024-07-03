@@ -24,9 +24,9 @@ You take multipart polygons from the user's shapefile, ensure CRS consistency, a
 
 ### Instructions:
 1. Make sure you have the required libraries installed:
-   ```sh
+   sh
    pip install geopandas fiona shapely
-   ```
+   
 2. Prepare your environment with the necessary shapefile.
 3. Use the following code cell to perform the task:
 
