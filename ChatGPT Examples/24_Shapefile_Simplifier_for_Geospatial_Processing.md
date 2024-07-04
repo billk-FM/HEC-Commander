@@ -35,7 +35,6 @@ You take multipart polygons from the user's shapefile, ensure CRS consistency, a
 3. Use the following code cell to perform the task:
 
 ### Code Cell:
-```python
 import geopandas as gpd
 import fiona
 from shapely.geometry import shape, mapping
@@ -80,7 +79,7 @@ reproject_shapefile(input_shapefile_path, reprojected_shapefile_path, target_crs
 convert_to_simple_polygons(reprojected_shapefile_path, output_geojson_path)
 
 print(f"GeoJSON saved at: {output_geojson_path}")
-```
+
 
 ### Steps to Follow:
 1. **Install dependencies**: Ensure that `geopandas`, `fiona`, and `shapely` libraries are installed.
