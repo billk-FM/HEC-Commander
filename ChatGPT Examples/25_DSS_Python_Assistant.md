@@ -7,6 +7,10 @@
 
 The [DSS Python Assistant](https://chatgpt.com/g/g-FWpQ5z0f1-dss-python-assistant)  is designed to help users with reading and writing to DSS files programmatically using the PyDSSTools open source library.  Equipped with code examples from HEC-Commander as well as the compiled knowledge base from all of the files in the pydsstools library, this GPT assistant can help you extend your HEC-RAS workflows prgrammatically using python!  
 
+# Credit
+The knowledge base of this assistant is based primarily on the [pydsstools repository](https://github.com/gyanz/pydsstools)
+
+
 
 # GPT Information
 
