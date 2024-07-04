@@ -6,6 +6,10 @@
 
 The [Shapefile Simplifier for Geospatial Processing](https://chatgpt.com/g/g-R5elOwymd-shapefile-simplifier-for-geospatial-processing) has been launched to help you pre-processing your shapefiles and compiling them as GeoJSON files, which are quickly becoming a dominant open geospatial standard.  The GPT uses code interpeter along with code from a previous successful conversation as a system message to prime the output.  GPT often gets hung up while trying to simplyfy multipart polygons and polylines, so this successful code example prevents that common error loop.  Simple polygons are easier to manipulate with geopandas.
 
+# Credit
+The knowledge base of this assistant is based primarily on the [pydsstools repository](https://github.com/gyanz/pydsstools)
+
+
 
 # GPT Information
 
