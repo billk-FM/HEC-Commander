@@ -78,7 +78,7 @@ None (user uploads files for processing)
 
 
 ## Code to Download GitHub Issues as JSON to Improve Knowledge Base
-This code must be run in a local environment.  Getting your GitHub API key is trivial, just Google it.  
+This code must be run in a local environment.  Grab your [GitHub API Key](https://github.com/settings/tokens) to get started, and paste this cell into a local python file or jupyter notebook:   
 
 ```python
 
