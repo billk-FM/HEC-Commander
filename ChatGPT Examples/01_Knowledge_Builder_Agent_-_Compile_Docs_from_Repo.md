@@ -76,6 +76,142 @@ By following these instructions with added user interaction, the tool ensures th
 ## Knowledge
 None (user uploads files for processing)
 
+
+## Code to Download GitHub Issues as JSON to Improve Knowledge Base
+This code must be run in a local environment.  Getting your GitHub API key is trivial, just Google it.  
+
+```python
+
+# Download Open and Closed Issues from GitHub to JSON
+
+import requests
+import json
+
+
+
+# Replace with your own token and repository
+#REPO = 'pydata/xarray' # Enter the target repo here
+TOKEN = '' # Enter your API Key here
+REPO_ONLYNAME = REPO.split('/')[1]
+
+headers = {
+    'Authorization': f'token {TOKEN}',
+    'Accept': 'application/vnd.github.v3+json',
+}
+
+issues_url = f'https://api.github.com/repos/{REPO}/issues'
+comments_url_template = f'https://api.github.com/repos/{REPO}/issues/{{}}/comments'
+
+# Function to fetch issues based on state
+def fetch_issues(state):
+    print(f"Fetching {state} issues...")
+    all_issues = []
+    page = 1
+    while True:
+        params = {'state': state, 'page': page, 'per_page': 100}
+        response = requests.get(issues_url, headers=headers, params=params)
+        if response.status_code == 200:
+            issues = response.json()
+            if not issues:
+                break
+            all_issues.extend(issues)
+            page += 1
+        else:
+            print(f"Failed to fetch {state} issues: {response.status_code}")
+            break
+    print(f"Successfully fetched {len(all_issues)} {state} issues.")
+    return all_issues
+
+# Function to fetch comments for each issue
+def fetch_comments(issue):
+    issue_number = issue['number']
+    print(f"Fetching comments for issue #{issue_number}...")
+    comments_url = comments_url_template.format(issue_number)
+    comments_response = requests.get(comments_url, headers=headers)
+    if comments_response.status_code == 200:
+        print(f"Successfully fetched comments for issue #{issue_number}.")
+        issue['comments'] = comments_response.json()
+    else:
+        print(f"Failed to fetch comments for issue #{issue_number}: {comments_response.status_code}")
+        issue['comments'] = []
+
+import time
+
+from tqdm import tqdm
+
+# Fetch open issues
+print("Starting to fetch open issues...")
+open_issues = fetch_issues('open')
+for issue in tqdm(open_issues, desc="Processing open issues"):
+    print(f"Issue Title: {issue['title']}")
+    fetch_comments(issue)
+    #time.sleep(0.1)
+print("Completed fetching open issues.")
+
+# Fetch closed issues
+print("Starting to fetch closed issues...")
+closed_issues = fetch_issues('closed')
+for issue in tqdm(closed_issues, desc="Processing closed issues"):
+    print(f"Issue Title: {issue['title']}")
+    fetch_comments(issue)
+    #time.sleep(0.1)
+print("Completed fetching closed issues.")
+
+# Save the open issues along with comments to a JSON file
+open_issues_filename = f'{REPO_ONLYNAME}_open_issues_with_comments.json'
+with open(open_issues_filename, 'w') as f:
+    json.dump(open_issues, f, indent=4)
+print(f"Open issues with comments saved to {open_issues_filename}")
+
+# Save the closed issues along with comments to a JSON file
+closed_issues_filename = f'{REPO_ONLYNAME}_closed_issues_with_comments.json'
+with open(closed_issues_filename, 'w') as f:
+    json.dump(closed_issues, f, indent=4)
+print(f"Closed issues with comments saved to {closed_issues_filename}")
+
+```
+
+### Sample JSON Format for GPT Instructions: 
+```
+#### Closed Issues (`rioxarray_closed_issues_with_comments.json`)
+#### Open Issues (`rioxarray_open_issues_with_comments.json`)
+### Sample JSON Fields:
+
+1. **Issue URL**: `"url": "https://api.github.com/repos/corteva/rioxarray/issues/792"`
+2. **Title**: `"title": "docs: fix minor code block issue for local installation in CONTRIBUTING.rst"`
+3. **User**: 
+
+   "user": {
+       "login": "dluks",
+       "id": 4911680,
+       "url": "https://api.github.com/users/dluks"
+   }
+
+4. **Labels**: 
+
+   "labels": [
+       {
+           "name": "documentation",
+           "color": "112B66"
+       }
+   ]
+
+5. **State**: `"state": "closed"`
+6. **Comments**: 
+
+   "comments": [
+       {
+           "user": {
+               "login": "snowman2",
+               "id": 8699967
+           },
+           "body": "Thanks @dluks :+1:"
+       }
+   ]
+
+```
+
+
 ## Capabilities
 Code Interpreter (no web browsing or image generation to simplify system prompt)
 
