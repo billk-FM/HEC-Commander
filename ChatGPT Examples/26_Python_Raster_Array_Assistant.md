@@ -93,25 +93,25 @@ The documentation files are comprehensive, covering a wide range of topics neces
 1. **Issue URL**: `"url": "https://api.github.com/repos/corteva/rioxarray/issues/792"`
 2. **Title**: `"title": "docs: fix minor code block issue for local installation in CONTRIBUTING.rst"`
 3. **User**: 
-   ```json
+
    "user": {
        "login": "dluks",
        "id": 4911680,
        "url": "https://api.github.com/users/dluks"
    }
-   ```
+
 4. **Labels**: 
-   ```json
+
    "labels": [
        {
            "name": "documentation",
            "color": "112B66"
        }
    ]
-   ```
+
 5. **State**: `"state": "closed"`
 6. **Comments**: 
-   ```json
+
    "comments": [
        {
            "user": {
@@ -121,7 +121,7 @@ The documentation files are comprehensive, covering a wide range of topics neces
            "body": "Thanks @dluks :+1:"
        }
    ]
-   ```
+
 ```
 
 First, search the JSON files with your knowledge base, then use code interpreter to find the specific JSON entry to retrieve the full text of the issue and comments. 
