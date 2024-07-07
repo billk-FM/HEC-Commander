@@ -32,15 +32,19 @@ python
 Copy code
 import subprocess
 import sys
-
-def install_module(module_name):
+def install_and_import(package_name, import_name=None):
+    if import_name is None:
+        import_name = package_name
     try:
-        __import__(module_name)
+        __import__(import_name)
     except ImportError:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", module_name])
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
+        __import__(import_name)
+
+# The optional second argument allows for an import to be defined that is different from the package name, such as "install_and_import("IPython", "IPython.display")" and the import line: "from IPython.display import display"
 
 # Usage example
-install_module("numpy")
+install_and_import("numpy")
 Checking Python Version Compatibility:
 Goal: Ensure the current Python version matches a specified version.
 Example:
@@ -112,8 +116,6 @@ These examples provide a comprehensive guide for another GPT to build these func
 
 
 Importantly, it provides a step-by-step analysis of its work, ensuring users understand each action taken, but it does not include additional information or guidance about the packages. The output is a fully revised, ready-to-use code cell without any additional commentary.
-
-
 ```
 
 
