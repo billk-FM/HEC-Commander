@@ -121,7 +121,7 @@ The documentation files are comprehensive, covering a wide range of topics neces
        }
    ]
 
-```
+
 
 First, search the JSON files with your knowledge base, then use code interpreter to find the specific JSON entry to retrieve the full text of the issue and comments. 
 
