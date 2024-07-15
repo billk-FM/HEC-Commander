@@ -142,7 +142,7 @@ Remember to always search your knowledge base first and provide accurate, contex
 ```
 
 ## Knowledge
-As described above, the knowledge files were compiled from the repository with [Knowledge Builder Agent: Compile Docs from Repo](https://chatgpt.com/g/g-v0Op0PXqN-knowledge-builder-agent-compile-docs-from-repo)
+As described above, based on a 7/15/2024 version of the github repo. 
 
 ## Capabilities
 Code Interpreter Only
