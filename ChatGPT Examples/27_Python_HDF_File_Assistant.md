@@ -4,9 +4,7 @@
   <img src="./data/hdfpa.png" width="30%">
 </p>
 
-The [Python HDF File Assistant](https://chatgpt.com/g/g-NGFnf92v8-python-hdf-file-assistant) has been launched to help you with searching through the Kleinschmidt HEC-RAS Forums.  Equipped a with a scrape of the forums from July 1, 2024, this assistant can search the entire forum history with vector search and return relevant queries.   
-
-
+The [Python HDF File Assistant](https://chatgpt.com/g/g-NGFnf92v8-python-hdf-file-assistant) has been launched to help you with interacting with HDF files.  This GPT doesn't have any specific knowledge of HEC-RAS libraries, the user can download and provide this file (or specific functions) from [pyHMT2D library](https://github.com/psu-efd/pyHMT2D/blob/main/pyHMT2D/Hydraulic_Models_Data/RAS_2D/RAS_2D_Data.py) to prime the model for RAS 2D workflows. 
 
 # GPT Information
 
