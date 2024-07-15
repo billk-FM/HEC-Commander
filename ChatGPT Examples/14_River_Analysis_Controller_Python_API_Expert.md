@@ -126,8 +126,3 @@ Code Interpreter (no web browsing or image generation to simplify system prompt)
 ## Actions
 None
 
-
-```
-
-
-```
