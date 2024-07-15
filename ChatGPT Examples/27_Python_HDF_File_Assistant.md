@@ -1,7 +1,7 @@
 # Python HDF File Assistant
 
 <p align="center">
-  <img src="./data/phdfa.png" width="30%">
+  <img src="./data/hdfpa.png" width="30%">
 </p>
 
 The [Python HDF File Assistant](https://chatgpt.com/g/g-NGFnf92v8-python-hdf-file-assistant) has been launched to help you with searching through the Kleinschmidt HEC-RAS Forums.  Equipped a with a scrape of the forums from July 1, 2024, this assistant can search the entire forum history with vector search and return relevant queries.   
