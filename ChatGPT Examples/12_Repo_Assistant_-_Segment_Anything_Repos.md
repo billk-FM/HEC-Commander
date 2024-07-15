@@ -8,6 +8,10 @@
 
 Link: [Segment Anything Repos](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
 
+
+## Credit
+This assistant provides access to the [opengeos segment-geospatial repository](https://github.com/opengeos/segment-geospatial) repository as a text knowledge base, to allow for easier knowledgebase, retrieval and AI-assisted coding using leafmap libraries. 
+
 ## Description
 Expert at Segment Anything, Segment Geospatial, and FastSAM
 
