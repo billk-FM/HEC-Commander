@@ -6,7 +6,7 @@
 
 
 
-Link: [Segment Anything Repos](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
+Link: [Repo Assistant: Segment Anything Repos GPT](https://chat.openai.com/g/g-NvReGFMYR-repo-assistant-segment-anything-repos)
 
 
 ## Credit
