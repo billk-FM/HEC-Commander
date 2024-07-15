@@ -133,9 +133,3 @@ Code Interpreter Only
 
 ## Actions
 None
-
-
-```
-
-
-```
