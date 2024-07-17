@@ -4,6 +4,78 @@
 This repository is a collection of specialized GPTs designed for Water Resources Engineers. Each GPT offers unique functionalities and knowledge bases, ranging from document compilation and flood damage estimation to GIS assistance and script translation. These tools are intended to enhance productivity and understanding in various water resource management and engineering tasks, as well as productivity and GPT building tools.
 
 <p align="center">
+  <img src="./data/llmaa.png" width="30%">
+</p>  
+
+### 29. LLM API Library Assistant
+[Read More](./29_LLM_API_Library_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-29-llm-api-library-assistant)  
+The LLM API Library Assistant provides tools for interfacing with various large language model APIs. It helps users integrate LLM functionalities into their applications, facilitating tasks such as text generation, summarization, and sentiment analysis.
+
+<p align="center">
+  <img src="./data/usgsaa.png" width="30%">
+</p>  
+
+### 28. USGS API Assistant
+[Read More](./28_USGS_API_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-28-usgs-api-assistant)  
+This assistant interfaces with various USGS APIs to retrieve and analyze hydrological and geological data. It simplifies accessing datasets such as streamflow records, water quality measurements, and topographic information.
+
+<p align="center">
+  <img src="./data/hdfpa.png" width="30%">
+</p>  
+
+### 27. Python HDF File Assistant
+[Read More](./27_Python_HDF_File_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-27-python-hdf-file-assistant)  
+The Python HDF File Assistant facilitates working with HDF5 files, which are commonly used for storing large datasets. It provides functionalities for reading, writing, and querying HDF5 data.
+
+<p align="center">
+  <img src="./data/praa.png" width="30%">
+</p>  
+
+### 26. Python Raster Array Assistant
+[Read More](./26_Python_Raster_Array_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-26-python-raster-array-assistant)  
+This tool assists with the manipulation and analysis of raster data using Python arrays. It supports tasks such as resampling, reclassification, and statistical analysis of raster datasets.
+
+<p align="center">
+  <img src="./data/dsspa.png" width="30%">
+</p>  
+
+### 25. DSS Python Assistant
+[Read More](./25_DSS_Python_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-25-dss-python-assistant)  
+The DSS Python Assistant aids in manipulating and analyzing data stored in the HEC-DSS format, providing Python tools for reading, writing, and visualizing time-series and spatial data.
+
+<p align="center">
+  <img src="./data/ssgp.png" width="30%">
+</p>  
+
+### 24. Shapefile Simplifier for Geospatial Processing
+[Read More](./24_Shapefile_Simplifier_for_Geospatial_Processing.md) | [GPT Link](https://chat.openai.com/g/g-24-shapefile-simplifier-for-geospatial-processing)  
+This assistant focuses on simplifying shapefiles, making them more manageable for geospatial processing tasks. It helps reduce file size and complexity while preserving essential spatial information.
+
+<p align="center">
+  <img src="./data/hrfa.png" width="50%">
+</p>  
+
+### 23. HEC-RAS Forum Assistant
+[Read More](./23_HEC-RAS_Forum_Assistant.md) | [GPT Link](https://chat.openai.com/g/g-23-hec-ras-forum-assistant)  
+The HEC-RAS Forum Assistant helps users navigate and extract valuable information from HEC-RAS forum discussions, offering solutions to common modeling problems and enhancing the efficiency of using the HEC-RAS software.
+
+<p align="center">
+  <img src="./data/hcdr.png" width="30%">
+</p>  
+
+### 22. Hydroclimate Data Tools with HyRiver
+[Read More](./22._Hydroclimate_Data_Tools_with_HyRiver.md) | [GPT Link](https://chat.openai.com/g/g-22-hydroclimate-data-tools-with-hyriver)  
+This tool integrates HyRiver, a suite of Python libraries for accessing and analyzing hydroclimate data, providing capabilities for retrieving and processing large-scale climate and hydrological datasets.
+
+<p align="center">
+  <img src="./data/gpna_wbt.png" width="30%">
+</p>  
+
+### 21. Geospatial Python Notebook Assistant using WhiteboxTools
+[Read More](./21_Geospatial_Python_Notebook_Assistant_using_WhiteboxTools.md) | [GPT Link](https://chat.openai.com/g/g-21-geospatial-python-notebook-assistant-using-whiteboxtools)  
+This assistant leverages the WhiteboxTools library within a geospatial Python notebook, offering functionalities for terrain analysis, hydrological modeling, and more. It is designed to support geospatial data processing and analysis workflows.
+
+<p align="center">
   <img src="./data/darfte.png" width="30%">
 </p>  
 
