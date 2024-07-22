@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Search Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .dashboard {
+            width: 100%;
+            max-width: 1280px;
+            height: 960px; /* Increased height to accommodate taller heatmap */
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .slider-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 80%;
+        }
+
+        .slider-container {
+            margin-bottom: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 2px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            margin-bottom: 2px;
+        }
+
+        .info {
+            font-size: 0.7em;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .model-select-container {
+            width: 18%;
+        }
+
+        #model-select {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .metrics {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        #heat-map {
+            flex-grow: 1;
+            background-color: #ddd;
+            display: grid;
+            gap: 1px;
+            aspect-ratio: 1 / 2; /* Makes the heatmap twice as tall */
+        }
+
+        .chunk {
+            background-color: #ddd;
+        }
+
+        .chunk.relevant {
+            background-color: white;
+        }
+
+        .chunk.retrieved {
+            background-color: #3498db;
+        }
+
+        .chunk.adjacent {
+            background-color: #2980b9;
+        }
+
+        .info-panel {
+            margin-top: 15px;
+            background-color: #e8f4f8;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        li {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Demonstration of OpenAI Search Over a Retrieval Database</h1>
+
+        <div class="controls">
+            <div class="slider-grid">
+                <div class="slider-container">
+                    <label for="corpus-size">Corpus Size (tokens): <span id="corpus-size-value">2,000,000</span></label>
+                    <input type="range" id="corpus-size" min="100000" max="5000000" value="2000000">
+                    <div class="info">OpenAI limit: 5,000,000 tokens per file, 512 MB max file size</div>
+                </div>
+                <div class="slider-container">
+                    <label for="chunk-size">Chunk Size (tokens): <span id="chunk-size-value">800</span></label>
+                    <input type="range" id="chunk-size" min="100" max="4096" value="800">
+                    <div class="info">OpenAI range: 100 to 4096 tokens</div>
+                </div>
+                <div class="slider-container">
+                    <label for="chunk-overlap">Chunk Overlap (tokens): <span id="chunk-overlap-value">400</span></label>
+                    <input type="range" id="chunk-overlap" min="0" max="2048" value="400">
+                    <div class="info">Should not exceed half of chunk size</div>
+                </div>
+                <div class="slider-container">
+                    <label for="adjacency-percentage">Adjacency Percentage: <span id="adjacency-percentage-value">30%</span></label>
+                    <input type="range" id="adjacency-percentage" min="0" max="100" value="30">
+                </div>
+                <div class="slider-container">
+                    <label for="returned-chunks">Max Returned Chunks: <span id="returned-chunks-value">20</span></label>
+                    <input type="range" id="returned-chunks" min="1" max="50" value="20">
+                    <div class="info">Default: 20 for GPT-4, 5 for GPT-3.5-turbo</div>
+                </div>
+                <div class="slider-container">
+                    <label for="general-relevancy">General Relevancy (%): <span id="general-relevancy-value">20%</span></label>
+                    <input type="range" id="general-relevancy" min="0" max="100" value="20">
+                    <div class="info">Percentage of corpus that is somewhat relevant</div>
+                </div>
+            </div>
+            <div class="model-select-container">
+                <label for="model-select">Model:</label>
+                <select id="model-select">
+                    <option value="gpt4">GPT-4</option>
+                    <option value="gpt35">GPT-3.5-turbo</option>
+                    <option value="custom">Custom</option>
+                </select>
+                <div class="slider-container">
+                    <label for="token-budget-slider">Total Token Budget: <span id="token-budget-value">16000</span></label>
+                    <input type="range" id="token-budget-slider" min="4000" max="100000" value="16000">
+                </div>
+            </div>
+        </div>
+
+        <div class="metrics">
+            <span>Total Token Budget: <span id="token-budget">16,000</span></span>
+            <span>Effective Non-overlapping Chunks: <span id="effective-chunks">0</span></span>
+        </div>
+
+        <div id="heat-map"></div>
+
+        <div class="info-panel">
+            <h2>Default Settings for ChatGPT Assistants (GPT's)</h2>
+            <ul>
+                <li>Chunk size: 800 tokens</li>
+                <li>Chunk overlap: 400 tokens</li>
+                <li>Max results: 20 for GPT-4, 5 for GPT-3.5-turbo</li>
+                <li>Token budget: 16,000 for GPT-4, 4,000 for GPT-3.5-turbo</li>
+            </ul>
+            <p>Notes:</p>
+            <ol>
+                <li>Adjacency percentage will alter number of chunks that overlap, reducing the effective token budget and total number of non-overlapping tokens returned. 100% adjacency will produce 8000 effective non-overlapping tokens with the default 50% overlap.</li>
+                <li>Default values represent the default behavior of ChatGPT GPT's.</li>
+                <li>General relevancy is the assumed number of tokens that would be relevant enough for the user to expect them to be returned to the model.</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        // Get DOM elements
+        const corpusSizeSlider = document.getElementById('corpus-size');
+        const corpusSizeValue = document.getElementById('corpus-size-value');
+        const chunkSizeSlider = document.getElementById('chunk-size');
+        const chunkSizeValue = document.getElementById('chunk-size-value');
+        const chunkOverlapSlider = document.getElementById('chunk-overlap');
+        const chunkOverlapValue = document.getElementById('chunk-overlap-value');
+        const adjacencyPercentageSlider = document.getElementById('adjacency-percentage');
+        const adjacencyPercentageValue = document.getElementById('adjacency-percentage-value');
+        const returnedChunksSlider = document.getElementById('returned-chunks');
+        const returnedChunksValue = document.getElementById('returned-chunks-value');
+        const generalRelevancySlider = document.getElementById('general-relevancy');
+        const generalRelevancyValue = document.getElementById('general-relevancy-value');
+        const modelSelect = document.getElementById('model-select');
+        const tokenBudgetSlider = document.getElementById('token-budget-slider');
+        const tokenBudgetValue = document.getElementById('token-budget-value');
+        const tokenBudget = document.getElementById('token-budget');
+        const effectiveChunks = document.getElementById('effective-chunks');
+        const heatMap = document.getElementById('heat-map');
+
+        function updateModelAndBudget() {
+            const model = modelSelect.value;
+            if (model === 'gpt4') {
+                tokenBudgetSlider.value = 16000;
+            } else if (model === 'gpt35') {
+                tokenBudgetSlider.value = 4000;
+            }
+            tokenBudgetValue.textContent = tokenBudgetSlider.value;
+            updateHeatMap();
+        }
+
+        // Update heat map
+        function updateHeatMap() {
+            const corpusSize = parseInt(corpusSizeSlider.value);
+            const chunkSize = parseInt(chunkSizeSlider.value);
+            const chunkOverlap = parseInt(chunkOverlapSlider.value);
+            const adjacencyPercentage = parseInt(adjacencyPercentageSlider.value);
+            const maxReturnedChunks = parseInt(returnedChunksSlider.value);
+            const generalRelevancy = parseInt(generalRelevancySlider.value);
+            const maxTokenBudget = parseInt(tokenBudgetSlider.value);
+            
+            // Validate chunk overlap
+            if (chunkOverlap > chunkSize / 2) {
+                chunkOverlapSlider.value = Math.floor(chunkSize / 2);
+                updateHeatMap();
+                return;
+            }
+
+            // Calculate grid size
+            const totalChunks = Math.floor((corpusSize - chunkOverlap) / (chunkSize - chunkOverlap));
+            const gridSize = Math.ceil(Math.sqrt(totalChunks * 2)); // Adjust for 1:2 aspect ratio
+            
+            // Update heat map grid
+            heatMap.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`;
+            heatMap.innerHTML = '';
+            
+            // Calculate retrieved chunks
+            let retrievedChunks = Math.min(maxReturnedChunks, totalChunks);
+            let currentTokenBudget = 0;
+            let effectiveNonOverlappingChunks = 0;
+            
+            // Create all chunks and mark relevant ones
+            const relevantChunks = Math.floor(totalChunks * (generalRelevancy / 100));
+            const relevantIndices = new Set();
+            while (relevantIndices.size < relevantChunks) {
+                relevantIndices.add(Math.floor(Math.random() * totalChunks));
+            }
+            
+            for (let i = 0; i < totalChunks; i++) {
+                const chunk = document.createElement('div');
+                chunk.classList.add('chunk');
+                if (relevantIndices.has(i)) {
+                    chunk.classList.add('relevant');
+                }
+                heatMap.appendChild(chunk);
+            }
+            
+            // Mark retrieved and adjacent chunks
+            const chunks = heatMap.children;
+            let retrievedCount = 0;
+            let adjacentCount = 0;
+            
+            while (retrievedCount < retrievedChunks && currentTokenBudget < maxTokenBudget) {
+                const index = Math.floor(Math.random() * totalChunks);
+                if (!chunks[index].classList.contains('retrieved') && chunks[index].classList.contains('relevant')) {
+                    chunks[index].classList.add('retrieved');
+                    retrievedCount++;
+                    currentTokenBudget += chunkSize;
+                    effectiveNonOverlappingChunks++;
+                    
+                    if (adjacentCount < Math.floor(retrievedChunks * (adjacencyPercentage / 100)) && index + 1 < totalChunks) {
+                        chunks[index + 1].classList.add('retrieved', 'adjacent');
+                        retrievedCount++;
+                        adjacentCount++;
+                        currentTokenBudget += chunkSize - chunkOverlap;
+                    }
+                }
+            }
+            
+            // Update displayed values
+            corpusSizeValue.textContent = corpusSize.toLocaleString();
+            chunkSizeValue.textContent = chunkSize.toLocaleString();
+            chunkOverlapValue.textContent = chunkOverlap.toLocaleString();
+            adjacencyPercentageValue.textContent = `${adjacencyPercentage}%`;
+            returnedChunksValue.textContent = retrievedCount;
+            generalRelevancyValue.textContent = `${generalRelevancy}%`;
+            tokenBudget.textContent = currentTokenBudget.toLocaleString();
+            effectiveChunks.textContent = effectiveNonOverlappingChunks.toLocaleString();
+        }
+
+        // Event listeners
+        corpusSizeSlider.addEventListener('input', updateHeatMap);
+        chunkSizeSlider.addEventListener('input', updateHeatMap);
+        chunkOverlapSlider.addEventListener('input', updateHeatMap);
+        adjacencyPercentageSlider.addEventListener('input', updateHeatMap);
+        returnedChunksSlider.addEventListener('input', updateHeatMap);
+        generalRelevancySlider.addEventListener('input', updateHeatMap);
+        modelSelect.addEventListener('change', updateModelAndBudget);
+        tokenBudgetSlider.addEventListener('input', function() {
+            tokenBudgetValue.textContent = this.value;
+            modelSelect.value = 'custom';
+            updateHeatMap();
+        });
+
+        // Initial update
+        updateModelAndBudget();
+    </script>
+</body>
+</html>
