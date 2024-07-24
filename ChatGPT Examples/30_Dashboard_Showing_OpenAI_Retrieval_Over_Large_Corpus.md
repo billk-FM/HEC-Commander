@@ -11,8 +11,8 @@ Our dashboard, now live at [https://app.netlify.com/sites/oai-file-retrieval-dem
 
 
 <p align="center">
-  <img src="./data/oai_retrieval_dash.png" width="30%">
-    OpenAI Retrieval Dashboard
+  <img src="./data/oai_retrieval_dash.png" width="30%">  </p>
+<p align="center">   OpenAI Retrieval Dashboard
 </p>
 
 ## The OpenAI Retrieval Dashboard: A Tool for Understanding, Not Optimization
