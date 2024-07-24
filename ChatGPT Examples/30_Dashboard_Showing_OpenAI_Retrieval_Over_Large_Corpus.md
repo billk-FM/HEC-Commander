@@ -8,9 +8,12 @@ As AI language models become increasingly sophisticated, the promise of Retrieva
 
 Our dashboard, now live at [https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/](https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/), is not just another tool for optimizing RAG parameters. Instead, it serves as an educational platform, demonstrating the often-overlooked complexities involved in retrieving content from large document corpuses.
 
-<div style="text-align:center;">
-    <img src="https://github.com/billk-FM/HEC-Commander/blob/main/ChatGPT%20Examples/data/oai_retrieval_dash.png" alt="OpenAI Retrieval Dashboard" width="50%">
-</div>
+
+
+<p align="center">
+  <img src="./data/oai_retrieval_dash.png" width="30%">
+    OpenAI Retrieval Dashboard
+</p>
 
 ## The OpenAI Retrieval Dashboard: A Tool for Understanding, Not Optimization
 
