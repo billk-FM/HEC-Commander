@@ -10,7 +10,7 @@ Dashboard Link: [https://oai-file-retrieval-demo-dashboard.netlify.app/](https:/
 
 <p align="center">
   <a href="https://oai-file-retrieval-demo-dashboard.netlify.app/">
-    <img src="./data/oai_retrieval_dash.png" width="30%">
+    <img src="./data/oai_retrieval_dash.png" width="70%">
   </a>
 </p>
 <p align="center">   
