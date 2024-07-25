@@ -2,9 +2,11 @@
 
 ## Introduction: The Challenge of RAG in Large Document Retrieval
 
-As AI language models become increasingly sophisticated, the promise of Retrieval-Augmented Generation (RAG) to enhance these models with vast knowledge bases has captured the imagination of developers and businesses alike. However, the reality of implementing RAG, especially when dealing with large documents, is far more complex than many realize. Today, we're introducing a new dashboard that sheds light on the hidden intricacies and current limitations of RAG in the context of OpenAI's powerful language models.
+Retrieval-Augmented Generation (RAG) is the built-in feature in ChatGPT that allows you to upload large documents to enhance your chat outputs.  Despite all the new technologies and terms such as vector searches, cosine similarity, etc, there is still a fundamental limitation to the amount of actual tokens that can be retrieved, and most chat interfaces don't do a good job of showing you what it actualy retrieved (if you saw the ugly chunking you would see how naive and haphazard it is).  This is a MAJOR cause if unnecessary hallucinations in practice when using GPT's as the model tends to hallucinate missing content that the user resonably expects to be retrieved (but is actually not).   To explore this issue, i reviewed the OpenAI API interface to find details that provide clues about the ChatGPT web interface's capabilities.
 
-## Unveiling the Hidden Complexity of RAG Content Retrieval
+To help explore thus visuallu, I utilized Anthropic's Claude to build a HTML/CSS/Javascript dashboard that allows the user to simulate the current operative limits of RAG in the context of OpenAI's powerful language models.
+
+## Dashboard Simulating RAG Content Retrieval
 
 Our dashboard, now live at [https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/](https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/), is not just another tool for optimizing RAG parameters. Instead, it serves as an educational platform, demonstrating the often-overlooked complexities involved in retrieving content from large document corpuses.
 
@@ -20,7 +22,7 @@ Our dashboard, now live at [https://app.netlify.com/sites/oai-file-retrieval-dem
 
 ## The OpenAI Retrieval Dashboard: A Tool for Understanding, Not Optimization
 
-While the dashboard allows users to adjust various parameters such as corpus size, chunk size, and token budget, its primary purpose is to illustrate the limitations of current RAG implementations. By manipulating these settings, users can gain insights into how little context is actually retrieved, even from a substantial 2-million token corpus.
+While the dashboard allows users to adjust various parameters such as corpus size, chunk size, and token budget, its primary purpose is to illustrate the limitations of current RAG implementations. By manipulating these settings, users can gain insights into how little context is actually retrieved, even from a substantial 2-million token corpus.  Ultimately, RAG retrieval will be eventually superceded by larger context windows that can be utilized cheaply.  In the meantime, the relatively small context windows of frontier-intelligence LLM's will continue to force reliance on these advanced search/limited retrieval technology stacks.  By helping users understand the limited nature of RAG search and retrieval, better decisions can be made regarding when to manually curate context (especially where total relevant context exceeds the 12-16k effective token budget)
 
 ## Key Insights from the Dashboard
 
