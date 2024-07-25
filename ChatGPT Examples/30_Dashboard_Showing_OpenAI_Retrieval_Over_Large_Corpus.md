@@ -1,4 +1,4 @@
-# Understanding the Limits of RAG: A Deep Dive with Our New OpenAI Retrieval Dashboard
+# Understanding the Limits of RAG: Dashboard Simulating OpenAI Document Retrieval
 
 ## Introduction: The Challenge of RAG in Large Document Retrieval
 
