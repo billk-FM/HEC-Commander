@@ -19,6 +19,7 @@ Dashboard Link: [https://oai-file-retrieval-demo-dashboard.netlify.app/](https:/
   OpenAI Retrieval Dashboard
 </p>
 
+NOTE: The dashboard only works on desktop browsers!  No ios or android support yet, although movile isere can see the demonstration in the screenshor above. 
 
 ## The OpenAI Retrieval Dashboard: A Tool for Understanding, Not Optimization
 
