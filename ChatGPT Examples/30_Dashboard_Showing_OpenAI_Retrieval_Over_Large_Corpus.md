@@ -8,10 +8,10 @@ To help explore thus visuallu, I utilized Anthropic's Claude to build a HTML/CSS
 
 ## Dashboard Simulating RAG Content Retrieval
 
-Our dashboard, now live at [https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/](https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/), is not just another tool for optimizing RAG parameters. Instead, it serves as an educational platform, demonstrating the often-overlooked complexities involved in retrieving content from large document corpuses.
+Dashboard Link: [https://oai-file-retrieval-demo-dashboard.netlify.app/](https://oai-file-retrieval-demo-dashboard.netlify.app/) 
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/oai-file-retrieval-demo-dashboard/">
+  <a href="https://oai-file-retrieval-demo-dashboard.netlify.app/">
     <img src="./data/oai_retrieval_dash.png" width="30%">
   </a>
 </p>
