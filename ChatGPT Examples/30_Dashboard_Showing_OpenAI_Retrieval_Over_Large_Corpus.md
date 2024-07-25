@@ -21,29 +21,21 @@ Dashboard Link: [https://oai-file-retrieval-demo-dashboard.netlify.app/](https:/
 
 NOTE: The dashboard only works on desktop browsers!  No ios or android support yet, although movile isere can see the demonstration in the screenshor above. 
 
-## The OpenAI Retrieval Dashboard: A Tool for Understanding, Not Optimization
+## The OpenAI Retrieval Demonstration Dashboard: A Tool for Visual Understanding
 
-While the dashboard allows users to adjust various parameters such as corpus size, chunk size, and token budget, its primary purpose is to illustrate the limitations of current RAG implementations. By manipulating these settings, users can gain insights into how little context is actually retrieved, even from a substantial 2-million token corpus.  Ultimately, RAG retrieval will be eventually superceded by larger context windows that can be utilized cheaply.  In the meantime, the relatively small context windows of frontier-intelligence LLM's will continue to force reliance on these advanced search/limited retrieval technology stacks.  By helping users understand the limited nature of RAG search and retrieval, better decisions can be made regarding when to manually curate context (especially where total relevant context exceeds the 12-16k effective token budget)
+While the dashboard allows users to adjust various parameters such as corpus size, chunk size, and token budget, its primary purpose is to illustrate the limitations of current RAG implementations. By manipulating these settings, users can gain insights into how little context is actually retrieved, even from a substantial 2-million token corpus.  Ultimately, RAG retrieval will be superceded by larger context windows that can be utilized cheaply.  When context windows are not orders of magnitude too small, RAG solutions will also be able to deliver more value as there is a lot of robustness that vector search can add to model retrievals (by serving an opposite function: omitting irrelevant information).  In the meantime, the relatively small context windows of frontier-intelligence LLM's will continue to force these advanced search/limited retrieval technology stacks to be relied upon much to heavily.  By helping users understand the limited nature of RAG search and retrieval, better decisions can be made regarding when to manually curate context (especially where total relevant context exceeds the 12-16k effective token budget).
 
-## Key Insights from the Dashboard
+## Limitations of Current Return Augmented Generation (RAG) in OpenAI Assistants and GPT's (July 2024)
 
-1. **Token Budget Sensitivity**: The most critical slider is the total token budget for the retrieval tool. This directly impacts how much context can be provided to the model.
+The dashboard starkly illustrates that current RAG implementations are far from a panacea for integrating large knowledge bases with language models, especialy when the total relevant context from those documents in many cases would far exceed even the full context window of the models.  Context windows are an order of magnitude larger than the effective non-overlapping token budgets currenly in place, so there is very little total context retrieved in comparison to a large (and relevant) corpus. Users would be forgiven for overestimating the amount of context that can be effectively retrieved and utilized, as the retrieved chunks are not shown to the user.  This leads to potential misunderstandings about the capabilities of the overall model's performance.  When the user is asking/expecting for more backing context than the RAG system can retrieve, the user is effectively asking the model to hallucinate the gaps in knowledge to produce the requested output.  
 
-2. **Limited Retrieval**: Even with optimal settings (50 chunks and a large token budget), the amount of context retrieved from a 2-million token corpus is surprisingly small.
+## Practical Implications for Users Today
 
-3. **Rapid Budget Exhaustion**: After just a few messages in a conversation, the token budget for retrieval is often depleted, limiting the effectiveness of RAG in ongoing dialogues.
+1. **Start Fresh Conversations Often**: Users are encouraged to start new conversations frequently when relying on document retrieval, as token budgets are quickly exhausted.
 
-## The Limitations of Current RAG Implementations
+2. **Manually Input Small Documents/Segments in their Entirety**: For documents up to 50-60k tokens, directly pasting the entire text into the web interface may be more effective than relying on RAG.
 
-The dashboard starkly illustrates that current RAG implementations, while powerful, are far from a panacea for integrating large knowledge bases with language models. Users often overestimate the amount of context that can be effectively retrieved and utilized, leading to potential misunderstandings about the capabilities of RAG-enhanced models.
-
-## Practical Implications for Users
-
-1. **Start Fresh**: Users are encouraged to start new conversations frequently when relying on document retrieval, as token budgets are quickly exhausted.
-
-2. **Direct Input for Small Documents**: For documents up to 50-60k tokens, directly pasting the entire text into the web interface may be more effective than relying on RAG.
-
-3. **Cost Considerations**: While API costs for large context windows (like GPT-4 Turbo) can be prohibitive (potentially $11-12 per request), it's important to note that these costs are rapidly decreasing with new model releases.
+3. **Use the Web Interface/Subscription Model for Large-Context Requests**: Long-context requests for most users are best performed as copy/paste directly into the web interface for heavy but non-automated use cases.  For medium to heavy utilization, the API costs will far exceed subscription costs.  Using Anthropic's Claude and Google's Gemini are also good alternatives for large-context requests as they offer much larger (200k and 2M tokens, respectively) larger context windows which allow much larger documents to be fully inserted for optimal performance.  
 
 ## Future Outlook: Evolving RAG Capabilities and Costs
 
@@ -55,14 +47,4 @@ The landscape of RAG and large language models is evolving rapidly:
 
 3. **Persistent Limitations**: Even with expanded RAG capabilities, the fundamental limitations of context windows will continue to challenge our ability to leverage truly massive knowledge bases in real-time interactions.
 
-## Conclusion: Empowering Users with Knowledge
-
-Our OpenAI Retrieval Dashboard is designed to educate and empower users by revealing the current realities of RAG implementations. By understanding these limitations, developers and businesses can make more informed decisions about how to effectively leverage RAG in their AI applications.
-
-We encourage you to explore the dashboard, experiment with different settings, and gain a deeper appreciation for the complexities involved in AI-powered document retrieval. As we continue to push the boundaries of what's possible with large language models and knowledge integration, tools like this will be crucial in setting realistic expectations and driving innovation in the field.
-
-The journey towards truly seamless and comprehensive AI-powered knowledge retrieval is ongoing, and we're excited to be part of the community working towards this goal. Stay tuned for future updates as we continue to track and analyze the evolving landscape of RAG and large language models.
-
----
-
-This revised blog post now focuses more on educating users about the current limitations of RAG, the purpose of the dashboard as a demonstration tool rather than an optimization tool, and the practical implications for users working with large document retrieval in AI applications. It also touches on the future outlook, acknowledging the rapid changes in the field while maintaining a realistic perspective on the challenges that persist.
+**UNTIL THEN:  Manually curating your knowledge bases (time consuming) or using third-party RAG with API (expensive!) will still be the best way to optimize model outputs when large document libraries are being utilized.  
