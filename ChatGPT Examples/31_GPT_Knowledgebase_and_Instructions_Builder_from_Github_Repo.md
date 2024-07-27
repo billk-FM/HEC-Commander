@@ -9,14 +9,6 @@ The GPT Knowledge Builder is a tool designed to compile GitHub repositories into
 - Less than 10 files
 - Less than 5 million tokens per file or 512MB
 
-## Author
-
-William (Bill) Katzenmeyer, P.E., C.F.M. (C.H. Fenstermaker and Associates, LLC)
-
-## Source
-
-https://github.com/billk-FM/HEC-Commander-Tools
-
 ## Prerequisites
 
 To use this tool, you'll need:
