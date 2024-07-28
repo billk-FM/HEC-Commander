@@ -13,6 +13,12 @@ These  tools provide a comprehensive approach to analyzing and discretizing Atla
 2. [Atlas14_2_Post-Process_Statistics_by_Polygon.ipynb](Atlas14_2_Post-Process_Statistics_by_Polygon.ipynb): Processes downloaded grids and calculates statistics for defined watershed polygons.
 3. [Atlas14_3_Variance_and_Data_Analysis.ipynb](Atlas14_3_Variance_and_Data_Analysis.ipynb): Performs further analysis and visualization of the processed data.
 
+## Limitation
+
+The scripts only work with multi-state datasets.  This was due to the fact that this tool was originally designed for Region 4 of the Louisiana Watershed Initiative, which spans multiple states.  In fact, all but 2 of the LWI Regions have inflows from out of state.  However, for study areas that are only contained within one state, the script can still be utilized as long as an adjacent state is specified.  The additional data will simply be ignored as it is not within the study area.  Alternately, manually editing of the notebooks can be performed skip the steps to combine the ASC grids and redirect data analysis to use the correct state grids.
+
+Additionally, the script does not analyze the upper and lower bound datasets available from NOAA.  Only the recommended mean values are analyzed. 
+
 ## Setup and Usage
 
 ### 1. Atlas14_1_Download_NOAA_ASC_Grids_robust.ipynb
