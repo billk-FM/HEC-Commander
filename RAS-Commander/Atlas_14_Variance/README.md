@@ -7,11 +7,11 @@ This repository contains a series of Python notebooks for analyzing spatial vari
 Accurate representation of precipitation inputs is crucial for effective hydrologic and hydraulic modeling, especially for large watersheds spanning multiple states. This toolset addresses the challenge of applying NOAA Atlas 14 precipitation frequency estimates to large-scale watershed models where a mix of HMS and RAS 2D models are used (which both have differing capabilities and available toolsets for discretizing Atlas 14 values within model boundaries).  Balancing spatial detail with computational efficiency and software limitations requires data analysis to inform users as to whether such discretization is significant over the chosen model domain.
 These  tools provide a comprehensive approach to analyzing and discretizing Atlas 14 data for use in both HEC-HMS and HEC-RAS models. They bridge the gap between fully distributed precipitation inputs and practical constraints of current modeling software.
 
-## Contents
+## Notebooks
 
-1. `Atlas14_1_Download_NOAA_ASC_Grids_robust.ipynb`: Downloads Atlas 14 ASC grid files from NOAA.
-2. `Atlas14_2_Post-Process_Statistics_by_Polygon_robust.ipynb`: Processes downloaded grids and calculates statistics for defined watershed polygons.
-3. `Atlas14_3_Variance_and_Data_Analysis_robust.ipynb`: Performs further analysis and visualization of the processed data.
+1. [Atlas14_1_Download_NOAA_ASC_Grids.ipynb](./Atlas14_1_Download_NOAA_ASC_Grids.ipynb): Downloads Atlas 14 ASC grid files from NOAA.
+2. [Atlas14_2_Post-Process_Statistics_by_Polygon.ipynb](Atlas14_2_Post-Process_Statistics_by_Polygon.ipynb): Processes downloaded grids and calculates statistics for defined watershed polygons.
+3. [Atlas14_3_Variance_and_Data_Analysis.ipynb](Atlas14_3_Variance_and_Data_Analysis.ipynb): Performs further analysis and visualization of the processed data.
 
 ## Setup and Usage
 
@@ -97,6 +97,10 @@ Explanation:
 
 ## Requirements
 
+- GeoJSON with watershed boundaries for analysis
+    - GeoJSON should have a "name" attribute column containing your watershed name (if report figures are desired)
+    - Polygons should be single part, not multipart polygons
+    - NOAA ASC grids are in EPSG 6479, convert all input GeoJSONS to this projection before processing with script
 - Tested with Python 3.11 using Anaconda and VS Code
 - Auto Installed Libraries: pandas, numpy, matplotlib, geopandas, rasterio, requests, beautifulsoup4, tqdm, IPython
 
