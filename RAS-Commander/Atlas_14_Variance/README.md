@@ -123,7 +123,7 @@ William (Bill) Katzenmeyer, P.E., C.F.M. (C.H. Fenstermaker and Associates, LLC)
 
 ## Example Outputs
 
-Below are example outputs from the West Fork 2D watershed area:
+Below are example outputs from Region 4 and the West Fork 2D watershed area:
 
 ### Plots and Charts
 
@@ -133,11 +133,12 @@ Below are example outputs from the West Fork 2D watershed area:
 
 
 <p align="center">
-  <img src="img/sample_watershed_duration_chart.png" width=60%>
+  <img src="img/sample_watershed_pixel_plot.png" width=60%>
 </p>
 
+
 <p align="center">
-  <img src="img/sample_watershed_pixel_plot.png" width=60%>
+  <img src="img/sample_watershed_duration_chart.png" width=60%>
 </p>
 
 
