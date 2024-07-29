@@ -133,11 +133,11 @@ Below are example outputs from the West Fork 2D watershed area:
 
 
 <p align="center">
-  <img src="misc/sample_watershed_duration_chart.png" width=60%>
+  <img src="img/sample_watershed_duration_chart.png" width=60%>
 </p>
 
 <p align="center">
-  <img src="misc/sample_watershed_pixel_plot.png" width=60%>
+  <img src="img/sample_watershed_pixel_plot.png" width=60%>
 </p>
 
 
