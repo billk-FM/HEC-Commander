@@ -119,3 +119,39 @@ Explanation:
 ## Authors
 
 William (Bill) Katzenmeyer, P.E., C.F.M. (C.H. Fenstermaker and Associates, LLC)
+
+
+## Example Outputs
+
+Below are example outputs from the West Fork 2D watershed area:
+
+### Plots and Charts
+
+<p align="center">
+  <img src="img/sample_regional_plot.png" width=60%>
+</p>
+
+
+<p align="center">
+  <img src="misc/sample_watershed_duration_chart.png" width=60%>
+</p>
+
+<p align="center">
+  <img src="misc/sample_watershed_pixel_plot.png" width=60%>
+</p>
+
+
+### Tabular CSV Output
+
+| File Name            | Max (inches) | Min (inches) | Mean (inches) | Range (%)         | polygon_name | Results_name            | Return Interval | Duration | Duration Units | Duration Hours |
+|----------------------|--------------|--------------|---------------|-------------------|--------------|-------------------------|-----------------|----------|----------------|----------------|
+| cb100yr06ha.asc      | 10.119       | 9.414        | 9.776802063   | 6.967099981047149 | West Fork    | West Fork cb100yr06ha.asc | 100             | 6        | ha             | 360            |
+| cb100yr12ha.asc      | 12.846       | 11.511       | 12.0398511887 | 10.39234055334938 | West Fork    | West Fork cb100yr12ha.asc | 100             | 12       | ha             | 720            |
+| cb100yr24ha.asc      | 15.293       | 13.374       | 14.1577539444 | 12.548228587243116| West Fork    | West Fork cb100yr24ha.asc | 100             | 24       | ha             | 1440           |
+| cb100yr48ha.asc      | 17.159       | 15.007       | 16.0515098572 | 12.541525598754506| West Fork    | West Fork cb100yr48ha.asc | 100             | 48       | ha             | 2880           |
+
+
+
+
+
+
