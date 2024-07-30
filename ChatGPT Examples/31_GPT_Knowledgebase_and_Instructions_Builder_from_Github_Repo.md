@@ -1,4 +1,4 @@
-# GPT Knowledge and Instructions Builder from Github Repo
+# GPT Knowledge and Instructions Builder (from Github Repo)
 
 Link to Notebook: [GPT_Knowledgebase_and_Instructions_Builder_from_Github.ipynb](https://github.com/billk-FM/HEC-Commander/blob/e093f55c6bfd36c6ad72de7a099e8e7f1bd24a4e/ChatGPT%20Examples/data/GPT_Knowledgebase_and_Instructions_Builder_from_Github.ipynb)
 
