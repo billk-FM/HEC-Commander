@@ -99,4 +99,13 @@ When installing, select the "C++ Build Tools for Visual Studio 2019" option
 # Youtube Channel
 A Youtube Channel with instructional videos to accompany this repository can be found here: [GPT-Commander Youtube Channel](https://www.youtube.com/@GPT_Commander)
 
+# More Media and Content: 
+
+[Full Momentum Episode 33: The Future of leveraging HEC-RAS with Automation and AI](https://www.youtube.com/watch?v=uM1Kxkw863c&t=550s)
+
+[Australian Water School - Applying AI to HEC-RAS Modelling Workflows (July 2024)](https://www.youtube.com/watch?v=St7d7q_ithQ&t=55s)
+
+[Australian Water School - AI tools for modelling innovation (Feb 2024)](https://www.youtube.com/watch?v=5PNPhFF-_84&t=1559s&pp=ygUXYXVzdHJhbGlhbiB3YXRlciBzY2hvb2w%3D)
+
+There is also a premium webinar available here [AI Applications to HEC-RAS modelling workflows](https://awschool.com.au/training/ai-tools-to-hec-ras-modelling/) which details how to build basic HEC-RAS automation functions from plain language.  This will soon be available as a separate, open soure ras-commander library. (coming soon!)
 
