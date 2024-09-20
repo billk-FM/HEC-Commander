@@ -1,7 +1,17 @@
 Welcome to the HEC-Commander Blog! 
 
 Here are the latest blog posts with brief summaries:  
+
 <br></br>
+
+<p align="center">
+  <img src="img/bitterlesson.png" width="70%">
+</p>
+<h1 align="center" style="font-weight:bold; font-size: 36px;"><a href="https://github.com/billk-FM/HEC-Commander/blob/main/Blog/9.Avoiding_The_Bitter_Lesson_In_RAS_Modeling.md">Avoiding The Bitter Lesson in HEC-RAS Modeling</a></h1>
+This article draws parallels between breakthroughs in AI and the computational challenges faced in hydraulic modeling using HEC-RAS, particularly in the 2D modeling era post version 6.0. Inspired by Rich Sutton's essay, *"The Bitter Lesson,"* the post explores how scaling through parallelism and brute force, rather than relying solely on smarter algorithms, can lead to significant improvements in modeling efficiency. It discusses the rising computational demands since HEC-RAS 5.0.7, the exhaustion of Moore’s Law, the challenges with parallelism in HEC-RAS, and how tools like RAS-Commander have addressed the gap by enabling up to 99 parallel runs. The post also provides insights on optimizing within current technological constraints, preparing for future GPU-based solvers, and embracing a new paradigm in hydraulic modeling.
+
+<br></br>
+
 <p align="center">
   <img src="img/infiltration-llama.png" width="30%">
 </p>
