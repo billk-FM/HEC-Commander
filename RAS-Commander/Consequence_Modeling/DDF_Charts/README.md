@@ -4,7 +4,7 @@ More information at the [Go Consequences Wiki](https://github.com/USACE/go-conse
 
 # Building Occupancy Type Charts and Damage Functions
 
-Below are fragility curves organized by occupancy type, displayed at 70% width and centered, along with their corresponding damage functions.
+Below are fragility curves organized by occupancy type along with tables of the corresponding damage functions.
 
 <div align="center">
 
