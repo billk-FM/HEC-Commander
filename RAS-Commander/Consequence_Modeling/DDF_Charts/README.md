@@ -234,9 +234,402 @@ Below are fragility curves organized by occupancy type, displayed at 70% width a
 | Contents   | erosion         | NACCS (BhrErCn) | erosion  |
 | Structure  | erosion         | NACCS (BhrErSt) | erosion  |
 
+## Industrial Occupancies
+<img src="IND_ddf.png" width="70%">
 
+### IND Damage Functions
+| Category   | Function Type   | Source           | Driver   |
+|:-----------|:----------------|:-----------------|:---------|
+| Contents   | erosion         | NACCS (CeErNPCn) | erosion  |
+| Structure  | erosion         | NACCS (CeErSt)   | erosion  |
 
+<img src="IND1_ddf.png" width="70%">
 
+### IND1 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | erosion         | NACCS (CeErNPCn)                     | erosion  |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (CeErSt)                       | erosion  |
+
+<img src="IND2_ddf.png" width="70%">
+
+### IND2 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (CeErNPCn)                     | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (CeErSt)                       | erosion  |
+
+<img src="IND3_ddf.png" width="70%">
+
+### IND3 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (CeErNPCn)                     | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (CeErSt)                       | erosion  |
+
+<img src="IND4_ddf.png" width="70%">
+
+### IND4 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+
+<img src="IND5_ddf.png" width="70%">
+
+### IND5 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (CeErNPCn)                     | erosion  |
+| Structure  | erosion         | NACCS (CeErSt)                       | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+
+<img src="IND6_ddf.png" width="70%">
+
+### IND6 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (CeErNPCn)                     | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (CeErSt)                       | erosion  |
+
+## Public Buildings
+<img src="PUB_ddf.png" width="70%">
+
+### PUB Damage Functions
+| Category   | Function Type   | Source           | Driver   |
+|:-----------|:----------------|:-----------------|:---------|
+| Contents   | erosion         | NACCS (CeErNPCn) | erosion  |
+| Structure  | erosion         | NACCS (CeErSt)   | erosion  |
+
+<img src="PUB-Masonry_ddf.png" width="70%">
+
+### PUB-Masonry Damage Functions
+| Category   | Function Type   | Source           | Driver   |
+|:-----------|:----------------|:-----------------|:---------|
+| Contents   | erosion         | NACCS (CeErNPCn) | erosion  |
+| Structure  | erosion         | NACCS (CeErSt)   | erosion  |
+
+<img src="PUB-Wood_ddf.png" width="70%">
+
+### PUB-Wood Damage Functions
+| Category   | Function Type   | Source           | Driver   |
+|:-----------|:----------------|:-----------------|:---------|
+| Contents   | erosion         | NACCS (CeErNPCn) | erosion  |
+| Structure  | erosion         | NACCS (CeErSt)   | erosion  |
+
+## Religious Buildings
+<img src="REL1_ddf.png" width="70%">
+
+### REL1 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (CeErNPCn)                     | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (CeErSt)                       | erosion  |
+
+## Residential Buildings
+<img src="RES1-1SNB_ddf.png" width="70%">
+
+### RES1-1SNB Damage Functions
+| Category   | Function Type                                 | Source                             | Driver   |
+|:-----------|:----------------------------------------------|:-----------------------------------|:---------|
+| Contents   | depth                                         | EGM damage functions               | depth    |
+| Contents   | waveheight, depth, highwaveheight             | FEMA coastal PFRA damage functions | depth    |
+| Contents   | waveheight, mediumwaveheight, salinity, depth | FEMA coastal PFRA damage functions | depth    |
+| Contents   | salinity, depth                               | FEMA coastal PFRA damage functions | depth    |
+| Contents   | erosion                                       | NACCS (OsNbErCn)                   | erosion  |
+| Contents   | default                                       | EGM damage functions               | depth    |
+| Structure  | depth                                         | EGM damage functions               | depth    |
+| Structure  | waveheight, depth, highwaveheight             | FEMA coastal PFRA damage functions | depth    |
+| Structure  | waveheight, mediumwaveheight, salinity, depth | FEMA coastal PFRA damage functions | depth    |
+| Structure  | salinity, depth                               | FEMA coastal PFRA damage functions | depth    |
+| Structure  | default                                       | EGM damage functions               | depth    |
+| Structure  | erosion                                       | NACCS (OsNbErSt)                   | erosion  |
+
+<img src="RES1-1SNB-PIER_ddf.png" width="70%">
+
+### RES1-1SNB-PIER Damage Functions
+| Category   | Function Type                                 | Source                             | Driver   |
+|:-----------|:----------------------------------------------|:-----------------------------------|:---------|
+| Contents   | default                                       | FEMA coastal PFRA damage functions | depth    |
+| Contents   | depth, salinity                               | FEMA coastal PFRA damage functions | depth    |
+| Contents   | waveheight, salinity, highwaveheight, depth   | FEMA coastal PFRA damage functions | depth    |
+| Contents   | waveheight, mediumwaveheight, salinity, depth | FEMA coastal PFRA damage functions | depth    |
+| Structure  | depth, salinity                               | FEMA coastal PFRA damage functions | depth    |
+| Structure  | depth, waveheight, mediumwaveheight, salinity | FEMA coastal PFRA damage functions | depth    |
+| Structure  | salinity, waveheight, depth, highwaveheight   | FEMA coastal PFRA damage functions | depth    |
+| Structure  | default                                       | FEMA coastal PFRA damage functions | depth    |
+
+<img src="RES1-1SWB_ddf.png" width="70%">
+
+### RES1-1SWB Damage Functions
+| Category   | Function Type                                 | Source                                                                      | Driver   |
+|:-----------|:----------------------------------------------|:----------------------------------------------------------------------------|:---------|
+| Contents   | default                                       | EGM Depth Damage Curve                                                      | depth    |
+| Contents   | depth                                         | EGM Depth Damage Curve                                                      | depth    |
+| Contents   | depth, salinity                               | FEMA coastal PFRA damage curves (combined finished and unfinished basement) | depth    |
+| Contents   | depth, salinity, waveheight, mediumwaveheight | FEMA coastal PFRA damage curves (combined finished and unfinished basement) | depth    |
+| Contents   | waveheight, salinity, highwaveheight, depth   | FEMA coastal PFRA damage functions                                          | depth    |
+| Contents   | erosion                                       | NACCS (SsrBErCn)                                                            | erosion  |
+| Structure  | depth                                         | EGM Depth Damage Curve                                                      | depth    |
+| Structure  | mediumwaveheight, salinity, waveheight, depth | FEMA coastal PFRA damage curves (combined finished and unfinished basement) | depth    |
+| Structure  | depth, salinity                               | FEMA coastal PFRA damage curves (combined finished and unfinished basement) | depth    |
+| Structure  | highwaveheight, depth, waveheight, salinity   | FEMA coastal PFRA damage functions                                          | depth    |
+| Structure  | erosion                                       | NACCS (SsrBErSt)                                                            | erosion  |
+| Structure  | default                                       | EGM Depth Damage Curve                                                      | depth    |
+
+<img src="RES1-2SNB_ddf.png" width="70%">
+
+### RES1-2SNB Damage Functions
+| Category   | Function Type                                 | Source                          | Driver   |
+|:-----------|:----------------------------------------------|:--------------------------------|:---------|
+| Contents   | erosion                                       | NACCS (TsrNbErCn)               | erosion  |
+| Contents   | default                                       | EGM Depth Damage Curve          | depth    |
+| Contents   | depth                                         | EGM Depth Damage Curve          | depth    |
+| Contents   | depth, salinity                               | FEMA coastal PFRA damage curves | depth    |
+| Contents   | waveheight, salinity, depth, highwaveheight   | FEMA coastal PFRA damage curves | depth    |
+| Contents   | salinity, waveheight, mediumwaveheight, depth | FEMA coastal PFRA damage curves | depth    |
+| Structure  | depth                                         | EGM Depth Damage Curve          | depth    |
+| Structure  | depth, salinity                               | FEMA coastal PFRA damage curves | depth    |
+| Structure  | depth, mediumwaveheight, salinity, waveheight | FEMA coastal PFRA damage curves | depth    |
+| Structure  | waveheight, salinity, depth, highwaveheight   | FEMA coastal PFRA damage curves | depth    |
+| Structure  | erosion                                       | NACCS (TsrNbErSt)               | erosion  |
+| Structure  | default                                       | EGM Depth Damage Curve          | depth    |
+
+<img src="RES1-2SNB-PIER_ddf.png" width="70%">
+
+### RES1-2SNB-PIER Damage Functions
+| Category   | Function Type                                 | Source                          | Driver   |
+|:-----------|:----------------------------------------------|:--------------------------------|:---------|
+| Contents   | depth, waveheight, mediumwaveheight           | FEMA coastal PFRA damage curves | depth    |
+| Contents   | default                                       | FEMA coastal PFRA damage curves | depth    |
+| Contents   | salinity, depth                               | FEMA coastal PFRA damage curves | depth    |
+| Contents   | salinity, waveheight, depth, highwaveheight   | FEMA coastal PFRA damage curves | depth    |
+| Structure  | default                                       | FEMA coastal PFRA damage curves | depth    |
+| Structure  | depth, salinity                               | FEMA coastal PFRA damage curves | depth    |
+| Structure  | waveheight, salinity, depth, highwaveheight   | FEMA coastal PFRA damage curves | depth    |
+| Structure  | waveheight, mediumwaveheight, salinity, depth | FEMA coastal PFRA damage curves | depth    |
+
+<img src="RES1-2SWB_ddf.png" width="70%">
+
+### RES1-2SWB Damage Functions
+| Category   | Function Type                                 | Source                                                                        | Driver   |
+|:-----------|:----------------------------------------------|:------------------------------------------------------------------------------|:---------|
+| Contents   | depth, waveheight, mediumwaveheight, salinity | FEMA coastal PFRA damage curves (combined with and without finished basement) | depth    |
+| Contents   | salinity, waveheight, depth, highwaveheight   | FEMA coastal PFRA damage curves                                               | depth    |
+| Contents   | default                                       | EGM Depth Damage Curve                                                        | depth    |
+| Contents   | erosion                                       | NACCS (TsrBErCn)                                                              | erosion  |
+| Contents   | depth                                         | EGM Depth Damage Curve                                                        | depth    |
+| Contents   | depth, salinity                               | FEMA coastal PFRA damage curves (combined with and without finished basement) | depth    |
+| Structure  | highwaveheight, depth, waveheight, salinity   | FEMA coastal PFRA damage curves                                               | depth    |
+| Structure  | default                                       | EGM Depth Damage Curve                                                        | depth    |
+| Structure  | depth                                         | EGM Depth Damage Curve                                                        | depth    |
+| Structure  | erosion                                       | NACCS (TsrBErSt)                                                              | erosion  |
+| Structure  | depth, waveheight, mediumwaveheight, salinity | FEMA coastal PFRA damage curves (combined with and without finished basement) | depth    |
+| Structure  | salinity, depth                               | FEMA coastal PFRA damage curves (combined with and without finished basement) | depth    |
+
+<img src="RES1-3SNB_ddf.png" width="70%">
+
+### RES1-3SNB Damage Functions
+| Category   | Function Type   | Source                                           | Driver   |
+|:-----------|:----------------|:-------------------------------------------------|:---------|
+| Contents   | erosion         | NACCS (TsrNbErCn)                                | erosion  |
+| Contents   | default         | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+| Contents   | depth           | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+| Structure  | depth           | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+| Structure  | erosion         | NACCS (TsrNbErSt)                                | erosion  |
+| Structure  | default         | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+
+<img src="RES1-3SWB_ddf.png" width="70%">
+
+### RES1-3SWB Damage Functions
+| Category   | Function Type   | Source                                           | Driver   |
+|:-----------|:----------------|:-------------------------------------------------|:---------|
+| Contents   | default         | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+| Contents   | depth           | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+| Structure  | depth           | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+| Structure  | default         | HEC-FIA Depth Damage Curve (Based on 2story EGM) | depth    |
+
+<img src="RES1-SLNB_ddf.png" width="70%">
+
+### RES1-SLNB Damage Functions
+| Category   | Function Type   | Source                 | Driver   |
+|:-----------|:----------------|:-----------------------|:---------|
+| Contents   | erosion         | NACCS (TsrBErCn)       | erosion  |
+| Contents   | default         | EGM Depth Damage Curve | depth    |
+| Contents   | depth           | EGM Depth Damage Curve | depth    |
+| Structure  | default         | EGM Depth Damage Curve | depth    |
+| Structure  | depth           | EGM Depth Damage Curve | depth    |
+| Structure  | erosion         | NACCS (TsrBErSt)       | erosion  |
+
+<img src="RES1-SLWB_ddf.png" width="70%">
+
+### RES1-SLWB Damage Functions
+| Category   | Function Type   | Source                 | Driver   |
+|:-----------|:----------------|:-----------------------|:---------|
+| Contents   | default         | EGM Depth Damage Curve | depth    |
+| Contents   | depth           | EGM Depth Damage Curve | depth    |
+| Structure  | default         | EGM Depth Damage Curve | depth    |
+| Structure  | depth           | EGM Depth Damage Curve | depth    |
+
+<img src="RES2_ddf.png" width="70%">
+
+### RES2 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+
+<img src="RES3A_ddf.png" width="70%">
+
+### RES3A Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+
+<img src="RES3B_ddf.png" width="70%">
+
+### RES3B Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+
+<img src="RES3C_ddf.png" width="70%">
+
+### RES3C Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+
+<img src="RES3D_ddf.png" width="70%">
+
+### RES3D Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+
+<img src="RES3E_ddf.png" width="70%">
+
+### RES3E Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+
+<img src="RES3F_ddf.png" width="70%">
+
+### RES3F Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+
+<img src="RES4_ddf.png" width="70%">
+
+### RES4 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (BhrErCn)                      | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (BhrErSt)                      | erosion  |
+
+<img src="RES5_ddf.png" width="70%">
+
+### RES5 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+
+<img src="RES6_ddf.png" width="70%">
+
+### RES6 Damage Functions
+| Category   | Function Type   | Source                               | Driver   |
+|:-----------|:----------------|:-------------------------------------|:---------|
+| Contents   | default         | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Contents   | erosion         | NACCS (TsrNbErCn)                    | erosion  |
+| Structure  | depth           | HEC-FIA damage functions (Galveston) | depth    |
+| Structure  | erosion         | NACCS (TsrNbErSt)                    | erosion  |
+| Structure  | default         | HEC-FIA damage functions (Galveston) | depth    |
+
+## Special Frame Buildings
+<img src="SFR1-B_ddf.png" width="70%">
+
+### SFR1-B Damage Functions
+| Category   | Function Type   | Source           | Driver   |
+|:-----------|:----------------|:-----------------|:---------|
+| Contents   | erosion         | NACCS (OsNbErCn) | erosion  |
+| Structure  | erosion         | NACCS (OsNbErSt) | erosion  |
+
+<img src="SFRM-B_ddf.png" width="70%">
+
+### SFRM-B Damage Functions
+| Category   | Function Type   | Source           | Driver   |
+|:-----------|:----------------|:-----------------|:---------|
+| Contents   | erosion         | NACCS (TsrBErCn) | erosion  |
+| Structure  | erosion         | NACCS (TsrBErSt) | erosion  |
+
+</div>
 
 
 
