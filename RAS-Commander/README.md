@@ -1,4 +1,4 @@
-# RAS-Commander 1.0 (GUI Version)
+# RAS-Commander 1.1 (GUI Version)
 ## Jupyter Notebook Application for Parallel-Executing HEC-RAS Plans
 
 ---
@@ -8,6 +8,10 @@
 </p>
 
 ---
+
+Changelog: 
+1.1: Bug fixes for minor operability issues, especially in Run Missing mode and when connected only to local machines.  Will no longer ask for a password when it's not necessary, or give warnings about missing folders that aren't being utilized. 
+
 
 ## Introduction
 
