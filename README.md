@@ -1,14 +1,6 @@
 # HEC-Commander Tools
 
-
-
-<p align="center">
-  <img src="misc/fenstermaker-logo.png" width=60%>
-</p>
-
 HEC-Commander Tools is a suite of python notebooks developed with AI assistance for water resource engineering workflows, primarily focused on providing automation for HEC-RAS and HEC-HMS through Jupyter Notebooks. Additionally, this repository contains blog posts and ChatGPT assistants relevant to H&H modeling, automation and the use of LLM's for water resources workflows.
-
-Developed to support Region 4 of the Louisiana Watershed Initiative by Fenstermaker.  (Not affiliated with HEC, content is exclusively third party automation utilizing publicly available software)
 
 
 ## Primary Author
@@ -16,12 +8,10 @@ William Mark Katzenmeyer, P.E., C.F.M.
 
 ## Notable Contributors
 - [Sean Micek, P.E.](https://github.com/openSourcerer9000) - HMS-Commander Jython core logic, implementation of calibration regions. RAS-Commander infiltration HDF revision prototyping
-- Tyler Young, E.I. - DSS-Commander calibration metrics, debugging, and testing of all tools
-
-For queries or further information, please contact billk@fenstermaker.com.
+- Tyler Young, E.I. - DSS-Commander calibration metrics, debugging, and testing of all tools.
 
 ## [HMS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/HMS-Commander)
-Contains automation scripts for HEC-HMS that allow the generation of multiple DSS output files with user-defined calibration parameters. This tool was developed to support 1D HEC-RAS calibration and validation workflows using deficit and constant loss methods with optional recession baseflow, and employs a user-generated CSV file to input scale factors for each individual parameter. A second version of teh script allows definition of multiple calibration regions, enabling spatial variability of scale factors.
+Contains automation scripts for HEC-HMS that allow the generation of multiple DSS output files with user-defined calibration parameters. This tool was developed to support 1D HEC-RAS calibration and validation workflows using deficit and constant loss methods with optional recession baseflow, and employs a user-generated CSV file to input scale factors for each individual parameter. A second version of the script allows definition of multiple calibration regions, enabling spatial variability of scale factors.
 
 ## [RAS-Commander](https://github.com/billk-FM/HEC-Commander/tree/main/RAS-Commander)
 Includes a suite of HEC-RAS automation scripts that support the parallel execution of HEC-RAS unsteady plans, as well as construction of plan files utilizing multiple HEC-HMS inputs. Defines DSS output file names, generates batch scripts for headless execution, and manages the deployment and parallel execution of HEC-RAS runs on local and remote machines using peer-to-peer Windows network shares. These scripts are applicable for both 1D and 2D model formats, and now support overriding RASMapper infiltration override layers.
