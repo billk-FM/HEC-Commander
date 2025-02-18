@@ -178,7 +178,7 @@ Example_User_Run_Parameters.csv
 
 ## Contributing
 
-Encounter any issues or have suggestions? Please open an issue on the GitHub repository or reach out to the author at billk@fenstermaker.com.
+Encounter any issues or have suggestions? Please open an issue on the GitHub repository or reach out to the author at heccommander@gmail.com.
 
 <p align="center">
   <img src="../misc/RAS-Commander Robot.png" width="500">
