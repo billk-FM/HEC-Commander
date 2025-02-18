@@ -16,7 +16,7 @@ HMS-Commander is a python Notebooks for automating HEC-HMS Hydrologic Modeling S
 
 End-to-end handling of HEC-HMS automated execution for a set of calibration parameters that can be defined by the user as an input CSV file.  
 
-Author: William Mark Katzenmeyer, P.E., C.F.M., C.H. Fenstermaker and Associates, L.L.C.
+Author: William Mark Katzenmeyer, P.E., C.F.M.
 
 This script performs the following steps:
 1. Read User Input CSV
@@ -35,7 +35,7 @@ This script performs the following steps:
 
 Same features as HMS-Commander, with the ability to create Calibration Regions.
 
-Author: William Mark Katzenmeyer, P.E., C.F.M., C.H. Fenstermaker and Associates, L.L.C.
+Author: William Mark Katzenmeyer, P.E., C.F.M.
 
 This script performs the following steps:
 1. Read User Input CSV
