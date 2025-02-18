@@ -2,6 +2,9 @@
 
 HEC-Commander Tools is a suite of python notebooks developed with AI assistance for water resource engineering workflows, primarily focused on providing automation for HEC-RAS and HEC-HMS through Jupyter Notebooks. Additionally, this repository contains blog posts and ChatGPT assistants relevant to H&H modeling, automation and the use of LLM's for water resources workflows.
 
+<p align="center">
+  <img src="misc/heccommanderupdatedlogo.png" width=60%>
+</p>
 
 ## Primary Author
 William Mark Katzenmeyer, P.E., C.F.M.
